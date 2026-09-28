@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>作品库 | 高校术力口之声</title>
+<meta name="description" content="检索 VocaloCollege 收录的全部高校术力口作品：按作品名、高校、社团、制作者、歌声、BV号搜索，并按类型、年份、节目筛选。" />
+<meta name="theme-color" content="#F5F5F2" />
+
+<script>
+(function(){try{
+  var m=localStorage.getItem('vc-theme')||'system';
+  var d=m==='dark'||(m==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);
+  var r=document.documentElement;
+  r.setAttribute('data-theme',d?'dark':'light');
+  r.setAttribute('data-theme-mode',m);
+}catch(e){}})();
+</script>
+
+<link rel="stylesheet" href="./assets/css/tokens.css?v=1790609395930" />
+<link rel="stylesheet" href="./assets/css/base.css?v=1790609395930" />
+<link rel="stylesheet" href="./assets/css/layout.css?v=1790609395930" />
+<link rel="stylesheet" href="./assets/css/components.css?v=1790609395930" />
+<link rel="stylesheet" href="./assets/css/archive.css?v=1790609395930" />
+<link rel="stylesheet" href="./assets/css/charts.css?v=1790609395930" />
+</head>
+<body data-root=".">
+
+<a class="skip-link" href="#works-results">跳到主内容</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">VC</span>
+      <span class="brand__text">高校术力口之声 <span>/ VocaloCollege</span></span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="works.html" aria-current="page">作品库</a>
+      <a href="schools/index.html">高校</a>
+      <a href="clubs/index.html">社团</a>
+      <a href="vocals/index.html">歌声</a>
+      <a href="data.html">数据</a>
+      <a href="reports/index.html">年报</a>
+      <a href="sp.html">SP</a>
+      <a href="about.html">细则</a>
+    </nav>
+    <div class="theme-switch">
+      <button class="theme-switch__trigger" data-theme-trigger
+              aria-haspopup="true" aria-expanded="false" aria-label="主题">⛭</button>
+      <div class="theme-switch__menu" data-theme-menu hidden role="menu" aria-label="主题模式">
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="light" aria-checked="false">
+          <span class="ico" aria-hidden="true">☀</span> 浅色
+        </button>
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="dark" aria-checked="false">
+          <span class="ico" aria-hidden="true">☾</span> 深色
+        </button>
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="system" aria-checked="false">
+          <span class="ico" aria-hidden="true">⛭</span> 跟随系统
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="works-head">
+      <h1 class="works-head__title">作品库</h1>
+      <form class="searchbar" id="works-search-form" role="search">
+        <label class="sr-only" for="works-search">搜索作品</label>
+        <input class="searchbar__input" id="works-search" type="search" autocomplete="off"
+               placeholder="搜索作品名 / 高校 / 社团 / 制作者 / 歌声 / BV号…" />
+        <label class="sr-only" for="works-sort">排序</label>
+        <select class="searchbar__select" id="works-sort">
+          <option value="edition-desc">按期（新→旧）</option>
+          <option value="date-desc">按发布时间（新→旧）</option>
+          <option value="date-asc">按发布时间（旧→新）</option>
+          <option value="title">按作品名</option>
+        </select>
+      </form>
+    </div>
+  </div>
+
+  <div class="wrap works-layout">
+    <aside class="filters" aria-label="筛选">
+      <div class="filters__head">
+        <span class="filters__title">筛选</span>
+        <button type="button" class="filters__reset" id="clear-all-top">清空</button>
+      </div>
+      <div id="works-filters"></div>
+    </aside>
+
+    <div>
+      <div class="works-toolbar">
+        <p class="works-count" id="works-count">加载中…</p>
+      </div>
+      <div class="works-active" id="works-active"></div>
+      <div id="works-results"><p class="loading">加载中…</p></div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p style="margin:0">© 2024–2026 高校术力口之声 | 非营利性同好交流项目</p>
+    <p style="margin:0">
+      <a href="about.html">收录细则</a> ·
+      本栏目为策展与档案记录，<b>非排行榜</b>。
+    </p>
+  </div>
+</footer>
+
+<script src="./assets/js/theme.js?v=1790609395930"></script>
+<script src="./assets/js/data.js?v=1790609395930"></script>
+<script src="./assets/js/components.js?v=1790609395930"></script>
+<script src="./assets/js/collection.js?v=1790609395930"></script>
+<script src="./assets/js/page-works.js?v=1790609395930"></script>
+</body>
+</html>
+<script>document.addEventListener('click',function(e){if(e.target&&e.target.id==='clear-all-top'){var b=document.getElementById('clear-all');if(b)b.click();}});</script>

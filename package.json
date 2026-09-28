@@ -1,0 +1,47 @@
+{
+  "name": "vocalocollege",
+  "version": "1.0.0",
+  "private": true,
+  "description": "高校术力口之声 / VocaloCollege —— 高校歌声合成文化策展与数字档案平台",
+  "scripts": {
+    "build": "node scripts/build_all.js",
+    "build:fast": "node scripts/build_all.js --no-verify",
+    "build:bili": "node scripts/build_all.js --with-bilibili",
+
+    "data:validate": "node scripts/validate.js",
+    "data:stats": "node scripts/build_statistics.js",
+    "data:snapshot": "node scripts/snapshot.js",
+    "data:report": "node scripts/build_annual_report.js",
+    "data:bilibili": "node scripts/fetch_bilibili.js",
+    "data:bilibili:dry": "node scripts/fetch_bilibili.js --dry-run",
+    "data:sync": "node scripts/sync_data.js",
+
+    "pages": "node scripts/gen_edition_pages.js && node scripts/gen_phase2_pages.js && node scripts/stamp_assets.js",
+
+    "dist": "node scripts/build_site.js --clean",
+    "serve:dist": "npx http-server dist -p 4191 -c-1",
+
+    "serve": "npx http-server site -p 4181 -c-1",
+    "serve:spa": "npx serve -s site -l 4181",
+
+    "verify:links": "node scripts/verify_links.js",
+    "verify:sync": "node scripts/verify_sync.js",
+    "verify:reportlinks": "node scripts/verify_report_links.js",
+    "verify:p2": "node scripts/verify_p2.js",
+    "verify:p3": "node scripts/verify_p3.js",
+    "verify:charts": "node scripts/verify_charts.js",
+    "verify:render": "node scripts/verify_render.js",
+    "verify:theme": "node scripts/verify_darkmode.js",
+    "verify:viewport": "node scripts/verify_viewport.js",
+    "verify:spacing": "node scripts/verify_spacing.js",
+    "verify:urls": "node scripts/verify_reported_urls.js"
+  },
+  "keywords": [
+    "vocaloid",
+    "synthv",
+    "acg",
+    "university",
+    "archive"
+  ],
+  "license": "UNLICENSED"
+}

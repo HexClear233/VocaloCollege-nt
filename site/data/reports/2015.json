@@ -1,0 +1,146 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2015,
+  "generated_at": "2026-09-28T15:47:13.874Z",
+  "title": "VocaloCollege 2015 Annual Report",
+  "subtitle": "高校术力口之声 2015 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 2,
+    "editions": 1,
+    "schools": 2,
+    "clubs": 2,
+    "vocals": 3,
+    "OC": 1,
+    "RT": 1,
+    "VC": 0,
+    "IC": 0,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 0,
+    "collaborations": 0,
+    "crossSchool": 0,
+    "onAir": 2,
+    "listedOnly": 0
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 1,
+      "pct": 50
+    },
+    {
+      "type": "RT",
+      "label": "翻调",
+      "count": 1,
+      "pct": 50
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-tsinghua",
+        "name": "清华大学"
+      },
+      {
+        "id": "school-znufe",
+        "name": "中南财经政法大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-tsinghua-nexgen",
+        "name": "清华学生次世代动漫社"
+      },
+      {
+        "id": "club-znufe-dongxi",
+        "name": "中南大东西动漫社"
+      }
+    ],
+    "vocals": [
+      {
+        "id": "vocal-kagamine-rin",
+        "name": "镜音铃"
+      },
+      {
+        "id": "vocal-luotianyi",
+        "name": "洛天依"
+      },
+      {
+        "id": "vocal-yuezhengling",
+        "name": "乐正绫"
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "works": 2
+    }
+  ],
+  "collaborations": [],
+  "worksByVocal": [
+    {
+      "id": "vocal-kagamine-rin",
+      "name": "镜音铃",
+      "count": 1
+    },
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "count": 1
+    },
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2024-bv19s41197hz",
+      "title": "【洛天依&乐正绫】走天涯【来着草原的广场舞】",
+      "title_short": "走天涯",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2015,
+      "published_at": "2015-12-25T13:03:21+08:00",
+      "bvid": "BV19s41197hZ",
+      "url": "https://www.bilibili.com/video/BV19s41197hZ",
+      "edition_id": "2024",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "club_names": [
+        "中南财大东西动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2024-bv1cs411u7hf",
+      "title": "【鏡音リン】孟姜女【VOCALOID原创曲】",
+      "title_short": "孟姜女",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2015,
+      "published_at": "2015-06-13T16:08:38+08:00",
+      "bvid": "BV1Cs411U7hF",
+      "url": "https://www.bilibili.com/video/BV1Cs411U7hF",
+      "edition_id": "2024",
+      "vocal_names": [
+        "鏡音リン"
+      ],
+      "club_names": [
+        "清华学生次世代动漫社"
+      ],
+      "onAir": true
+    }
+  ]
+}

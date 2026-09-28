@@ -1,0 +1,385 @@
+/* ==========================================================================
+   charts.css — Phase 3：数据中心与图表
+   全部为纯 CSS / SVG，无外部图表库；色彩取自 tokens.css 的类型色变量，
+   因此暗色模式下自动跟随主题（无需为暗色单独写一套图表配色）
+   ========================================================================== */
+
+/* ==========================================================================
+   数据中心区块
+   ========================================================================== */
+.data-sec {
+  margin-bottom: var(--sp-8);
+  padding-bottom: var(--sp-6);
+  border-bottom: 1px solid var(--border);
+  transition: border-color var(--t);
+}
+.data-sec:last-child { border-bottom: 0; margin-bottom: 0; }
+
+.data-sec__title {
+  font-size: var(--fs-lg);
+  margin: 0 0 var(--sp-2);
+}
+.data-sec__sub {
+  color: var(--secondary);
+  font-size: var(--fs-sm);
+  margin: 0 0 var(--sp-4);
+}
+.data-sec__h3 {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin: var(--sp-5) 0 var(--sp-3);
+}
+
+.data-note {
+  margin-top: var(--sp-3);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface-sunken);
+  border-radius: var(--r);
+  font-size: var(--fs-sm);
+  color: var(--secondary);
+  transition: background-color var(--t);
+}
+
+.data-about {
+  margin: 0;
+  padding-left: var(--sp-5);
+  color: var(--secondary);
+  font-size: var(--fs-sm);
+}
+.data-about li { margin-bottom: var(--sp-2); }
+.data-about b { color: var(--text); }
+
+/* 图表容器 */
+.chart-box {
+  padding: var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  transition: background-color var(--t), border-color var(--t);
+  overflow-x: auto;   /* 极窄屏下允许横向滚动而非撑破布局 */
+}
+.chart-box + .chart-box { margin-top: var(--sp-4); }
+.chart-box--tall { padding-bottom: var(--sp-5); }
+.chart-box__cap {
+  margin: var(--sp-3) 0 0;
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--sp-4);
+  align-items: start;
+}
+.two-col .chart-box + .chart-box { margin-top: 0; }
+
+/* ==========================================================================
+   堆叠柱状图（创作趋势）
+   ========================================================================== */
+.chart-stack {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--sp-3);
+  min-width: max-content;
+  padding-top: var(--sp-2);
+}
+.chart-stack__col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sp-1);
+  flex: 0 0 auto;
+  min-width: 40px;
+}
+.chart-stack__bar {
+  display: flex;
+  flex-direction: column-reverse;   /* 从底部向上堆叠 */
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 46px;
+  min-width: 26px;
+  border-radius: var(--r-sm) var(--r-sm) 0 0;
+  overflow: hidden;
+  background: var(--surface-sunken);
+}
+.chart-stack__seg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 2px;
+  transition: height 400ms ease;
+}
+.chart-stack__num {
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  font-variant-numeric: tabular-nums;
+}
+.chart-stack__label {
+  font-size: var(--fs-xs);
+  color: var(--text);
+  font-family: var(--font-mono);
+  white-space: nowrap;
+}
+.chart-stack__total {
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   横条图
+   ========================================================================== */
+.chart-bars { display: flex; flex-direction: column; gap: var(--sp-2); }
+.chart-bars__row {
+  display: grid;
+  grid-template-columns: minmax(96px, 190px) minmax(60px, 1fr) auto;
+  align-items: center;
+  gap: var(--sp-3);
+}
+.chart-bars__label {
+  font-size: var(--fs-sm);
+  color: var(--text);
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+a.chart-bars__label:hover { color: var(--accent-strong); text-decoration: none; }
+.chart-bars__track {
+  display: block;
+  height: 12px;
+  background: var(--surface-sunken);
+  border-radius: var(--r-full);
+  overflow: hidden;
+}
+.chart-bars__fill {
+  display: block;
+  height: 100%;
+  border-radius: var(--r-full);
+  transition: width 400ms ease;
+}
+.chart-bars__num {
+  font-size: var(--fs-sm);
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+  color: var(--text);
+}
+.chart-bars__pct {
+  color: var(--secondary);
+  font-size: var(--fs-xs);
+  margin-left: 6px;
+}
+
+/* ==========================================================================
+   环形图
+   ========================================================================== */
+.chart-donut-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-5);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.chart-donut {
+  width: 150px;
+  height: 150px;
+  flex: 0 0 auto;
+}
+.chart-donut__seg {
+  fill: none;
+  stroke-width: 20;
+  transition: stroke-dasharray 400ms ease;
+}
+.chart-donut__total {
+  text-anchor: middle;
+  font-size: 24px;
+  font-weight: 700;
+  fill: var(--text);
+}
+.chart-donut__cap {
+  text-anchor: middle;
+  font-size: 11px;
+  fill: var(--secondary);
+}
+
+.chart-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 160px;
+}
+.chart-legend__item {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--fs-sm);
+}
+.chart-legend__dot {
+  width: 10px; height: 10px;
+  border-radius: 3px;
+  flex: 0 0 auto;
+}
+.chart-legend__name { flex: 1; color: var(--text); }
+.chart-legend__n { font-variant-numeric: tabular-nums; color: var(--text); }
+.chart-legend__pct { color: var(--secondary); font-size: var(--fs-xs); min-width: 42px; text-align: right; }
+
+.chart-legend-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2) var(--sp-4);
+  margin-top: var(--sp-3);
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+}
+.chart-legend-inline .chart-legend__item { font-size: var(--fs-xs); }
+
+/* ==========================================================================
+   合作网络（SVG 关系图）
+   ========================================================================== */
+.chart-net { width: 100%; }
+.chart-net svg {
+  width: 100%;
+  height: auto;
+  max-height: 460px;
+  display: block;
+}
+/* 说明：类名以 charts.js 实际输出的为准 —— JS 产出 .net__edge / .net__node，
+   故此处选择器必须与之匹配，否则关系图会完全没有样式。 */
+.chart-net .net__edge {
+  stroke: var(--accent);
+  stroke-opacity: 0.42;
+  transition: stroke-opacity var(--t-fast);
+}
+.chart-net .net__node circle {
+  fill: var(--accent);
+  fill-opacity: 0.85;
+  stroke: var(--surface);
+  stroke-width: 2;
+  transition: fill-opacity var(--t-fast);
+}
+.chart-net .net__node:hover circle { fill-opacity: 1; }
+.chart-net .net__node text {
+  text-anchor: middle;
+  font-size: 10px;
+  fill: var(--text);
+  pointer-events: none;
+}
+.chart-net__hint {
+  margin: var(--sp-3) 0 0;
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+  text-align: center;
+}
+
+/* ==========================================================================
+   数据表
+   ========================================================================== */
+.table-wrap { overflow-x: auto; }
+.dt {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--fs-sm);
+  min-width: 420px;
+}
+.dt th, .dt td {
+  padding: var(--sp-2) var(--sp-3);
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  font-variant-numeric: tabular-nums;
+  transition: border-color var(--t);
+}
+.dt th:first-child, .dt td:first-child { text-align: left; }
+.dt thead th {
+  color: var(--secondary);
+  font-weight: 700;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom-width: 2px;
+}
+.dt tbody tr:hover { background: var(--surface-sunken); }
+.dt__total td { font-weight: 700; border-top: 2px solid var(--border); border-bottom: 0; }
+.dt a { color: var(--text); }
+.dt a:hover { color: var(--accent-strong); }
+
+/* ==========================================================================
+   收录概念：规则卡片与口径说明
+   ========================================================================== */
+.collect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--sp-3);
+}
+.collect-card {
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--r) var(--r) 0;
+  transition: background-color var(--t), border-color var(--t);
+}
+.collect-card__t {
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  margin-bottom: 4px;
+  color: var(--text);
+}
+.collect-card__d {
+  font-size: var(--fs-sm);
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.collect-list {
+  margin: 0;
+  padding-left: var(--sp-5);
+  color: var(--secondary);
+  font-size: var(--fs-sm);
+  line-height: 1.75;
+}
+.collect-list li { margin-bottom: var(--sp-2); }
+.collect-list li:last-child { margin-bottom: 0; }
+.collect-list b { color: var(--text); }
+.collect-list code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  padding: 1px 5px;
+  background: var(--surface-sunken);
+  border-radius: var(--r-sm);
+}
+
+/* 收录明细表：时间窗口列较宽，允许换行 */
+.dt--collect th, .dt--collect td { white-space: nowrap; }
+.dt--collect .dt__win {
+  white-space: normal;
+  min-width: 190px;
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+  text-align: left;
+}
+.dt__hl { background: var(--accent-soft); }
+.dt__hl td { font-weight: 600; }
+
+/* ==========================================================================
+   响应式
+   ========================================================================== */
+@media (max-width: 640px) {
+  .chart-box { padding: var(--sp-3); }
+  .chart-bars__row { grid-template-columns: minmax(80px, 120px) minmax(40px, 1fr) auto; gap: var(--sp-2); }
+  .chart-bars__label { font-size: var(--fs-xs); }
+  .chart-donut { width: 120px; height: 120px; }
+  .chart-legend { min-width: 130px; }
+  .two-col { grid-template-columns: 1fr; }
+  .data-sec { margin-bottom: var(--sp-6); }
+}

@@ -1,0 +1,98 @@
+# GitHub Actions — 构建并部署 VocaloCollege 到 GitHub Pages
+#
+# 部署地址：https://hexclear233.github.io/VocaloCollege-nt/
+#
+# 触发时机：
+#   - 推送到 main 分支
+#   - 手动触发（Actions 页面点 Run workflow）
+#
+# 流程：校验数据 → 生成统计/年报 → 同步 → 生成页面 → 打版本号 → 产出 dist/ → 发布
+#
+# 说明：本仓库是纯静态站点，无外部依赖，因此不需要 npm install。
+# 所有脚本只使用 Node 内置模块。
+
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# 允许 Actions 发布到 Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只保留一个部署；不取消进行中的发布，避免站点处于半更新状态
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 数据校验
+        run: node scripts/validate.js
+
+      - name: 生成数据（统计 / 年报 / 同步）
+        run: |
+          node scripts/build_statistics.js
+          node scripts/build_annual_report.js
+          node scripts/sync_data.js
+
+      - name: 生成页面
+        run: |
+          node scripts/gen_edition_pages.js
+          node scripts/gen_phase2_pages.js
+          node scripts/stamp_assets.js
+
+      - name: 校验数据同步
+        run: node scripts/verify_sync.js
+
+      - name: 产出发布目录 dist/
+        run: node scripts/build_site.js --clean
+
+      - name: 检查站点体积（GitHub Pages 上限 1 GB）
+        run: |
+          SIZE=$(du -sm dist | cut -f1)
+          echo "站点体积：${SIZE} MB"
+          if [ "$SIZE" -gt 900 ]; then
+            echo "::error::站点体积 ${SIZE}MB 接近 GitHub Pages 的 1GB 上限"
+            exit 1
+          fi
+
+      - name: 确认产物完整
+        run: |
+          test -f dist/index.html      || { echo "::error::缺少 index.html"; exit 1; }
+          test -f dist/data/index.json || { echo "::error::缺少 data/index.json"; exit 1; }
+          test -f dist/.nojekyll       || { echo "::error::缺少 .nojekyll"; exit 1; }
+          echo "产物检查通过"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

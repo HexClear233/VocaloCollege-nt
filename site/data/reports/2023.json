@@ -1,0 +1,138 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2023,
+  "generated_at": "2026-09-28T15:47:13.887Z",
+  "title": "VocaloCollege 2023 Annual Report",
+  "subtitle": "高校术力口之声 2023 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 2,
+    "editions": 2,
+    "schools": 2,
+    "clubs": 2,
+    "vocals": 3,
+    "OC": 1,
+    "RT": 1,
+    "VC": 0,
+    "IC": 0,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 0,
+    "collaborations": 0,
+    "crossSchool": 0,
+    "onAir": 2,
+    "listedOnly": 0
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 1,
+      "pct": 50
+    },
+    {
+      "type": "RT",
+      "label": "翻调",
+      "count": 1,
+      "pct": 50
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-bupt",
+        "name": "北京邮电大学"
+      },
+      {
+        "id": "school-pku",
+        "name": "北京大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-bupt-yanfeng",
+        "name": "檐枫动漫社"
+      },
+      {
+        "id": "club-pku-yuanhuo",
+        "name": "元火originalfire"
+      }
+    ],
+    "vocals": []
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "works": 1
+    },
+    {
+      "id": "2025-vol1",
+      "label": "2025 高校术力口之声 Vol.1",
+      "works": 1
+    }
+  ],
+  "collaborations": [],
+  "worksByVocal": [
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "count": 1
+    },
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "count": 1
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2025-vol1-bv1zc41117ye",
+      "title": "【元火动漫社】25周年社庆原创OP《星愿之音》",
+      "title_short": "星愿之音",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2023,
+      "published_at": "2023-12-11T21:50:00+08:00",
+      "bvid": "BV1zc41117ye",
+      "url": "https://www.bilibili.com/video/BV1zc41117ye",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "club_names": [
+        "元火originalfire"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2024-bv1zp4y1g7cq",
+      "title": "【配音组x调校组】【中文翻配】魔法少女小圆",
+      "title_short": "コネクト",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2023,
+      "published_at": "2023-08-15T19:00:00+08:00",
+      "bvid": "BV1Zp4y1g7cq",
+      "url": "https://www.bilibili.com/video/BV1Zp4y1g7cq",
+      "edition_id": "2024",
+      "vocal_names": [
+        "星尘Infinity"
+      ],
+      "club_names": [
+        "檐枫动漫社"
+      ],
+      "onAir": true
+    }
+  ]
+}

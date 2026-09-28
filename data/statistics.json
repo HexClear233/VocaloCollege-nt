@@ -1,0 +1,2819 @@
+{
+  "schema": "vocalocollege/statistics/1.0",
+  "generated_at": "2026-09-28T23:47:13+08:00",
+  "generated_date": "2026-09-28",
+  "source": "data/*.json",
+  "note": "本文件由 scripts/build_statistics.js 自动生成，请勿手工编辑。",
+  "policy": {
+    "counts_platform_metrics": false,
+    "contains_rankings": false,
+    "entity_lists_sorted_by": "name",
+    "entity_ranking_removed": true,
+    "statement": "数据用于描述收录情况，不用于评价作品质量。平台指标（播放/点赞等）另存 bilibili_stats.json，本站不展示、不聚合。bySchool / byClub 按名称排序，按作品数的院校与社团排行已按要求移除。"
+  },
+  "overview": {
+    "works": 108,
+    "editions": 5,
+    "schools": 44,
+    "clubs": 51,
+    "vocals": 33,
+    "engines": 6,
+    "OC": 40,
+    "RT": 24,
+    "VC": 40,
+    "IC": 4,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 3,
+    "onAir": 67,
+    "listedOnly": 41,
+    "collaborations": 8,
+    "crossSchoolWorks": 8,
+    "multiClubWorks": 9
+  },
+  "coverage": {
+    "worksTotal": 108,
+    "worksTyped": 108,
+    "worksUntyped": 0,
+    "typeCoverage": 1,
+    "withPublishedAt": 108,
+    "withCover": 108,
+    "withStaff": 98,
+    "withSchool": 108,
+    "withClub": 106,
+    "withVocal": 64,
+    "withChart": 13,
+    "spWithNote": 0,
+    "spTotal": 3
+  },
+  "typeCounts": {
+    "OC": 40,
+    "RT": 24,
+    "VC": 40,
+    "IC": 4,
+    "DW": 0,
+    "unknown": 0,
+    "total": 108
+  },
+  "byYear": [
+    {
+      "year": 2015,
+      "total": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 2,
+      "clubs": 2,
+      "vocals": 3,
+      "sp": 0
+    },
+    {
+      "year": 2018,
+      "total": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 1,
+      "clubs": 1,
+      "vocals": 1,
+      "sp": 0
+    },
+    {
+      "year": 2021,
+      "total": 3,
+      "OC": 2,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 3,
+      "clubs": 3,
+      "vocals": 7,
+      "sp": 0
+    },
+    {
+      "year": 2022,
+      "total": 3,
+      "OC": 1,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 3,
+      "clubs": 3,
+      "vocals": 2,
+      "sp": 0
+    },
+    {
+      "year": 2023,
+      "total": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 2,
+      "clubs": 2,
+      "vocals": 3,
+      "sp": 0
+    },
+    {
+      "year": 2024,
+      "total": 12,
+      "OC": 5,
+      "RT": 2,
+      "VC": 5,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 11,
+      "clubs": 12,
+      "vocals": 12,
+      "sp": 0
+    },
+    {
+      "year": 2025,
+      "total": 37,
+      "OC": 15,
+      "RT": 9,
+      "VC": 11,
+      "IC": 2,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 20,
+      "clubs": 22,
+      "vocals": 14,
+      "sp": 1
+    },
+    {
+      "year": 2026,
+      "total": 48,
+      "OC": 14,
+      "RT": 8,
+      "VC": 24,
+      "IC": 2,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 23,
+      "clubs": 25,
+      "vocals": 21,
+      "sp": 2
+    }
+  ],
+  "byEdition": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "year": 2024,
+      "volume": null,
+      "works": 10,
+      "OC": 6,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 10,
+      "clubs": 10,
+      "vocals": 11,
+      "sp": 0,
+      "onAir": 10,
+      "collect_window": {
+        "start": null,
+        "end": "2024-05-26T00:00:00+08:00",
+        "raw": "2024-05-26 以前",
+        "kind": "before"
+      },
+      "video_status": "deleted"
+    },
+    {
+      "id": "2025-vol1",
+      "label": "2025 高校术力口之声 Vol.1",
+      "year": 2025,
+      "volume": 1,
+      "works": 22,
+      "OC": 10,
+      "RT": 5,
+      "VC": 7,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 24,
+      "clubs": 24,
+      "vocals": 9,
+      "sp": 0,
+      "onAir": 22,
+      "collect_window": {
+        "start": "2024-05-26T00:00:00+08:00",
+        "end": "2025-05-26T00:00:00+08:00",
+        "raw": "2024-05-26 00:00:00 至 2025-05-26 00:00:00",
+        "kind": "range"
+      },
+      "video_status": "deleted"
+    },
+    {
+      "id": "2025-vol2",
+      "label": "2025 高校术力口之声 Vol.2",
+      "year": 2025,
+      "volume": 2,
+      "works": 20,
+      "OC": 7,
+      "RT": 6,
+      "VC": 5,
+      "IC": 2,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 8,
+      "clubs": 9,
+      "vocals": 11,
+      "sp": 1,
+      "onAir": 7,
+      "collect_window": {
+        "start": "2025-05-26T00:00:00+08:00",
+        "end": "2025-10-01T00:00:00+08:00",
+        "raw": "2025-05-26 00:00:00 至 2025-10-01 00:00:00",
+        "kind": "range"
+      },
+      "video_status": "available"
+    },
+    {
+      "id": "2026-vol1",
+      "label": "2026 高校术力口之声 Vol.1",
+      "year": 2026,
+      "volume": 1,
+      "works": 23,
+      "OC": 8,
+      "RT": 5,
+      "VC": 10,
+      "IC": 0,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 11,
+      "clubs": 12,
+      "vocals": 11,
+      "sp": 1,
+      "onAir": 10,
+      "collect_window": {
+        "start": "2025-10-01T00:00:00+08:00",
+        "end": "2026-03-01T00:00:00+08:00",
+        "raw": "2025-10-01 00:00:00 至 2026-03-01 00:00:00",
+        "kind": "range"
+      },
+      "video_status": "available"
+    },
+    {
+      "id": "2026-vol2",
+      "label": "2026 高校术力口之声 Vol.2",
+      "year": 2026,
+      "volume": 2,
+      "works": 33,
+      "OC": 9,
+      "RT": 4,
+      "VC": 18,
+      "IC": 2,
+      "DW": 0,
+      "unknown": 0,
+      "schools": 22,
+      "clubs": 22,
+      "vocals": 16,
+      "sp": 1,
+      "onAir": 18,
+      "collect_window": {
+        "start": "2026-03-01T00:00:00+08:00",
+        "end": "2026-07-01T00:00:00+08:00",
+        "raw": "2026-03-01 00:00:00 至 2026-07-01 00:00:00",
+        "kind": "range"
+      },
+      "video_status": "available"
+    }
+  ],
+  "byVocal": [
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "works": 23,
+      "OC": 12,
+      "RT": 11,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 13,
+      "clubs": 13,
+      "firstYear": 2015,
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace",
+        "engine-xs"
+      ]
+    },
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "works": 15,
+      "OC": 9,
+      "RT": 6,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 13,
+      "clubs": 12,
+      "firstYear": 2015,
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "works": 11,
+      "OC": 7,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 12,
+      "clubs": 10,
+      "firstYear": 2018,
+      "engine_ids": [
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "works": 11,
+      "OC": 4,
+      "RT": 7,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 12,
+      "clubs": 12,
+      "firstYear": 2021,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-yanhe",
+      "name": "言和",
+      "works": 10,
+      "OC": 6,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 9,
+      "clubs": 10,
+      "firstYear": 2021,
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-teto",
+      "name": "重音Teto",
+      "works": 6,
+      "OC": 2,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 6,
+      "clubs": 6,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-moqingxian",
+      "name": "墨清弦",
+      "works": 3,
+      "OC": 1,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 2,
+      "clubs": 2,
+      "firstYear": 2021,
+      "engine_ids": [
+        "engine-ace",
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-una",
+      "name": "音街Una",
+      "works": 3,
+      "OC": 0,
+      "RT": 3,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "clubs": 4,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-yongye",
+      "name": "永夜Minus",
+      "works": 3,
+      "OC": 2,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 6,
+      "clubs": 4,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-moke",
+      "name": "徵羽摩柯",
+      "works": 3,
+      "OC": 2,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-ace",
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-longya",
+      "name": "乐正龙牙",
+      "works": 2,
+      "OC": 0,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 5,
+      "clubs": 3,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-nanshixun",
+      "name": "南时薰",
+      "works": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "clubs": 3,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-shian",
+      "name": "诗岸",
+      "works": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 5,
+      "clubs": 2,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-xinhua",
+      "name": "心华",
+      "works": 2,
+      "OC": 0,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 5,
+      "clubs": 3,
+      "firstYear": 2021,
+      "engine_ids": [
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-cangqiong",
+      "name": "苍穹",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "clubs": 1,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-chiyu",
+      "name": "赤羽",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-dianying",
+      "name": "点萤",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-feimeng",
+      "name": "飞梦",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-hanakuma",
+      "name": "花隈千冬",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "clubs": 1,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-huanxiaoyi",
+      "name": "幻晓伊",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-kagamine-rin",
+      "name": "镜音铃",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2015,
+      "engine_ids": [
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-popy",
+      "name": "夢ノ結唱 POPY",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-qifu",
+      "name": "起复",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace",
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-ruibiya",
+      "name": "瑞比娅",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-tiansuici",
+      "name": "天碎瓷",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-unknown",
+      "name": "未知歌手",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 3,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-unknown"
+      ]
+    },
+    {
+      "id": "vocal-xihelv",
+      "name": "曦和律",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-xiaqiming",
+      "name": "夏祁铭",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2025,
+      "engine_ids": [
+        "engine-ace"
+      ]
+    },
+    {
+      "id": "vocal-xiayuyao",
+      "name": "夏语遥",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "clubs": 3,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-yunyuguang",
+      "name": "雲宇光",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "clubs": 1,
+      "firstYear": 2024,
+      "engine_ids": [
+        "engine-deepvocal"
+      ]
+    },
+    {
+      "id": "vocal-gumi",
+      "name": "GUMI",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "clubs": 2,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-vocaloid"
+      ]
+    },
+    {
+      "id": "vocal-mai",
+      "name": "Mai",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "clubs": 3,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    },
+    {
+      "id": "vocal-pastel",
+      "name": "PASTEL",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "clubs": 3,
+      "firstYear": 2026,
+      "engine_ids": [
+        "engine-sv"
+      ]
+    }
+  ],
+  "byEngine": [
+    {
+      "id": "engine-vocaloid",
+      "name": "VOCALOID",
+      "works": 22,
+      "OC": 14,
+      "RT": 8,
+      "VC": 0,
+      "IC": 0
+    },
+    {
+      "id": "engine-sv",
+      "name": "Synthesizer V",
+      "works": 22,
+      "OC": 11,
+      "RT": 11,
+      "VC": 0,
+      "IC": 0
+    },
+    {
+      "id": "engine-ace",
+      "name": "ACE Studio",
+      "works": 20,
+      "OC": 13,
+      "RT": 7,
+      "VC": 0,
+      "IC": 0
+    },
+    {
+      "id": "engine-xs",
+      "name": "X Studio",
+      "works": 3,
+      "OC": 1,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0
+    },
+    {
+      "id": "engine-deepvocal",
+      "name": "DeepVocal",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0
+    },
+    {
+      "id": "engine-unknown",
+      "name": "未知 / 待确认",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0
+    }
+  ],
+  "bySchool": [
+    {
+      "id": "school-pku",
+      "name": "北京大学",
+      "works": 2,
+      "OC": 1,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 2,
+      "firstYear": 2023,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-buaa",
+      "name": "北京航空航天大学",
+      "works": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 2,
+      "vocals": 2,
+      "firstYear": 2018,
+      "editionIds": [
+        "2024",
+        "2026-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-buct",
+      "name": "北京化工大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-bjtu",
+      "name": "北京交通大学",
+      "works": 5,
+      "OC": 5,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 5,
+      "firstYear": 2021,
+      "editionIds": [
+        "2024",
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-bupt",
+      "name": "北京邮电大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2023,
+      "editionIds": [
+        "2024"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-dlmu",
+      "name": "大连海事大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2025,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-neau",
+      "name": "东北农业大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-fjnu",
+      "name": "福建师范大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-fudan",
+      "name": "复旦大学",
+      "works": 9,
+      "OC": 2,
+      "RT": 7,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 8,
+      "vocals": 18,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-ncepu-bd",
+      "name": "华北电力大学（保定）",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-scut",
+      "name": "华南理工大学",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-hust",
+      "name": "华中科技大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-jlu",
+      "name": "吉林大学",
+      "works": 13,
+      "OC": 1,
+      "RT": 1,
+      "VC": 11,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 3,
+      "vocals": 7,
+      "firstYear": 2024,
+      "editionIds": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": "unknown"
+    },
+    {
+      "id": "school-ldu",
+      "name": "鲁东大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2025,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-nju",
+      "name": "南京大学",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2021,
+      "editionIds": [
+        "2024"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-njit",
+      "name": "南京工程学院",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-nuaa",
+      "name": "南京航空航天大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-njust",
+      "name": "南京信息工程大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 6,
+      "firstYear": 2021,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-njupt",
+      "name": "南京邮电大学",
+      "works": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 5,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-nankai",
+      "name": "南开大学",
+      "works": 12,
+      "OC": 4,
+      "RT": 7,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 9,
+      "vocals": 18,
+      "firstYear": 2024,
+      "editionIds": [
+        "2024",
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-tsinghua",
+      "name": "清华大学",
+      "works": 2,
+      "OC": 2,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 2,
+      "firstYear": 2015,
+      "editionIds": [
+        "2024",
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-sdu",
+      "name": "山东大学",
+      "works": 4,
+      "OC": 3,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 3,
+      "vocals": 3,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": "campus"
+    },
+    {
+      "id": "school-sjtu",
+      "name": "上海交通大学",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-cnu",
+      "name": "首都师范大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-tyut",
+      "name": "太原理工大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-tju",
+      "name": "天津大学",
+      "works": 10,
+      "OC": 3,
+      "RT": 7,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 9,
+      "vocals": 18,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-tongji",
+      "name": "同济大学",
+      "works": 2,
+      "OC": 1,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-whpu",
+      "name": "武汉轻工大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-xidian",
+      "name": "西安电子科技大学",
+      "works": 6,
+      "OC": 6,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 2,
+      "vocals": 5,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-xjtu",
+      "name": "西安交通大学",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 3,
+      "vocals": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "ambiguity": "unknown"
+    },
+    {
+      "id": "school-nwafu",
+      "name": "西北农林科技大学",
+      "works": 3,
+      "OC": 0,
+      "RT": 0,
+      "VC": 3,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-chd",
+      "name": "长安大学",
+      "works": 3,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 1,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-zju",
+      "name": "浙江大学",
+      "works": 5,
+      "OC": 0,
+      "RT": 3,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 6,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-zzu",
+      "name": "郑州大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-cuc",
+      "name": "中国传媒大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-cjlu",
+      "name": "中国计量大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-ustc",
+      "name": "中国科学技术大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 2,
+      "vocals": 9,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "ambiguity": "unknown"
+    },
+    {
+      "id": "school-ucas",
+      "name": "中国科学院大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 0,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": "unknown"
+    },
+    {
+      "id": "school-cau",
+      "name": "中国农业大学",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2024"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-ruc",
+      "name": "中国人民大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-cup-bj",
+      "name": "中国石油大学（北京）",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 0,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-cpu",
+      "name": "中国药科大学",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2024"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-znufe",
+      "name": "中南财经政法大学",
+      "works": 2,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "clubs": 1,
+      "vocals": 2,
+      "firstYear": 2015,
+      "editionIds": [
+        "2024",
+        "2025-vol1"
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "school-sysu",
+      "name": "中山大学",
+      "works": 17,
+      "OC": 12,
+      "RT": 4,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "clubs": 2,
+      "vocals": 10,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "ambiguity": null
+    }
+  ],
+  "byClub": [
+    {
+      "id": "club-buaa-feimeng",
+      "name": "北航飞梦ACG联盟",
+      "kind": "anime",
+      "school_id": "school-buaa",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2018,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-cnu-chunri",
+      "name": "春日诸白动漫社",
+      "kind": "anime",
+      "school_id": "school-cnu",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-jlu-northeast-acg",
+      "name": "东北ACG音乐联合企划",
+      "kind": "acg_union",
+      "school_id": "school-jlu",
+      "works": 11,
+      "OC": 0,
+      "RT": 0,
+      "VC": 11,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-neau-eag",
+      "name": "东农EAG动漫社",
+      "kind": "anime",
+      "school_id": "school-neau",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sjtu-fuze",
+      "name": "浮泽动漫协会",
+      "kind": "anime",
+      "school_id": "school-sjtu",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-fudan-feidian",
+      "name": "复旦沸点漫画社",
+      "kind": "anime",
+      "school_id": "school-fudan",
+      "works": 5,
+      "OC": 1,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "collaboratorCount": 2
+    },
+    {
+      "id": "club-hust-fenglan",
+      "name": "华中大风蓝动漫社",
+      "kind": "anime",
+      "school_id": "school-hust",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-cjlu-huayu",
+      "name": "婳羽动漫社",
+      "kind": "anime",
+      "school_id": "school-cjlu",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-njit-jimuzhisen",
+      "name": "积木之森动漫社",
+      "kind": "anime",
+      "school_id": "school-njit",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-jlu-acg",
+      "name": "吉-ACG现视研",
+      "kind": "anime",
+      "school_id": "school-jlu",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-jlu-jida",
+      "name": "吉大动漫社",
+      "kind": "anime",
+      "school_id": "school-jlu",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-ruc-jiejie",
+      "name": "界娘love临界动漫协会",
+      "kind": "anime",
+      "school_id": "school-ruc",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-tyut-jiuchongtian",
+      "name": "九重天ACG协会",
+      "kind": "anime",
+      "school_id": "school-tyut",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-ldu-linghuan",
+      "name": "鲁东澪幻空间动漫社",
+      "kind": "anime",
+      "school_id": "school-ldu",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-whpu-manlin",
+      "name": "漫临天下动漫社",
+      "kind": "anime",
+      "school_id": "school-whpu",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-nankai-nanfeng",
+      "name": "南风动漫社",
+      "kind": "anime",
+      "school_id": "school-nankai",
+      "works": 8,
+      "OC": 3,
+      "RT": 4,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2024,
+      "editionIds": [
+        "2024",
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 3
+    },
+    {
+      "id": "club-nuaa-liuhuo",
+      "name": "南航流火学生动漫社",
+      "kind": "anime",
+      "school_id": "school-nuaa",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-nju-cac",
+      "name": "南京大学CAC动漫社",
+      "kind": "anime",
+      "school_id": "school-nju",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2021,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-njupt-qishiji",
+      "name": "南邮柒世纪动漫社",
+      "kind": "anime",
+      "school_id": "school-njupt",
+      "works": 2,
+      "OC": 1,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sdu-qingning",
+      "name": "青柠现视研",
+      "kind": "anime",
+      "school_id": "school-sdu",
+      "works": 3,
+      "OC": 3,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 2
+    },
+    {
+      "id": "club-tsinghua-nexgen",
+      "name": "清华学生次世代动漫社",
+      "kind": "anime",
+      "school_id": "school-tsinghua",
+      "works": 2,
+      "OC": 2,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2015,
+      "editionIds": [
+        "2024",
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sdu-shiyi",
+      "name": "世伊漫协",
+      "kind": "anime",
+      "school_id": "school-sdu",
+      "works": 2,
+      "OC": 1,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 2
+    },
+    {
+      "id": "club-cpu-shuoye",
+      "name": "朔夜动漫社",
+      "kind": "anime",
+      "school_id": "school-cpu",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-tju-dtouch",
+      "name": "天津大学D-Touch动漫社",
+      "kind": "anime",
+      "school_id": "school-tju",
+      "works": 6,
+      "OC": 2,
+      "RT": 4,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol1"
+      ],
+      "collaboratorCount": 3
+    },
+    {
+      "id": "club-njust-tianran",
+      "name": "天燃动漫社",
+      "kind": "anime",
+      "school_id": "school-njust",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2021,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-tongji-wanyou",
+      "name": "同济万有引力动漫协会",
+      "kind": "anime",
+      "school_id": "school-tongji",
+      "works": 2,
+      "OC": 1,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-buct-weishui",
+      "name": "微水动漫社",
+      "kind": "anime",
+      "school_id": "school-buct",
+      "works": 2,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-xidian-vocalo",
+      "name": "西安高校vocaloid创作社",
+      "kind": "vocalo",
+      "school_id": "school-xidian",
+      "works": 2,
+      "OC": 2,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-xidian-shining",
+      "name": "西电Shining动漫社",
+      "kind": "anime",
+      "school_id": "school-xidian",
+      "works": 4,
+      "OC": 4,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-xjtu-xianshiyan",
+      "name": "西交现视妍",
+      "kind": "anime",
+      "school_id": "school-xjtu",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 3,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 2
+    },
+    {
+      "id": "club-nwafu-yui",
+      "name": "西农YUI动漫社",
+      "kind": "anime",
+      "school_id": "school-nwafu",
+      "works": 3,
+      "OC": 0,
+      "RT": 0,
+      "VC": 3,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-chd-xinkong",
+      "name": "新空动漫社",
+      "kind": "anime",
+      "school_id": "school-chd",
+      "works": 3,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 1,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-buaa-xingyun",
+      "name": "星韵社",
+      "kind": "vocalo",
+      "school_id": "school-buaa",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-bupt-yanfeng",
+      "name": "檐枫动漫社",
+      "kind": "anime",
+      "school_id": "school-bupt",
+      "works": 1,
+      "OC": 0,
+      "RT": 1,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2023,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-pku-yuanhuo",
+      "name": "元火originalfire",
+      "kind": "anime",
+      "school_id": "school-pku",
+      "works": 2,
+      "OC": 1,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2023,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-cau-sky",
+      "name": "中国农业大学sky动漫社",
+      "kind": "anime",
+      "school_id": "school-cau",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2022,
+      "editionIds": [
+        "2024"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-ustc-leo",
+      "name": "中科大LEO动漫协会",
+      "kind": "anime",
+      "school_id": "school-ustc",
+      "works": 2,
+      "OC": 0,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 1
+    },
+    {
+      "id": "club-znufe-dongxi",
+      "name": "中南大东西动漫社",
+      "kind": "anime",
+      "school_id": "school-znufe",
+      "works": 2,
+      "OC": 0,
+      "RT": 1,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2015,
+      "editionIds": [
+        "2024",
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sysu-will",
+      "name": "中山大学WILL动漫协会",
+      "kind": "anime",
+      "school_id": "school-sysu",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-cup-bj-suki",
+      "name": "中石大SUKI动漫社",
+      "kind": "anime",
+      "school_id": "school-cup-bj",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sysu-zhongshu",
+      "name": "中术大学",
+      "kind": "vocalo",
+      "school_id": "school-sysu",
+      "works": 16,
+      "OC": 11,
+      "RT": 4,
+      "VC": 0,
+      "IC": 1,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-bjtu-zuoyou",
+      "name": "佐佑动漫社",
+      "kind": "anime",
+      "school_id": "school-bjtu",
+      "works": 5,
+      "OC": 5,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2021,
+      "editionIds": [
+        "2024",
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-fjnu-cfour",
+      "name": "Cfour动漫社",
+      "kind": "anime",
+      "school_id": "school-fjnu",
+      "works": 2,
+      "OC": 0,
+      "RT": 0,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-ncepu-bd-cwing",
+      "name": "CWing动漫社",
+      "kind": "anime",
+      "school_id": "school-ncepu-bd",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-dlmu-darkblue",
+      "name": "DarkBlue深蓝动漫社",
+      "kind": "anime",
+      "school_id": "school-dlmu",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-zju-fantasy",
+      "name": "FANTASY动漫社",
+      "kind": "anime",
+      "school_id": "school-zju",
+      "works": 5,
+      "OC": 0,
+      "RT": 3,
+      "VC": 2,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-zzu-fly",
+      "name": "FLY动漫社",
+      "kind": "anime",
+      "school_id": "school-zzu",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-sdu-jump",
+      "name": "JUMP动漫协会",
+      "kind": "anime",
+      "school_id": "school-sdu",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 2
+    },
+    {
+      "id": "club-cuc-try",
+      "name": "TRY动漫社",
+      "kind": "anime",
+      "school_id": "school-cuc",
+      "works": 1,
+      "OC": 0,
+      "RT": 0,
+      "VC": 1,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2026,
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "collaboratorCount": 0
+    },
+    {
+      "id": "club-ustc-vocalo",
+      "name": "USTC歌声合成技术协会",
+      "kind": "vocalo",
+      "school_id": "school-ustc",
+      "works": 2,
+      "OC": 0,
+      "RT": 2,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 4,
+      "firstYear": 2025,
+      "editionIds": [
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "collaboratorCount": 1
+    },
+    {
+      "id": "club-scut-zaca",
+      "name": "ZACA动漫协会",
+      "kind": "anime",
+      "school_id": "school-scut",
+      "works": 1,
+      "OC": 1,
+      "RT": 0,
+      "VC": 0,
+      "IC": 0,
+      "DW": 0,
+      "schools": 1,
+      "firstYear": 2024,
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "collaboratorCount": 0
+    }
+  ],
+  "byCollaboration": [
+    {
+      "id": "collab-2025-vol1-bv1dofyekexw",
+      "label": "2025 联合拜年祭单品",
+      "kind": "work",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubCount": 3,
+      "clubIds": [
+        "club-tju-dtouch",
+        "club-nankai-nanfeng",
+        "club-xjtu-xianshiyan"
+      ],
+      "schoolIds": [
+        "school-tju",
+        "school-nankai",
+        "school-xjtu"
+      ],
+      "workIds": [
+        "work-2025-vol1-bv1dofyekexw"
+      ],
+      "editionIds": [
+        "2025-vol1"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "collab-2025-vol2-bv1ku3czxezm",
+      "label": "2025 中国科大ACG音乐会单品",
+      "kind": "work",
+      "crossSchoolKind": "same_university_multi_club",
+      "isCrossSchool": false,
+      "clubCount": 2,
+      "clubIds": [
+        "club-ustc-leo",
+        "club-ustc-vocalo"
+      ],
+      "schoolIds": [
+        "school-ustc"
+      ],
+      "workIds": [
+        "work-2025-vol2-bv1ku3czxezm"
+      ],
+      "editionIds": [
+        "2025-vol2"
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "collab-2026-vol1-xian-vocalo",
+      "label": "西安高校Vocaloid联合创作会",
+      "kind": "series",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubCount": 1,
+      "clubIds": [
+        "club-xidian-vocalo"
+      ],
+      "schoolIds": [
+        "school-xidian"
+      ],
+      "workIds": [
+        "work-2026-vol1-bv1hycgzeefh"
+      ],
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "collab-2026-vol1-sanjiao-newyear",
+      "label": "午时华岁~2026 三校联合拜年祭",
+      "kind": "work",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubCount": 3,
+      "clubIds": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "schoolIds": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "workIds": [
+        "work-2026-vol1-bv1q9fjb4efn",
+        "work-2026-vol1-bv14nf3brehr",
+        "work-2026-vol1-bv14pf3bxeot",
+        "work-2026-vol1-bv1cdf3bdexf",
+        "work-2026-vol1-bv1wgf3bheh2"
+      ],
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "collab-2026-vol2-bv1jsvm6bere",
+      "label": "2026 山东大学一校三地夏日晚会",
+      "kind": "work",
+      "crossSchoolKind": "same_university_multi_campus",
+      "isCrossSchool": false,
+      "clubCount": 3,
+      "clubIds": [
+        "club-sdu-shiyi",
+        "club-sdu-qingning",
+        "club-sdu-jump"
+      ],
+      "schoolIds": [
+        "school-sdu",
+        "school-sdu",
+        "school-sdu"
+      ],
+      "workIds": [
+        "work-2026-vol2-bv1jsvm6bere"
+      ],
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "confidence": 1
+    },
+    {
+      "id": "collab-2026-vol2-bv1c4gx6ueqt",
+      "label": "中国科大 ACG 音乐会单品",
+      "kind": "work",
+      "crossSchoolKind": "same_university_multi_club",
+      "isCrossSchool": false,
+      "clubCount": 2,
+      "clubIds": [
+        "club-ustc-leo",
+        "club-ustc-vocalo"
+      ],
+      "schoolIds": [
+        "school-ustc",
+        "school-ustc"
+      ],
+      "workIds": [
+        "work-2026-vol2-bv1c4gx6ueqt"
+      ],
+      "editionIds": [
+        "2026-vol2"
+      ],
+      "confidence": 0.85
+    },
+    {
+      "id": "collab-2026-vol2-xian-vocalo",
+      "label": "西安高校Vocaloid联合创作会",
+      "kind": "series",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubCount": 1,
+      "clubIds": [
+        "club-xidian-vocalo"
+      ],
+      "schoolIds": [
+        "school-xidian"
+      ],
+      "workIds": [
+        "work-2026-vol2-bv1uqw8z4efc"
+      ],
+      "editionIds": [
+        "2026-vol2",
+        "2026-vol1"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "collab-2026-vol2-nanfeng-newyear",
+      "label": "南风 / 沸点 / D-Touch 三社联合拜年祭（2026 Vol.1 期）",
+      "kind": "series",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubCount": 3,
+      "clubIds": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "schoolIds": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "workIds": [
+        "work-2026-vol1-bv1q9fjb4efn",
+        "work-2026-vol1-bv14nf3brehr",
+        "work-2026-vol1-bv14pf3bxeot",
+        "work-2026-vol1-bv1cdf3bdexf",
+        "work-2026-vol1-bv1wgf3bheh2"
+      ],
+      "editionIds": [
+        "2026-vol1"
+      ],
+      "confidence": 0.9
+    }
+  ]
+}

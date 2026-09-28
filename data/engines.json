@@ -1,0 +1,279 @@
+{
+  "schema": "vocalocollege/1.0",
+  "table": "engines",
+  "generated_at": "2026-09-28T00:00:00+08:00",
+  "source": "各期页面『歌手引擎』字段，共观察到 7 种取值 + 2 种带『猜测』前缀的写法",
+  "count": 9,
+  "engines": [
+    {
+      "id": "engine-vocaloid",
+      "name": "VOCALOID",
+      "name_alt": [
+        "Vocaloid",
+        "V家"
+      ],
+      "vendor": "Yamaha",
+      "family": "vocaloid",
+      "first_appearance": 2015,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [
+          "VOCALOID"
+        ]
+      }
+    },
+    {
+      "id": "engine-sv",
+      "name": "Synthesizer V",
+      "name_alt": [
+        "SynthV",
+        "SV",
+        "synthesizer V"
+      ],
+      "vendor": "Dreamtonics",
+      "family": "synthv",
+      "first_appearance": 2022,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [
+          "Synthesizer V"
+        ]
+      }
+    },
+    {
+      "id": "engine-ace",
+      "name": "ACE Studio",
+      "name_alt": [
+        "ACE",
+        "ACEStudio",
+        "ace studio"
+      ],
+      "vendor": "时域科技",
+      "family": "ace",
+      "first_appearance": 2023,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [
+          "ACE Studio",
+          "猜测ACE Studio"
+        ],
+        "uncertain_values": [
+          "猜测ACE Studio"
+        ],
+        "note": "『猜测ACE Studio』出现在 2026-vol1 V2 与 V12；原文中的『猜测』二字完整保留在 works[].engine_names_raw，engine_ids 解析结果标 status: inferred"
+      }
+    },
+    {
+      "id": "engine-xs",
+      "name": "X Studio",
+      "name_alt": [
+        "XStudio",
+        "网易X Studio",
+        "洛天依XS"
+      ],
+      "vendor": "网易云音乐",
+      "family": "xstudio",
+      "first_appearance": 2024,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [
+          "X Studio",
+          "猜测X Studio"
+        ],
+        "uncertain_values": [
+          "猜测X Studio"
+        ],
+        "note": "『猜测X Studio』出现在 2025-vol1 V5 与 2026-vol1 V3。另：2025-vol1 V3 标题写『洛天依XS』，engine 字段为『X Studio』，属同一引擎"
+      }
+    },
+    {
+      "id": "engine-deepvocal",
+      "name": "DeepVocal",
+      "name_alt": [
+        "deepvocal"
+      ],
+      "vendor": null,
+      "family": "deepvocal",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [
+          "DeepVocal"
+        ]
+      }
+    },
+    {
+      "id": "engine-cevio",
+      "name": "CeVIO",
+      "name_alt": [
+        "CeVIO AI",
+        "CeVIO Creative Studio"
+      ],
+      "vendor": "CeVIO",
+      "family": "cevio",
+      "first_appearance": null,
+      "first_edition_id": null,
+      "edition_ids": [],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok",
+        "reserved": true
+      },
+      "ext": {
+        "raw_values_seen": [],
+        "note": "升级方案 5.6 明确列出 CeVIO，但现有 5 期数据中尚未出现。预留条目 栏目方确认：保留预留位。"
+      }
+    },
+    {
+      "id": "engine-utau",
+      "name": "UTAU",
+      "name_alt": [
+        "utau"
+      ],
+      "vendor": "社区",
+      "family": "utau",
+      "first_appearance": null,
+      "first_edition_id": null,
+      "edition_ids": [],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok",
+        "reserved": true
+      },
+      "ext": {
+        "raw_values_seen": [],
+        "note": "升级方案 5.6 明确列出 UTAU，但现有 5 期数据中尚未出现。预留条目 栏目方确认：保留预留位。"
+      }
+    },
+    {
+      "id": "engine-unknown",
+      "name": "未知 / 待确认",
+      "name_alt": [],
+      "vendor": null,
+      "family": null,
+      "first_appearance": null,
+      "first_edition_id": null,
+      "edition_ids": [],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [],
+        "note": "占位条目。works[].engine_ids 为空数组时表示原作未标注引擎（非此值）"
+      }
+    },
+    {
+      "id": "engine-other",
+      "name": "其他歌声合成系统",
+      "name_alt": [],
+      "vendor": null,
+      "family": null,
+      "first_appearance": null,
+      "first_edition_id": null,
+      "edition_ids": [],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "name": "ok"
+      },
+      "ext": {
+        "raw_values_seen": [],
+        "note": "升级方案 5.6 的兜底分类"
+      }
+    }
+  ],
+  "null_tokens_observed": [
+    "/",
+    "-",
+    "—",
+    "",
+    "无"
+  ],
+  "statistics": {
+    "raw_value_distribution_note": "以下为各期页面『歌手引擎』字段原文出现次数（含多值行按 1 次计）",
+    "VOCALOID": null,
+    "Synthesizer V": null,
+    "ACE Studio": null,
+    "X Studio": null,
+    "DeepVocal": null,
+    "猜测ACE Studio": null,
+    "猜测X Studio": null,
+    "/": null,
+    "note": "计数由 scripts 生成，不在 Phase 0 手填",
+    "status": "pending"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": "vocalocollege/report-index/1.0",
+  "generated_at": "2026-09-28T15:47:13.890Z",
+  "note": "本报告是记录，不是评比。不含院校/社团的作品数排行。",
+  "years": [
+    {
+      "year": 2026,
+      "file": "reports/2026.json",
+      "works": 48,
+      "schools": 23,
+      "clubs": 25,
+      "vocals": 21,
+      "newSchools": 10,
+      "newClubs": 12,
+      "newVocals": 11,
+      "collaborations": 6,
+      "sp": 2
+    },
+    {
+      "year": 2025,
+      "file": "reports/2025.json",
+      "works": 37,
+      "schools": 20,
+      "clubs": 22,
+      "vocals": 14,
+      "newSchools": 14,
+      "newClubs": 18,
+      "newVocals": 6,
+      "collaborations": 2,
+      "sp": 1
+    },
+    {
+      "year": 2024,
+      "file": "reports/2024.json",
+      "works": 12,
+      "schools": 11,
+      "clubs": 12,
+      "vocals": 12,
+      "newSchools": 9,
+      "newClubs": 10,
+      "newVocals": 8,
+      "collaborations": 0,
+      "sp": 0
+    },
+    {
+      "year": 2023,
+      "file": "reports/2023.json",
+      "works": 2,
+      "schools": 2,
+      "clubs": 2,
+      "vocals": 3,
+      "newSchools": 2,
+      "newClubs": 2,
+      "newVocals": 0,
+      "collaborations": 0,
+      "sp": 0
+    },
+    {
+      "year": 2022,
+      "file": "reports/2022.json",
+      "works": 3,
+      "schools": 3,
+      "clubs": 3,
+      "vocals": 2,
+      "newSchools": 3,
+      "newClubs": 3,
+      "newVocals": 0,
+      "collaborations": 0,
+      "sp": 0
+    },
+    {
+      "year": 2021,
+      "file": "reports/2021.json",
+      "works": 3,
+      "schools": 3,
+      "clubs": 3,
+      "vocals": 7,
+      "newSchools": 3,
+      "newClubs": 3,
+      "newVocals": 4,
+      "collaborations": 0,
+      "sp": 0
+    },
+    {
+      "year": 2018,
+      "file": "reports/2018.json",
+      "works": 1,
+      "schools": 1,
+      "clubs": 1,
+      "vocals": 1,
+      "newSchools": 1,
+      "newClubs": 1,
+      "newVocals": 1,
+      "collaborations": 0,
+      "sp": 0
+    },
+    {
+      "year": 2015,
+      "file": "reports/2015.json",
+      "works": 2,
+      "schools": 2,
+      "clubs": 2,
+      "vocals": 3,
+      "newSchools": 2,
+      "newClubs": 2,
+      "newVocals": 3,
+      "collaborations": 0,
+      "sp": 0
+    }
+  ]
+}

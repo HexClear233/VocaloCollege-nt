@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>高校术力口之声 | VocaloCollege</title>
+<meta name="description" content="中国高校歌声合成文化的策展与数字档案平台。收录高校社团发布的原创曲、翻调、翻唱、翻奏与衍生创作。" />
+<meta name="theme-color" content="#F5F5F2" />
+
+<!-- 首屏防闪（FOUC）：必须在样式表之前同步执行 -->
+<script>
+(function(){try{
+  var m=localStorage.getItem('vc-theme')||'system';
+  var d=m==='dark'||(m==='system'&&window.matchMedia('(prefers-color-scheme: dark)').matches);
+  var r=document.documentElement;
+  r.setAttribute('data-theme',d?'dark':'light');
+  r.setAttribute('data-theme-mode',m);
+}catch(e){}})();
+</script>
+
+<link rel="stylesheet" href="assets/css/tokens.css?v=1790609395930" />
+<link rel="stylesheet" href="assets/css/base.css?v=1790609395930" />
+<link rel="stylesheet" href="assets/css/layout.css?v=1790609395930" />
+<link rel="stylesheet" href="assets/css/components.css?v=1790609395930" />
+<link rel="stylesheet" href="assets/css/charts.css?v=1790609395930" />
+</head>
+<body data-root=".">
+
+<a class="skip-link" href="#main">跳到主内容</a>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark" aria-hidden="true">VC</span>
+      <span class="brand__text">高校术力口之声 <span>/ VocaloCollege</span></span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      <a href="index.html" aria-current="page">首页</a>
+      <a href="works.html">作品库</a>
+      <a href="schools/index.html">高校</a>
+      <a href="clubs/index.html">社团</a>
+      <a href="vocals/index.html">歌声</a>
+      <a href="data.html">数据</a>
+      <a href="reports/index.html">年报</a>
+      <a href="sp.html">SP</a>
+      <a href="about.html">细则</a>
+    </nav>
+    <div class="theme-switch">
+      <button class="theme-switch__trigger" data-theme-trigger
+              aria-haspopup="true" aria-expanded="false" aria-label="主题">⛭</button>
+      <div class="theme-switch__menu" data-theme-menu hidden role="menu" aria-label="主题模式">
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="light" aria-checked="false">
+          <span class="ico" aria-hidden="true">☀</span> 浅色
+        </button>
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="dark" aria-checked="false">
+          <span class="ico" aria-hidden="true">☾</span> 深色
+        </button>
+        <button class="theme-switch__item" role="menuitemradio" data-theme-set="system" aria-checked="false">
+          <span class="ico" aria-hidden="true">⛭</span> 跟随系统
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ 1. HERO ============ -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="hero__kicker">Vocalo College</p>
+      <h1 class="hero__title">高校术力口之声</h1>
+      <p class="hero__sub">高校歌声合成文化策展与档案</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" id="hero-latest">最新一期</a>
+        <a class="btn" href="works.html">浏览作品库</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+
+    <!-- ============ 2. LATEST EDITION ============ -->
+    <section class="section" id="latest-edition-sec" style="padding-top:var(--sp-6)">
+      <div class="section__head">
+        <h2 class="section__title">最新一期</h2>
+        <p class="section__sub">Latest Edition</p>
+      </div>
+      <div id="latest-edition"><p class="loading">加载中…</p></div>
+    </section>
+
+    <!-- ============ 3. 往期节目（方案 5.1 之外的显式入口，用户要求）============ -->
+    <section class="section" id="editions">
+      <div class="section__head">
+        <h2 class="section__title">往期节目</h2>
+        <p class="section__sub">All Editions</p>
+      </div>
+      <div class="grid grid--editions" id="edition-list"></div>
+    </section>
+
+    <!-- ============ 4. SPECIAL PICK ============ -->
+    <section class="section" id="sp">
+      <div class="section__head">
+        <h2 class="section__title">SPECIAL PICK</h2>
+        <p class="section__sub">Curator's Selection</p>
+      </div>
+      <div id="sp-block"><p class="loading">加载中…</p></div>
+    </section>
+
+    <!-- ============ 5. LATEST WORKS ============ -->
+    <section class="section" id="latest">
+      <div class="section__head">
+        <h2 class="section__title">最新收录</h2>
+        <p class="section__sub">Latest Works</p>
+      </div>
+      <div class="grid grid--works" id="latest-works"></div>
+    </section>
+
+    <!-- ============ 6. DATA ============ -->
+    <section class="section" id="data">
+      <div class="section__head">
+        <h2 class="section__title">数据中心</h2>
+        <p class="section__sub"><a href="data.html">查看完整数据中心 →</a></p>
+      </div>
+      <div class="grid grid--stats" id="data-stats"></div>
+
+      <!-- 分类构成：用条形呈现，替代空的占位 -->
+      <div class="data-breakdown">
+        <h3 class="data-breakdown__title">作品分类构成</h3>
+        <div id="data-types"></div>
+      </div>
+
+      <!-- 各期收录规模 -->
+      <div class="data-breakdown">
+        <h3 class="data-breakdown__title">各期收录规模</h3>
+        <ul class="data-bars" id="data-editions"></ul>
+      </div>
+
+      <p class="small muted" style="margin-top:var(--sp-4)" id="data-note"></p>
+    </section>
+
+    <!-- ============ 7. EXPLORE ============ -->
+    <section class="section" id="explore">
+      <div class="section__head">
+        <h2 class="section__title">探索</h2>
+        <p class="section__sub">Explore</p>
+      </div>
+      <div class="explore-grid">
+        <a class="explore-card" href="works.html">
+          <span class="explore-card__name">作品库</span>
+          <span class="explore-card__desc">搜索与筛选全部收录作品</span>
+        </a>
+        <a class="explore-card" href="schools/index.html">
+          <span class="explore-card__name">高校档案</span>
+          <span class="explore-card__desc">按高校浏览收录情况</span>
+        </a>
+        <a class="explore-card" href="clubs/index.html">
+          <span class="explore-card__name">社团档案</span>
+          <span class="explore-card__desc">社团作品与合作社团</span>
+        </a>
+        <a class="explore-card" href="vocals/index.html">
+          <span class="explore-card__name">歌声档案</span>
+          <span class="explore-card__desc">虚拟歌手使用情况</span>
+        </a>
+        <a class="explore-card" href="sp.html">
+          <span class="explore-card__name">SPECIAL PICK</span>
+          <span class="explore-card__desc">历期策展人选荐</span>
+        </a>
+        <a class="explore-card" href="#editions">
+          <span class="explore-card__name">往期节目</span>
+          <span class="explore-card__desc">按期刊浏览</span>
+        </a>
+        <a class="explore-card" href="data.html">
+          <span class="explore-card__name">数据中心</span>
+          <span class="explore-card__desc">趋势 · 类型 · 合作网络</span>
+        </a>
+        <a class="explore-card" href="about.html">
+          <span class="explore-card__name">收录细则</span>
+          <span class="explore-card__desc">栏目说明与分类符号</span>
+        </a>
+      </div>
+      <p class="small muted" style="margin-top:var(--sp-4)">
+        数据中心的可视化图表将在后续阶段开放。
+      </p>
+    </section>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p style="margin:0">© 2024–2026 高校术力口之声 | 非营利性同好交流项目</p>
+    <p style="margin:0">
+      本栏目为策展与档案记录，<b>非排行榜</b>；收录情况不代表作品或社团实力评价。
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/theme.js?v=1790609395930"></script>
+<script src="assets/js/data.js?v=1790609395930"></script>
+<script src="assets/js/components.js?v=1790609395930"></script>
+<script src="assets/js/collection.js?v=1790609395930"></script>
+<script>
+(function () {
+  'use strict';
+
+  function boot() {
+
+  VCData.load().then(function (D) {
+
+    // ---------- 2. LATEST EDITION ----------
+    var latest = D.latestEdition;
+    var host = document.getElementById('latest-edition');
+
+    // 最新一期的数据块：作品 / 高校 / 社团
+    var edWorks = latest.works;
+
+    host.innerHTML =
+      '<div style="display:grid;gap:var(--sp-5)">' +
+        '<div id="latest-card"></div>' +
+        '<div class="grid grid--stats">' +
+          '<stat-block num="' + edWorks.length + '" label="Works" sub="收录作品"></stat-block>' +
+          '<stat-block num="' + D.uniqueSchools(edWorks).length + '" label="Universities" sub="参与高校"></stat-block>' +
+          '<stat-block num="' + D.uniqueClubs(edWorks).length + '" label="Clubs" sub="参与社团"></stat-block>' +
+        '</div>' +
+      '</div>';
+
+    var card = document.createElement('edition-card');
+    card.edition = latest;
+    document.getElementById('latest-card').appendChild(card);
+
+    // Hero 按钮指向最新一期
+    document.getElementById('hero-latest').setAttribute('href', 'editions/' + latest.edition.id + '.html');
+    document.getElementById('hero-latest').textContent = latest.edition.label;
+
+    // ---------- 3. 往期节目：全部期数（倒序，最新在前）----------
+    var edHost = document.getElementById('edition-list');
+    D.editions.slice().reverse().forEach(function (d) {
+      var c = document.createElement('edition-card');
+      c.edition = d;
+      edHost.appendChild(c);
+    });
+
+    // ---------- 3. SPECIAL PICK（取最新一期的 SP） ----------
+    var spHost = document.getElementById('sp-block');
+    var allSp = D.works.filter(function (w) { return w.is_sp; });
+    var featured = D.spOfEdition(latest.edition.id) || allSp[allSp.length - 1];
+
+    if (!featured) {
+      spHost.innerHTML = '<p class="muted">本期暂无 SPECIAL PICK。</p>';
+    } else {
+      var cov = VCData.coverURL(featured);
+      var url = (featured.bilibili && featured.bilibili.url) || '#';
+      var ed = featured._edition;
+      spHost.innerHTML =
+        '<div class="sp-showcase">' +
+          '<div class="sp-showcase__cover">' +
+            (cov ? '<img src="' + cov + '" alt="" loading="lazy">' :
+                   '<span class="wc__cover-fallback">暂无封面</span>') +
+          '</div>' +
+          '<div>' +
+            '<h3 class="sp-showcase__title">' + VCComponents.esc(featured.title_short || featured.title) + '</h3>' +
+            (featured._vocalLabel ? '<p class="sp-showcase__vocal">feat. ' + VCComponents.esc(featured._vocalLabel) + '</p>' : '') +
+            '<p class="sp-showcase__meta">' +
+              VCComponents.esc(featured._clubLabel || '—') +
+              (ed ? ' · ' + VCComponents.esc(ed.label_short || ed.label) : '') +
+            '</p>' +
+            '<a class="btn btn--primary" href="' + url + '" target="_blank" rel="noopener noreferrer">在 B站观看</a>' +
+          '</div>' +
+        '</div>';
+    }
+
+    // ---------- 4. LATEST WORKS（按发布时间倒序取 8 条）----------
+    var latestHost = document.getElementById('latest-works');
+    D.worksByDate.slice(0, 8).forEach(function (w) {
+      var c = document.createElement('work-card');
+      c.work = w;
+      latestHost.appendChild(c);
+    });
+
+    // ---------- 5. DATA ----------
+    var statsHost = document.getElementById('data-stats');
+    var tc = D.typeCounts(D.works);
+    var stats = [
+      [D.works.length, 'Works', '作品', 'works.html'],
+      [D.uniqueSchools().length, 'Universities', '高校', 'schools/index.html'],
+      [D.uniqueClubs().length, 'Clubs', '社团', 'clubs/index.html'],
+      [D.uniqueVocals().length, 'Vocals', '歌声', 'vocals/index.html'],
+      [tc.OC, 'OC', '原创', 'works.html?types=OC'],
+      [tc.RT, 'RT', '翻调', 'works.html?types=RT'],
+      [tc.VC, 'VC', '人声翻唱', 'works.html?types=VC'],
+      [tc.IC, 'IC', '乐器翻奏', 'works.html?types=IC']
+    ];
+    statsHost.innerHTML = stats.map(function (s) {
+      return '<stat-block num="' + s[0] + '" label="' + s[1] + '" sub="' + s[2] + '"' +
+        (s[3] ? ' href="' + s[3] + '"' : '') + '></stat-block>';
+    }).join('');
+
+    var unknown = tc.unknown || 0;
+    document.getElementById('data-note').textContent =
+      '收录 ' + D.works.length + ' 件作品，覆盖 ' + D.editions.length + ' 期节目。' +
+      (unknown ? '另有 ' + unknown + ' 件作品分类待定，未纳入构成统计。' : '') +
+      '数据图表用于描述收录情况，不用于评价作品质量。';
+
+    // ---------- 6b. 分类构成条 ----------
+    var TYPE_ZH = { OC: '原创作品', RT: '翻调作品', VC: '人声翻唱', IC: '乐器翻奏', DW: '衍生创作' };
+    var typeHost = document.getElementById('data-types');
+    var total = D.works.length || 1;
+    var maxCount = Math.max(tc.OC, tc.RT, tc.VC, tc.IC, tc.DW, 1);
+    typeHost.innerHTML = ['OC', 'RT', 'VC', 'IC', 'DW'].map(function (t) {
+      var n = tc[t];
+      var pct = (n / total * 100).toFixed(1);
+      var w = (n / maxCount * 100).toFixed(1);
+      return '<div class="tbar">' +
+        '<span class="tbar__label"><span class="badge badge--' + t.toLowerCase() + '">' + t + '</span>' +
+        '<span class="tbar__zh">' + TYPE_ZH[t] + '</span></span>' +
+        '<span class="tbar__track"><span class="tbar__fill tbar__fill--' + t.toLowerCase() + '" style="width:' + w + '%"></span></span>' +
+        '<span class="tbar__num">' + n + '<span class="tbar__pct"> · ' + pct + '%</span></span>' +
+      '</div>';
+    }).join('');
+
+    // ---------- 6c. 各期收录规模 ----------
+    var edBars = document.getElementById('data-editions');
+    var maxEd = Math.max.apply(null, D.editions.map(function (d) { return d.works.length; }));
+    edBars.innerHTML = D.editions.map(function (d) {
+      var E = d.edition;
+      var n = d.works.length;
+      var w = (n / maxEd * 100).toFixed(1);
+      return '<li class="data-bar">' +
+        '<a class="data-bar__label" href="editions/' + E.id + '.html">' + VCComponents.esc(E.label_short || E.label) + '</a>' +
+        '<span class="data-bar__track"><span class="data-bar__fill" style="width:' + w + '%"></span></span>' +
+        '<span class="data-bar__num">' + n + '</span>' +
+      '</li>';
+    }).join('');
+
+  }).catch(function (e) {
+    // 错误渲染必须自足：VCComponents 可能也未能加载
+    var msg = String(e && e.message ? e.message : e);
+    var safe = msg.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    var box = document.getElementById('latest-edition');
+    if (box) {
+      box.innerHTML = '<div class="load-error">数据加载失败：' + safe +
+        '<br><code>若以 file:// 打开，请改用本地静态服务器（如 npx http-server）</code></div>';
+    }
+    console.error(e);
+  });
+
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,466 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2024,
+  "generated_at": "2026-09-28T15:47:13.887Z",
+  "title": "VocaloCollege 2024 Annual Report",
+  "subtitle": "高校术力口之声 2024 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 12,
+    "editions": 2,
+    "schools": 11,
+    "clubs": 12,
+    "vocals": 12,
+    "OC": 5,
+    "RT": 2,
+    "VC": 5,
+    "IC": 0,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 0,
+    "collaborations": 0,
+    "crossSchool": 0,
+    "onAir": 12,
+    "listedOnly": 0
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 5,
+      "pct": 41.7
+    },
+    {
+      "type": "RT",
+      "label": "翻调",
+      "count": 2,
+      "pct": 16.7
+    },
+    {
+      "type": "VC",
+      "label": "人声翻唱",
+      "count": 5,
+      "pct": 41.7
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-jlu",
+        "name": "吉林大学"
+      },
+      {
+        "id": "school-nankai",
+        "name": "南开大学"
+      },
+      {
+        "id": "school-neau",
+        "name": "东北农业大学"
+      },
+      {
+        "id": "school-chd",
+        "name": "长安大学"
+      },
+      {
+        "id": "school-nuaa",
+        "name": "南京航空航天大学"
+      },
+      {
+        "id": "school-nwafu",
+        "name": "西北农林科技大学"
+      },
+      {
+        "id": "school-ncepu-bd",
+        "name": "华北电力大学（保定）"
+      },
+      {
+        "id": "school-sjtu",
+        "name": "上海交通大学"
+      },
+      {
+        "id": "school-scut",
+        "name": "华南理工大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-jlu-jida",
+        "name": "吉大动漫社"
+      },
+      {
+        "id": "club-nankai-nanfeng",
+        "name": "南风动漫社"
+      },
+      {
+        "id": "club-neau-eag",
+        "name": "东农EAG动漫社"
+      },
+      {
+        "id": "club-chd-xinkong",
+        "name": "新空动漫社"
+      },
+      {
+        "id": "club-nuaa-liuhuo",
+        "name": "南航流火学生动漫社"
+      },
+      {
+        "id": "club-nwafu-yui",
+        "name": "西农YUI动漫社"
+      },
+      {
+        "id": "club-ncepu-bd-cwing",
+        "name": "CWing动漫社"
+      },
+      {
+        "id": "club-jlu-acg",
+        "name": "吉-ACG现视研"
+      },
+      {
+        "id": "club-sjtu-fuze",
+        "name": "浮泽动漫协会"
+      },
+      {
+        "id": "club-scut-zaca",
+        "name": "ZACA动漫协会"
+      }
+    ],
+    "vocals": [
+      {
+        "id": "vocal-dianying",
+        "name": "点萤"
+      },
+      {
+        "id": "vocal-ruibiya",
+        "name": "瑞比娅"
+      },
+      {
+        "id": "vocal-yunyuguang",
+        "name": "雲宇光"
+      },
+      {
+        "id": "vocal-huanxiaoyi",
+        "name": "幻晓伊"
+      },
+      {
+        "id": "vocal-xihelv",
+        "name": "曦和律"
+      },
+      {
+        "id": "vocal-tiansuici",
+        "name": "天碎瓷"
+      },
+      {
+        "id": "vocal-teto",
+        "name": "重音Teto"
+      },
+      {
+        "id": "vocal-yongye",
+        "name": "永夜Minus"
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "works": 2
+    },
+    {
+      "id": "2025-vol1",
+      "label": "2025 高校术力口之声 Vol.1",
+      "works": 10
+    }
+  ],
+  "collaborations": [],
+  "worksByVocal": [
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "count": 1
+    },
+    {
+      "id": "vocal-dianying",
+      "name": "点萤",
+      "count": 1
+    },
+    {
+      "id": "vocal-huanxiaoyi",
+      "name": "幻晓伊",
+      "count": 1
+    },
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "count": 1
+    },
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "count": 1
+    },
+    {
+      "id": "vocal-ruibiya",
+      "name": "瑞比娅",
+      "count": 1
+    },
+    {
+      "id": "vocal-tiansuici",
+      "name": "天碎瓷",
+      "count": 1
+    },
+    {
+      "id": "vocal-xihelv",
+      "name": "曦和律",
+      "count": 1
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "count": 1
+    },
+    {
+      "id": "vocal-yongye",
+      "name": "永夜Minus",
+      "count": 1
+    },
+    {
+      "id": "vocal-yunyuguang",
+      "name": "雲宇光",
+      "count": 1
+    },
+    {
+      "id": "vocal-teto",
+      "name": "重音Teto",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2025-vol1-bv1urqnywenf",
+      "title": "九九八十一",
+      "title_short": "九九八十一",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-12-09T20:01:18+08:00",
+      "bvid": "BV1uRqNYwENF",
+      "url": "https://www.bilibili.com/video/BV1uRqNYwENF",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "东农EAG动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1wgdlYMexd",
+      "title": "【西农YUI动漫社】Mr.showtime-朝星堇、梦比姆、烧洋芋、菠萝哀歌",
+      "title_short": "Mr. Showtime",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-11-07T12:00:00+08:00",
+      "bvid": "BV1WGDLYmExD",
+      "url": "https://www.bilibili.com/video/BV1WGDLYmExD",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "西农YUI动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv114d5yee3n",
+      "title": "【翻调】【洛天依XS】屑屑【长安大学新鲜空气动漫社二十代迎新会单品】",
+      "title_short": "屑屑",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-11-06T18:36:21+08:00",
+      "bvid": "BV114D5YEE3n",
+      "url": "https://www.bilibili.com/video/BV114D5YEE3n",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "新空动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1u3hpeqenj",
+      "title": "【重音Teto原创】白日梦【清华大学学生次世代动漫社2024社庆OP】",
+      "title_short": "白日梦",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-09-01T18:00:00+08:00",
+      "bvid": "BV1U3HPeqENJ",
+      "url": "https://www.bilibili.com/video/BV1U3HPeqENJ",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "重音Teto"
+      ],
+      "club_names": [
+        "清华学生次世代动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv16xwjeyer6",
+      "title": "【东西放课后乐队演奏】猛独が襲う／初音ミク cover 6.8次元之门",
+      "title_short": "猛独が襲う",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-08-22T23:36:43+08:00",
+      "bvid": "BV16xWjeYER6",
+      "url": "https://www.bilibili.com/video/BV16xWjeYER6",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "中南大东西动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1qi421h7qa",
+      "title": "[乐团]lost one的号哭",
+      "title_short": "ロストワンの号哭",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-07-27T06:00:00+08:00",
+      "bvid": "BV1qi421h7QA",
+      "url": "https://www.bilibili.com/video/BV1qi421h7QA",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "南航流火学生动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1tx4y147ts",
+      "title": "【乐正绫原创】边缘音噪【吉林大学ACG音研部/吉林大学第三届ACG星光音乐节单品】",
+      "title_short": "边缘音噪",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-07-23T12:00:00+08:00",
+      "bvid": "BV1tx4y147ts",
+      "url": "https://www.bilibili.com/video/BV1tx4y147ts",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "乐正绫"
+      ],
+      "club_names": [
+        "吉-ACG现视研"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1hj4m1m71p",
+      "title": "【永夜Minus】多普勒与终尽之空【原创曲PV付】",
+      "title_short": "多普勒与终尽之空",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-07-14T18:00:00+08:00",
+      "bvid": "BV1HJ4m1M71p",
+      "url": "https://www.bilibili.com/video/BV1HJ4m1M71p",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "永夜Minus"
+      ],
+      "club_names": [
+        "浮泽动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1pr421c7zu",
+      "title": "【Kaleidos Kawaii 电音动漫夜】groovy planet / 如月青藍 feat. 初音ミク",
+      "title_short": "groovy planet",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-06-07T18:00:00+08:00",
+      "bvid": "BV1pr421c7zU",
+      "url": "https://www.bilibili.com/video/BV1pr421c7zU",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "初音ミク"
+      ],
+      "club_names": [
+        "ZACA动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1rm421n7x4",
+      "title": "四重罪孽",
+      "title_short": "四重罪孽",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-05-27T15:08:47+08:00",
+      "bvid": "BV1rm421N7x4",
+      "url": "https://www.bilibili.com/video/BV1rm421N7x4",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "CWing动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2024-bv1vx4y1r7yy",
+      "title": "【星尘Infinity原创】客星【2024南风动漫社拜年纪单品】",
+      "title_short": "客星",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-02-27T09:40:00+08:00",
+      "bvid": "BV1Vx4y1r7yY",
+      "url": "https://www.bilibili.com/video/BV1Vx4y1r7yY",
+      "edition_id": "2024",
+      "vocal_names": [
+        "星尘Infinity"
+      ],
+      "club_names": [
+        "南风动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2024-bv1qw421n7rg",
+      "title": "2024吉林大学JILIJILI拜年纪",
+      "title_short": "恭喜发财",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2024,
+      "published_at": "2024-02-19T20:30:00+08:00",
+      "bvid": "BV1QW421N7rg",
+      "url": "https://www.bilibili.com/video/BV1QW421N7rg",
+      "edition_id": "2024",
+      "vocal_names": [
+        "点萤",
+        "瑞比娅",
+        "雲宇光",
+        "幻晓伊",
+        "曦和律",
+        "天碎瓷"
+      ],
+      "club_names": [
+        "吉大动漫社"
+      ],
+      "onAir": true
+    }
+  ]
+}

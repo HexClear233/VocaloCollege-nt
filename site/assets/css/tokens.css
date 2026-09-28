@@ -1,0 +1,133 @@
+/* ==========================================================================
+   tokens.css — 设计令牌
+   VOCALO COLLEGE / 高校术力口之声
+   色彩严格取自已批准方案 8.2；其余令牌按 8.1 的视觉关键词推导
+   （Digital Archive / Music / College / Vocaloid / Editorial / Data / Modern / Minimal / Dark）
+   ========================================================================== */
+
+:root {
+  /* --- 色彩：Light（方案 8.2 原文）--- */
+  --background: #F5F5F2;
+  --surface: #FFFFFF;
+  --text: #181818;
+  --secondary: #777777;
+  --border: #DDDDD8;
+
+  /* --- 品牌 Accent（方案 8.2「品牌 Accent 保持统一」）--- */
+  --accent: #32C8FF;
+  --accent-strong: #0FA8DF;
+  --accent-soft: rgba(50, 200, 255, 0.12);
+
+  /* --- 作品类型色（取自旧 style.css 的既有语汇，保证延续性）--- */
+  --type-oc: #2FA36B;
+  --type-rt: #6C77C9;
+  --type-vc: #1FA8D8;
+  --type-ic: #C77F2E;
+  --type-dw: #9B5E92;
+
+  /* --- 榜单档位色 --- */
+  --grade-rainbow: linear-gradient(90deg, #E5484D, #E8871E, #D9B300, #2FA36B, #1FA8D8, #5B5BD6, #9B5E92);
+  --grade-gold: #B8860B;
+  --grade-sliver: #6B7280;
+  --grade-copper: #B45309;
+
+  /* --- 层级化表面（暗色模式不反色，需单独设计每一层）--- */
+  --surface-raised: #FFFFFF;
+  --surface-sunken: #EFEFEB;
+  --overlay: rgba(24, 24, 24, 0.45);
+
+  /* --- 阴影：Light 用真实投影 --- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.12);
+
+  /* --- 封面图处理（暗色下需压暗，避免白图刺眼）--- */
+  --cover-filter: none;
+
+  /* --- 间距（4 的倍数）--- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 24px;
+  --sp-6: 32px;
+  --sp-7: 48px;
+  --sp-8: 64px;
+
+  /* --- 字号 --- */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-base: 0.9375rem;
+  --fs-md: 1.0625rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 1.75rem;
+  --fs-2xl: 2.25rem;
+  --fs-3xl: 3rem;
+
+  /* --- 圆角 --- */
+  --r-sm: 4px;
+  --r: 8px;
+  --r-lg: 14px;
+  --r-full: 999px;
+
+  /* --- 布局 --- */
+  --container: 1180px;
+  --container-narrow: 780px;
+  --header-h: 60px;
+
+  /* --- 动效 --- */
+  --t-fast: 120ms ease;
+  --t: 200ms ease;
+
+  /* --- 字体（保持栏目既有语汇：Microsoft YaHei 优先）--- */
+  --font-sans: 'Microsoft YaHei', 'PingFang SC', 'Hiragino Sans GB', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+/* ==========================================================================
+   Dark — 方案第 989 行明确「暗色模式不应简单反转颜色」
+   需要单独设计：卡片 / 边框 / 阴影 / 图片 / 图表 / 地图 / hover / Modal / 视频区域
+   ========================================================================== */
+[data-theme='dark'] {
+  --background: #0B0C10;
+  --surface: #15171D;
+  --text: #E7E9ED;
+  --secondary: #969AA5;
+  --border: #292C34;
+
+  --accent: #4FD3FF;
+  --accent-strong: #7FE0FF;
+  --accent-soft: rgba(79, 211, 255, 0.14);
+
+  /* 类型色在暗底上需提亮，否则饱和度过低 */
+  --type-oc: #4FCE8F;
+  --type-rt: #9AA3F0;
+  --type-vc: #45C6F0;
+  --type-ic: #E8A85C;
+  --type-dw: #C88FC0;
+
+  --grade-gold: #E8C24A;
+  --grade-sliver: #AEB6C2;
+  --grade-copper: #E0894A;
+
+  /* 表面层级：暗色下靠「提亮」而非「加深」表达 elevation */
+  --surface-raised: #1C1F27;
+  --surface-sunken: #101218;
+  --overlay: rgba(0, 0, 0, 0.68);
+
+  /* 阴影在暗底几乎不可见，改用更强的黑度 + 边框承担分隔职责 */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.6);
+
+  /* 封面压暗，避免大面积白图在暗色页面上刺眼 */
+  --cover-filter: brightness(0.86) contrast(1.02);
+}
+
+/* 尊重系统的减少动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-fast: 0ms;
+    --t: 0ms;
+  }
+}

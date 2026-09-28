@@ -1,0 +1,1041 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2025,
+  "generated_at": "2026-09-28T15:47:13.889Z",
+  "title": "VocaloCollege 2025 Annual Report",
+  "subtitle": "高校术力口之声 2025 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 37,
+    "editions": 3,
+    "schools": 20,
+    "clubs": 22,
+    "vocals": 14,
+    "OC": 15,
+    "RT": 9,
+    "VC": 11,
+    "IC": 2,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 1,
+    "collaborations": 2,
+    "crossSchool": 1,
+    "onAir": 21,
+    "listedOnly": 16
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 15,
+      "pct": 40.5
+    },
+    {
+      "type": "RT",
+      "label": "翻调",
+      "count": 9,
+      "pct": 24.3
+    },
+    {
+      "type": "VC",
+      "label": "人声翻唱",
+      "count": 11,
+      "pct": 29.7
+    },
+    {
+      "type": "IC",
+      "label": "乐器翻奏",
+      "count": 2,
+      "pct": 5.4
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-tju",
+        "name": "天津大学"
+      },
+      {
+        "id": "school-xjtu",
+        "name": "西安交通大学"
+      },
+      {
+        "id": "school-hust",
+        "name": "华中科技大学"
+      },
+      {
+        "id": "school-zju",
+        "name": "浙江大学"
+      },
+      {
+        "id": "school-sdu",
+        "name": "山东大学"
+      },
+      {
+        "id": "school-tyut",
+        "name": "太原理工大学"
+      },
+      {
+        "id": "school-sysu",
+        "name": "中山大学"
+      },
+      {
+        "id": "school-tongji",
+        "name": "同济大学"
+      },
+      {
+        "id": "school-xidian",
+        "name": "西安电子科技大学"
+      },
+      {
+        "id": "school-buct",
+        "name": "北京化工大学"
+      },
+      {
+        "id": "school-zzu",
+        "name": "郑州大学"
+      },
+      {
+        "id": "school-ustc",
+        "name": "中国科学技术大学"
+      },
+      {
+        "id": "school-dlmu",
+        "name": "大连海事大学"
+      },
+      {
+        "id": "school-ldu",
+        "name": "鲁东大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-tju-dtouch",
+        "name": "天津大学D-Touch动漫社"
+      },
+      {
+        "id": "club-xjtu-xianshiyan",
+        "name": "西交现视妍"
+      },
+      {
+        "id": "club-hust-fenglan",
+        "name": "华中大风蓝动漫社"
+      },
+      {
+        "id": "club-zju-fantasy",
+        "name": "FANTASY动漫社"
+      },
+      {
+        "id": "club-sdu-qingning",
+        "name": "青柠现视研"
+      },
+      {
+        "id": "club-tyut-jiuchongtian",
+        "name": "九重天ACG协会"
+      },
+      {
+        "id": "club-sysu-will",
+        "name": "中山大学WILL动漫协会"
+      },
+      {
+        "id": "club-tongji-wanyou",
+        "name": "同济万有引力动漫协会"
+      },
+      {
+        "id": "club-xidian-shining",
+        "name": "西电Shining动漫社"
+      },
+      {
+        "id": "club-sysu-zhongshu",
+        "name": "中术大学"
+      },
+      {
+        "id": "club-buct-weishui",
+        "name": "微水动漫社"
+      },
+      {
+        "id": "club-jlu-northeast-acg",
+        "name": "东北ACG音乐联合企划"
+      },
+      {
+        "id": "club-zzu-fly",
+        "name": "FLY动漫社"
+      },
+      {
+        "id": "club-ustc-leo",
+        "name": "中科大LEO动漫协会"
+      },
+      {
+        "id": "club-ustc-vocalo",
+        "name": "USTC歌声合成技术协会"
+      },
+      {
+        "id": "club-buaa-xingyun",
+        "name": "星韵社"
+      },
+      {
+        "id": "club-dlmu-darkblue",
+        "name": "DarkBlue深蓝动漫社"
+      },
+      {
+        "id": "club-ldu-linghuan",
+        "name": "鲁东澪幻空间动漫社"
+      }
+    ],
+    "vocals": [
+      {
+        "id": "vocal-xiaqiming",
+        "name": "夏祁铭"
+      },
+      {
+        "id": "vocal-una",
+        "name": "音街Una"
+      },
+      {
+        "id": "vocal-qifu",
+        "name": "起复"
+      },
+      {
+        "id": "vocal-longya",
+        "name": "乐正龙牙"
+      },
+      {
+        "id": "vocal-moke",
+        "name": "徵羽摩柯"
+      },
+      {
+        "id": "vocal-feimeng",
+        "name": "飞梦"
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2025-vol1",
+      "label": "2025 高校术力口之声 Vol.1",
+      "works": 9
+    },
+    {
+      "id": "2025-vol2",
+      "label": "2025 高校术力口之声 Vol.2",
+      "works": 20
+    },
+    {
+      "id": "2026-vol1",
+      "label": "2026 高校术力口之声 Vol.1",
+      "works": 8
+    }
+  ],
+  "collaborations": [
+    {
+      "id": "collab-2025-vol1-bv1dofyekexw",
+      "label": "2025 联合拜年祭单品",
+      "kind": "work",
+      "crossSchoolKind": "cross_school",
+      "isCrossSchool": true,
+      "clubIds": [
+        "club-tju-dtouch",
+        "club-nankai-nanfeng",
+        "club-xjtu-xianshiyan"
+      ],
+      "schoolIds": [
+        "school-tju",
+        "school-nankai",
+        "school-xjtu"
+      ],
+      "workIds": [
+        "work-2025-vol1-bv1dofyekexw"
+      ]
+    },
+    {
+      "id": "collab-2025-vol2-bv1ku3czxezm",
+      "label": "2025 中国科大ACG音乐会单品",
+      "kind": "work",
+      "crossSchoolKind": "same_university_multi_club",
+      "isCrossSchool": false,
+      "clubIds": [
+        "club-ustc-leo",
+        "club-ustc-vocalo"
+      ],
+      "schoolIds": [
+        "school-ustc"
+      ],
+      "workIds": [
+        "work-2025-vol2-bv1ku3czxezm"
+      ]
+    }
+  ],
+  "worksByVocal": [
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "count": 12
+    },
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "count": 7
+    },
+    {
+      "id": "vocal-yanhe",
+      "name": "言和",
+      "count": 5
+    },
+    {
+      "id": "vocal-moke",
+      "name": "徵羽摩柯",
+      "count": 3
+    },
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "count": 2
+    },
+    {
+      "id": "vocal-moqingxian",
+      "name": "墨清弦",
+      "count": 2
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "count": 2
+    },
+    {
+      "id": "vocal-feimeng",
+      "name": "飞梦",
+      "count": 1
+    },
+    {
+      "id": "vocal-longya",
+      "name": "乐正龙牙",
+      "count": 1
+    },
+    {
+      "id": "vocal-qifu",
+      "name": "起复",
+      "count": 1
+    },
+    {
+      "id": "vocal-xiaqiming",
+      "name": "夏祁铭",
+      "count": 1
+    },
+    {
+      "id": "vocal-una",
+      "name": "音街Una",
+      "count": 1
+    },
+    {
+      "id": "vocal-yongye",
+      "name": "永夜Minus",
+      "count": 1
+    },
+    {
+      "id": "vocal-teto",
+      "name": "重音Teto",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2026-vol1-bv1bsipbwesw",
+      "title": "【西农YUI动漫社】勾指起誓-术群群友",
+      "title_short": "勾指起誓",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-12-31T10:30:00+08:00",
+      "bvid": "BV1BSiPBwEsW",
+      "url": "https://www.bilibili.com/video/BV1BSiPBwEsW",
+      "edition_id": "2026-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "YUI动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol1-bv1r7b4bgeuo",
+      "title": "⌈Sech0乐队⌋夜明けと蛍——苍蓝之色 黎明与萤光",
+      "title_short": "夜明けと蛍",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-12-23T20:00:00+08:00",
+      "bvid": "BV1r7B4BgEuo",
+      "url": "https://www.bilibili.com/video/BV1r7B4BgEuo",
+      "edition_id": "2026-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol1-bv12gqabxeks",
+      "title": "【深蓝动漫节】神的随波逐流｜深蓝动漫社",
+      "title_short": "神のまにまに",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-12-16T15:40:11+08:00",
+      "bvid": "BV12gqaBxEks",
+      "url": "https://www.bilibili.com/video/BV12gqaBxEks",
+      "edition_id": "2026-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "DarkBlue深蓝动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol1-bv1mtmjbqe7x",
+      "title": "【徵羽摩柯七周年】请为我画一只绵羊【LV7：循风轻旅】",
+      "title_short": "请为我画一只绵羊",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-12-10T22:30:00+08:00",
+      "bvid": "BV1mtmJBQE7X",
+      "url": "https://www.bilibili.com/video/BV1mtmJBQE7X",
+      "edition_id": "2026-vol1",
+      "vocal_names": [
+        "徵羽摩柯"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol1-bv14n2xbkem7",
+      "title": "【徵羽摩柯七周年】柯目七：唠唠柯【LV7：循风轻旅】",
+      "title_short": "柯目七：唠唠柯",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-12-10T21:58:21+08:00",
+      "bvid": "BV14n2XBkEM7",
+      "url": "https://www.bilibili.com/video/BV14n2XBkEM7",
+      "edition_id": "2026-vol1",
+      "vocal_names": [
+        "徵羽摩柯"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol1-bv1z8ctbme6a",
+      "title": "【澪幻空间】宅歌配音部合唱第一期《勾指起誓》",
+      "title_short": "勾指起誓",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-11-13T22:38:59+08:00",
+      "bvid": "BV1Z8CtBmE6a",
+      "url": "https://www.bilibili.com/video/BV1Z8CtBmE6a",
+      "edition_id": "2026-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "鲁东澪幻空间动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol1-bv1yc4azyenz",
+      "title": "【飞梦ACE COVER】404 NOT FOUND【飞梦ACG联萌秋季百团应援曲】",
+      "title_short": "404 NOT FOUND",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-10-11T22:30:53+08:00",
+      "bvid": "BV1yc4AzYENZ",
+      "url": "https://www.bilibili.com/video/BV1yc4AzYENZ",
+      "edition_id": "2026-vol1",
+      "vocal_names": [
+        "飞梦"
+      ],
+      "club_names": [
+        "星韵社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol1-bv1cshgz3e7c",
+      "title": "【永夜原创曲】夏枯蝉雨 【现充爆炸乐队】",
+      "title_short": "夏枯蝉雨",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-10-06T12:00:00+08:00",
+      "bvid": "BV1csHGz3E7C",
+      "url": "https://www.bilibili.com/video/BV1csHGz3E7C",
+      "edition_id": "2026-vol1",
+      "vocal_names": [
+        "永夜Minus"
+      ],
+      "club_names": [
+        "Shining动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1k7nsz2euv",
+      "title": "【钢琴串烧】中术歌曲串烧（个人向）",
+      "title_short": "中术歌曲串烧",
+      "type": "IC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-09-30T12:00:00+08:00",
+      "bvid": "BV1k7nSz2EUV",
+      "url": "https://www.bilibili.com/video/BV1k7nSz2EUV",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1tepqzaewt",
+      "title": "【星尘原创/前卫金属】Marionette 人形剧场终幕时 【现充爆炸乐队】",
+      "title_short": "Marionette 人形剧场终幕时",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-09-21T14:00:00+08:00",
+      "bvid": "BV1TepQzaEWt",
+      "url": "https://www.bilibili.com/video/BV1TepQzaEWt",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "星尘"
+      ],
+      "club_names": [
+        "Shining动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1topfz9eef",
+      "title": "【术力口翻填PV】微水动漫社の微水娘版《人狂热症》！",
+      "title_short": "人マニア",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-09-14T20:06:08+08:00",
+      "bvid": "BV1topFz9EeF",
+      "url": "https://www.bilibili.com/video/BV1topFz9EeF",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "音街鳗"
+      ],
+      "club_names": [
+        "微水动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1yuh8z5esd",
+      "title": "【HB to 鬼面P】G（：）m【夏祁铭原创】",
+      "title_short": "G（：）m",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-09-11T13:00:00+08:00",
+      "bvid": "BV1YuH8z5Esd",
+      "url": "https://www.bilibili.com/video/BV1YuH8z5Esd",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "夏祁铭"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1uch9zueke",
+      "title": "【HB to 鬼面P】【初投稿|19岁新人|原创相声|节奏相声|自卫相声|情绪相声|实验相声|前卫相声|暂告别作】",
+      "title_short": "原创相声",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-09-11T11:00:00+08:00",
+      "bvid": "BV1UCH9zuEKE",
+      "url": "https://www.bilibili.com/video/BV1UCH9zuEKE",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫",
+        "言和"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1sehxzzeya",
+      "title": "《霜雪千年》线上合唱挑战！【FLY动漫社/live组】",
+      "title_short": "霜雪千年",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-08-29T10:04:13+08:00",
+      "bvid": "BV1SehXzZEyA",
+      "url": "https://www.bilibili.com/video/BV1SehXzZEyA",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "FLY动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1a4ykz6eay",
+      "title": "洛天依 原创 《行路歌》【ilem十一周年投稿庆典单品】",
+      "title_short": "行路歌",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-08-18T12:00:00+08:00",
+      "bvid": "BV1a4Ykz6EAY",
+      "url": "https://www.bilibili.com/video/BV1a4Ykz6EAY",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "Shining动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1ksb6zgemn",
+      "title": "【洛天依原创翻填】大暑歌【ilem投稿11周年】",
+      "title_short": "大暑歌",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-08-16T12:00:00+08:00",
+      "bvid": "BV1kSb6zGEmn",
+      "url": "https://www.bilibili.com/video/BV1kSb6zGEmn",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv11y4dzhe48",
+      "title": "「Sech0乐队」命に嫌われている。-即使如此我们也会拼命活下去",
+      "title_short": "命に嫌われている。",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-08-06T11:30:00+08:00",
+      "bvid": "BV11Y4dzHE48",
+      "url": "https://www.bilibili.com/video/BV11Y4dzHE48",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1ku3czxezm",
+      "title": "【洛天依&乐正绫】致你【原创PV付】【南北组】【2025中国科大ACG音乐会单品】",
+      "title_short": "致你",
+      "type": "RT",
+      "is_sp": true,
+      "year": 2025,
+      "published_at": "2025-07-04T18:00:00+08:00",
+      "bvid": "BV1Ku3czxEzM",
+      "url": "https://www.bilibili.com/video/BV1Ku3czxEzM",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "club_names": [
+        "LEO动漫协会",
+        "USTC歌声合成技术协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1tx3wzyeih",
+      "title": "【ドラマツルギー/拟剧论】乐队演奏现场版⭐——次元共振4.0",
+      "title_short": "ドラマツルギー",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-30T02:00:00+08:00",
+      "bvid": "BV1tx3wzYEiH",
+      "url": "https://www.bilibili.com/video/BV1tx3wzYEiH",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1b8kszqeaz",
+      "title": "【洛天依】你知道我要唱什么...不对怎么是摘BAD APPLE!!",
+      "title_short": "Bad Apple!!",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-26T09:00:00+08:00",
+      "bvid": "BV1B8KSzqEAZ",
+      "url": "https://www.bilibili.com/video/BV1B8KSzqEAZ",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1mek8zpek9",
+      "title": "【ロキ】你有这么好的ROKI进入中ーlive现场超绝bass intro",
+      "title_short": "ロキ",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-23T19:30:00+08:00",
+      "bvid": "BV1MeK8zPEk9",
+      "url": "https://www.bilibili.com/video/BV1MeK8zPEk9",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1pxkmzfer1",
+      "title": "【微水流年传】我们仍在唱响……（不为人知的鹅妈妈童谣&鸟之诗）",
+      "title_short": "アンノウン・マザーグース&鳥の詩",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-21T08:00:00+08:00",
+      "bvid": "BV1PxKMzFER1",
+      "url": "https://www.bilibili.com/video/BV1PxKMzFER1",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "微水动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1rsnvzdeiz",
+      "title": "【洛天依AI】蝴蝶，但是台风【《蝴蝶》翻填】",
+      "title_short": "蝴蝶",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-17T20:05:00+08:00",
+      "bvid": "BV1RsNvzDEiz",
+      "url": "https://www.bilibili.com/video/BV1RsNvzDEiz",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1dstezue8w",
+      "title": "【中术9人翻调】唱完这首《山高水长》，我们就是校友啦",
+      "title_short": "山高水长",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-10T17:00:00+08:00",
+      "bvid": "BV1DsTezUE8W",
+      "url": "https://www.bilibili.com/video/BV1DsTezUE8W",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "洛天依",
+        "墨清弦",
+        "起复",
+        "星尘",
+        "言和",
+        "乐正绫",
+        "乐正龙牙",
+        "徵羽摩柯"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1zm78zgecz",
+      "title": "第一视角三分钟一千米│乐正绫│名为十万厘米的无穷【体测祭】",
+      "title_short": "名为十万厘米的无穷",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-09T16:00:00+08:00",
+      "bvid": "BV1ZM78zgEcZ",
+      "url": "https://www.bilibili.com/video/BV1ZM78zgEcZ",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "乐正绫"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1sgt2zje5q",
+      "title": "疁星济2025-活动宣传PV",
+      "title_short": "疁星",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-08T01:40:00+08:00",
+      "bvid": "BV1SGT2zjE5q",
+      "url": "https://www.bilibili.com/video/BV1SGT2zjE5q",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "初音ミク"
+      ],
+      "club_names": [
+        "万有引力动漫协会"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2025-vol2-bv1vlt8zgexu",
+      "title": "长安吟单品 权御天下",
+      "title_short": "权御天下",
+      "type": "IC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-06T09:30:00+08:00",
+      "bvid": "BV1VLT8zgExu",
+      "url": "https://www.bilibili.com/video/BV1VLT8zgExu",
+      "edition_id": "2025-vol2",
+      "vocal_names": [],
+      "club_names": [
+        "新空动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol2-bv1qbtwzfeu4",
+      "title": "【墨清弦原创】三分钟后雨渐停",
+      "title_short": "三分钟后雨渐停",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-06-05T17:20:00+08:00",
+      "bvid": "BV1qBTWzFEu4",
+      "url": "https://www.bilibili.com/video/BV1qBTWzFEu4",
+      "edition_id": "2025-vol2",
+      "vocal_names": [
+        "墨清弦"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1xnjuzfe3f",
+      "title": "【洛天依原创】《佑托邦》feat. 初音未来“这里容得下所有踉跄”【佐佑动漫社26周年社庆单品】",
+      "title_short": "佑托邦",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-05-25T21:30:00+08:00",
+      "bvid": "BV1xNjuzfE3F",
+      "url": "https://www.bilibili.com/video/BV1xNjuzfE3F",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "初音未来"
+      ],
+      "club_names": [
+        "佐佑动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv11hgezjevh",
+      "title": "29.翻唱-blessing【财复同萌2025单品】",
+      "title_short": "Blessing",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-05-01T12:40:00+08:00",
+      "bvid": "BV11HGezJEVh",
+      "url": "https://www.bilibili.com/video/BV11HGezJEVh",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "同济万有引力动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1vhl2zkes1",
+      "title": "【Fantasy动漫社】调校-我多想说再见啊【2025“花火幻梦”幻想新年会】",
+      "title_short": "我多想说再见啊",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-04-28T19:53:18+08:00",
+      "bvid": "BV1VhL2zkEs1",
+      "url": "https://www.bilibili.com/video/BV1VhL2zkEs1",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "club_names": [
+        "FANTASY动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1hjlwz5esq",
+      "title": "【嘉年华2025】风蓝动漫社官方录播",
+      "title_short": "易水诀",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-04-20T21:42:38+08:00",
+      "bvid": "BV1hjLwz5EsQ",
+      "url": "https://www.bilibili.com/video/BV1hjLwz5EsQ",
+      "edition_id": "2025-vol1",
+      "vocal_names": [],
+      "club_names": [
+        "华中大风蓝动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1dzr9y7evk",
+      "title": "【原创术曲/重音テト】内卷审判！【青柠现视研 2025 春日晚会】",
+      "title_short": "内卷审判",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-04-05T17:27:53+08:00",
+      "bvid": "BV1DzR9Y7Evk",
+      "url": "https://www.bilibili.com/video/BV1DzR9Y7Evk",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "重音テト"
+      ],
+      "club_names": [
+        "青柠现视研"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1k2xayxedi",
+      "title": "【洛天依·言和原创曲】流星与雏菊——约定在净土之上【原创PV付】",
+      "title_short": "流星与雏菊——约定在净土之上",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-03-20T17:00:00+08:00",
+      "bvid": "BV1k2XAYXEDi",
+      "url": "https://www.bilibili.com/video/BV1k2XAYXEDi",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "言和"
+      ],
+      "club_names": [
+        "西电Shining动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1llqsyqeyy",
+      "title": "【洛天依原创feat.乐正绫、言和】丹心落【中术大学一周年庆单品】|“丹心焚作北辰星，烽火千古铭”",
+      "title_short": "丹心落",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-03-15T20:30:00+08:00",
+      "bvid": "BV1LLQSYqEyY",
+      "url": "https://www.bilibili.com/video/BV1LLQSYqEyY",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "乐正绫",
+        "言和"
+      ],
+      "club_names": [
+        "中山大学WILL动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1dofyekexw",
+      "title": "【言和原创】玉京北斗【PV付】【2025联合拜年祭单品】",
+      "title_short": "玉京北斗",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-02-04T00:00:00+08:00",
+      "bvid": "BV1doFyekEXW",
+      "url": "https://www.bilibili.com/video/BV1doFyekEXW",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "言和"
+      ],
+      "club_names": [
+        "天津大学D-Touch动漫社",
+        "南风动漫社",
+        "西交现视妍"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1zjfneqevb",
+      "title": "⟪恭喜发财⟫ [洛天依] ”礼多人不怪“ [2025九重天动漫社演出部拜年祭单品]",
+      "title_short": "恭喜发财",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2025,
+      "published_at": "2025-01-28T20:00:00+08:00",
+      "bvid": "BV1zjFNeqEVB",
+      "url": "https://www.bilibili.com/video/BV1zjFNeqEVB",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依AI"
+      ],
+      "club_names": [
+        "九重天ACG协会"
+      ],
+      "onAir": true
+    }
+  ]
+}

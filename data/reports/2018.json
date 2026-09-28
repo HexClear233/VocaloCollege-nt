@@ -1,0 +1,94 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2018,
+  "generated_at": "2026-09-28T15:47:13.884Z",
+  "title": "VocaloCollege 2018 Annual Report",
+  "subtitle": "高校术力口之声 2018 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 1,
+    "editions": 1,
+    "schools": 1,
+    "clubs": 1,
+    "vocals": 1,
+    "OC": 1,
+    "RT": 0,
+    "VC": 0,
+    "IC": 0,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 0,
+    "collaborations": 0,
+    "crossSchool": 0,
+    "onAir": 1,
+    "listedOnly": 0
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 1,
+      "pct": 100
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-buaa",
+        "name": "北京航空航天大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-buaa-feimeng",
+        "name": "北航飞梦ACG联盟"
+      }
+    ],
+    "vocals": [
+      {
+        "id": "vocal-miku",
+        "name": "初音未来"
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "works": 1
+    }
+  ],
+  "collaborations": [],
+  "worksByVocal": [
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2024-bv1hw411f7fg",
+      "title": "【初音未来原创】Only For You【初音未来11周年诞生祭】",
+      "title_short": "Only For You",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2018,
+      "published_at": "2018-08-31T14:10:43+08:00",
+      "bvid": "BV1hW411f7fG",
+      "url": "https://www.bilibili.com/video/BV1hW411f7fG",
+      "edition_id": "2024",
+      "vocal_names": [
+        "初音未来"
+      ],
+      "club_names": [
+        "北航飞梦ACG联盟"
+      ],
+      "onAir": true
+    }
+  ]
+}

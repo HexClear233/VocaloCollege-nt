@@ -1,0 +1,206 @@
+{
+  "schema": "vocalocollege/annual-report/1.0",
+  "year": 2021,
+  "generated_at": "2026-09-28T15:47:13.884Z",
+  "title": "VocaloCollege 2021 Annual Report",
+  "subtitle": "高校术力口之声 2021 年度记录",
+  "statement": [
+    "本报告是一份**记录**，不是评比。",
+    "不设「年度最佳高校」「年度最佳社团」「年度最佳作品」，不做任何实力排名。",
+    "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
+  ],
+  "summary": {
+    "works": 3,
+    "editions": 2,
+    "schools": 3,
+    "clubs": 3,
+    "vocals": 7,
+    "OC": 2,
+    "RT": 1,
+    "VC": 0,
+    "IC": 0,
+    "DW": 0,
+    "typeUnknown": 0,
+    "sp": 0,
+    "collaborations": 0,
+    "crossSchool": 0,
+    "onAir": 3,
+    "listedOnly": 0
+  },
+  "typeBreakdown": [
+    {
+      "type": "OC",
+      "label": "原创",
+      "count": 2,
+      "pct": 66.7
+    },
+    {
+      "type": "RT",
+      "label": "翻调",
+      "count": 1,
+      "pct": 33.3
+    }
+  ],
+  "newEntities": {
+    "schools": [
+      {
+        "id": "school-bjtu",
+        "name": "北京交通大学"
+      },
+      {
+        "id": "school-nju",
+        "name": "南京大学"
+      },
+      {
+        "id": "school-njust",
+        "name": "南京信息工程大学"
+      }
+    ],
+    "clubs": [
+      {
+        "id": "club-bjtu-zuoyou",
+        "name": "佐佑动漫社"
+      },
+      {
+        "id": "club-nju-cac",
+        "name": "南京大学CAC动漫社"
+      },
+      {
+        "id": "club-njust-tianran",
+        "name": "天燃动漫社"
+      }
+    ],
+    "vocals": [
+      {
+        "id": "vocal-xinhua",
+        "name": "心华"
+      },
+      {
+        "id": "vocal-yanhe",
+        "name": "言和"
+      },
+      {
+        "id": "vocal-xingchen",
+        "name": "星尘"
+      },
+      {
+        "id": "vocal-moqingxian",
+        "name": "墨清弦"
+      }
+    ]
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "label": "2024 高校术力口之声",
+      "works": 2
+    },
+    {
+      "id": "2025-vol1",
+      "label": "2025 高校术力口之声 Vol.1",
+      "works": 1
+    }
+  ],
+  "collaborations": [],
+  "worksByVocal": [
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "count": 2
+    },
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "count": 1
+    },
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "count": 1
+    },
+    {
+      "id": "vocal-moqingxian",
+      "name": "墨清弦",
+      "count": 1
+    },
+    {
+      "id": "vocal-xinhua",
+      "name": "心华",
+      "count": 1
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "count": 1
+    },
+    {
+      "id": "vocal-yanhe",
+      "name": "言和",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "id": "work-2024-bv1zf4y1b7rv",
+      "title": "【佐佑动漫社】puzzle_girl [佐佑动漫社22周年庆单品]",
+      "title_short": "puzzle_girl",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2021,
+      "published_at": "2021-07-02T09:20:18+08:00",
+      "bvid": "BV1zf4y1b7RV",
+      "url": "https://www.bilibili.com/video/BV1zf4y1b7RV",
+      "edition_id": "2024",
+      "vocal_names": [
+        "初音ミク"
+      ],
+      "club_names": [
+        "佐佑动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2025-vol1-bv1br4y1p7in",
+      "title": "共诗仙一品人生《诗酒》，潇洒醉笑云和月【天燃动漫社|寄明月翻填】",
+      "title_short": "诗酒/寄明月",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2021,
+      "published_at": "2021-02-08T10:17:13+08:00",
+      "bvid": "BV1br4y1P7in",
+      "url": "https://www.bilibili.com/video/BV1br4y1P7in",
+      "edition_id": "2025-vol1",
+      "vocal_names": [
+        "洛天依",
+        "心华",
+        "言和",
+        "星尘",
+        "墨清弦",
+        "乐正绫"
+      ],
+      "club_names": [
+        "天燃动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2024-bv1s5411p7ms",
+      "title": "【乐正绫原创】夜、繁星与风（PV重置版）【减P】",
+      "title_short": "夜、繁星与风",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2021,
+      "published_at": "2021-01-01T09:15:41+08:00",
+      "bvid": "BV1s5411p7mS",
+      "url": "https://www.bilibili.com/video/BV1s5411p7mS",
+      "edition_id": "2024",
+      "vocal_names": [
+        "乐正绫"
+      ],
+      "club_names": [
+        "南京大学CAC动漫社"
+      ],
+      "onAir": true
+    }
+  ]
+}

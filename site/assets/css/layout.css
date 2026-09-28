@@ -1,0 +1,263 @@
+/* ==========================================================================
+   layout.css — 容器、栅格、页头页脚、响应式
+   断点：640（手机→大屏手机）/ 960（平板→桌面）/ 1280（桌面→宽屏）
+   ========================================================================== */
+
+.wrap {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--sp-4);
+}
+.wrap--narrow { max-width: var(--container-narrow); }
+
+/* 主内容区留出页头高度 */
+main { display: block; padding: var(--sp-6) 0 var(--sp-8); }
+
+/* ==========================================================================
+   页头：品牌 + 导航 + 主题切换
+   ========================================================================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: color-mix(in srgb, var(--background) 88%, transparent);
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--border);
+  transition: background-color var(--t), border-color var(--t);
+}
+
+.site-header__inner {
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-4);
+  /* 页头不换行；子项靠 min-width:0 收缩，避免导航项变多后顶破容器 */
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.brand:hover { text-decoration: none; }
+.brand__mark {
+  width: 26px; height: 26px;
+  border-radius: var(--r-sm);
+  background: var(--accent);
+  display: grid;
+  place-items: center;
+  color: #06313F;
+  font-size: var(--fs-xs);
+  font-weight: 800;
+}
+.brand__text { font-size: var(--fs-base); letter-spacing: 0.01em; }
+.brand__text span { color: var(--secondary); font-weight: 500; }
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+  margin-left: auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+  /* 关键：flex 子项默认 min-width:auto，不会收缩到内容宽度以下，
+     导航项变多后会把页头顶破，造成整页横向溢出 */
+  min-width: 0;
+  flex-shrink: 1;
+}
+.site-nav::-webkit-scrollbar { display: none; }
+
+.site-nav a {
+  color: var(--secondary);
+  padding: var(--sp-1) var(--sp-3);
+  border-radius: var(--r-sm);
+  font-size: var(--fs-sm);
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color var(--t-fast), background-color var(--t-fast);
+}
+.site-nav a:hover {
+  color: var(--text);
+  background: var(--surface-sunken);
+  text-decoration: none;
+}
+.site-nav a[aria-current='page'] {
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+/* ==========================================================================
+   页脚
+   ========================================================================== */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: var(--sp-6) 0;
+  color: var(--secondary);
+  font-size: var(--fs-sm);
+  transition: border-color var(--t);
+}
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-3) var(--sp-5);
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer a { color: var(--secondary); }
+.site-footer a:hover { color: var(--accent-strong); }
+
+/* ==========================================================================
+   区块
+   ========================================================================== */
+.section { margin-bottom: var(--sp-8); }
+.section:last-child { margin-bottom: 0; }
+
+.section__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-3);
+  margin-bottom: var(--sp-4);
+  padding-bottom: var(--sp-2);
+  border-bottom: 1px solid var(--border);
+  transition: border-color var(--t);
+}
+.section__title {
+  margin: 0;
+  font-size: var(--fs-md);
+  letter-spacing: 0.02em;
+}
+.section__sub {
+  margin: 0;
+  font-size: var(--fs-xs);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  margin-left: auto;
+}
+
+/* ==========================================================================
+   栅格
+   ========================================================================== */
+.grid {
+  display: grid;
+  gap: var(--sp-4);
+}
+/* 作品卡片：手机 1 列 → 640 两列 → 960 三列 → 1280 四列
+   用 auto-fill + minmax 让它在任何容器宽度下都自适应，无需逐断点声明 */
+.grid--works {
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+}
+.grid--stats {
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: var(--sp-3);
+}
+.grid--editions {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+/* ==========================================================================
+   响应式
+   ========================================================================== */
+
+/* 平板及以下：收紧留白 */
+@media (max-width: 960px) {
+  :root {
+    --sp-8: 48px;
+    --sp-7: 36px;
+    --fs-2xl: 1.9rem;
+    --fs-3xl: 2.2rem;
+  }
+  .grid--works { grid-template-columns: repeat(auto-fill, minmax(165px, 1fr)); }
+}
+
+/* 手机：导航改为横向滚动，页头压缩 */
+@media (max-width: 640px) {
+  :root {
+    --header-h: 54px;
+    --sp-6: 24px;
+    --sp-7: 28px;
+    --sp-8: 36px;
+    --fs-xl: 1.4rem;
+    --fs-2xl: 1.7rem;
+    --fs-3xl: 1.9rem;
+  }
+
+  .wrap { padding: 0 var(--sp-3); }
+
+  .brand__text { font-size: var(--fs-sm); }
+  .brand__text span { display: none; }   /* 手机只留主名 */
+
+  /* 导航在手机上是横向滚动条，必须能收缩，否则会顶破容器造成横向溢出 */
+  .site-nav {
+    gap: 0;
+    min-width: 0;
+    flex-shrink: 1;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav a { padding: var(--sp-1) 6px; font-size: var(--fs-xs); }
+
+  /* 页头在手机上更紧凑：品牌只留标记，缩小间距 */
+  .site-header__inner { gap: var(--sp-2); }
+  .brand__text { display: none; }
+
+  .grid { gap: var(--sp-3); }
+  /* 手机上两列比一列更利于浏览作品（方案第十章：优先保证作品浏览） */
+  .grid--works { grid-template-columns: repeat(2, 1fr); }
+  /* 统计块用 auto-fit + 较小 minmax，避免 8 个块在 414px 下撑破容器 */
+  .grid--stats { grid-template-columns: repeat(auto-fit, minmax(78px, 1fr)); }
+  .grid--editions { grid-template-columns: 1fr; }
+
+  .site-footer__inner { flex-direction: column; align-items: flex-start; gap: var(--sp-2); }
+}
+
+/* 超窄屏：作品卡片仍保持两列（方案第十章要求优先保证作品浏览），
+   仅统计块降为两列。360px 下两列卡片约 160px 宽，足够容纳封面与标题。 */
+@media (max-width: 379px) {
+  .grid--stats { grid-template-columns: repeat(2, 1fr); }
+  .grid--works { gap: var(--sp-2); }
+}
+
+/* 宽屏：容器略微放宽 */
+@media (min-width: 1280px) {
+  :root { --container: 1240px; }
+}
+
+/* ==========================================================================
+   期页面：内容区收窄 + 增加左右呼吸空间
+   期页信息密度高（长标题 + 多列卡片），首页容器的满宽布局读起来过于紧凑，
+   故单独收窄期页容器，并在宽屏下给出更大的左右内边距。
+   ========================================================================== */
+.edition-layout {
+  max-width: var(--edition-container, 1060px);
+  margin: 0 auto;
+}
+
+/* 宽屏下再收一点，两侧留白更充裕 */
+@media (min-width: 1280px) {
+  .edition-layout { --edition-container: 1040px; }
+}
+
+/* 桌面区间：容器内边距加大，避免卡片顶到边缘 */
+@media (min-width: 961px) {
+  .edition-layout { padding-left: var(--sp-5); padding-right: var(--sp-5); }
+}
+
+/* 平板及以下：释放到全宽（窄屏优先利用空间） */
+@media (max-width: 960px) {
+  .edition-layout { max-width: 100%; }
+}
+
+/* 期页主内容上下留白略增，避免与页头/页脚贴太近 */
+.edition-main {
+  padding-top: var(--sp-6);
+  padding-bottom: var(--sp-8);
+}

@@ -1,0 +1,308 @@
+{
+  "schema": "vocalocollege/1.0",
+  "table": "manifest",
+  "generated_at": "2026-09-28T00:00:00+08:00",
+  "phase": "phase0",
+  "description": "VocaloCollege 数据索引。以期为单位组织，works 按 edition 拆分为 editions/<edition_id>.json",
+  "layout": {
+    "edition_files": "data/editions/<edition_id>.json",
+    "shared_files": [
+      "data/schools.json",
+      "data/clubs.json",
+      "data/vocals.json",
+      "data/engines.json",
+      "data/taxonomy.json"
+    ]
+  },
+  "editions": [
+    {
+      "id": "2024",
+      "file": "data/editions/2024.json",
+      "label": "2024 高校术力口之声",
+      "works": 10,
+      "typed": 10,
+      "untyped": 0,
+      "sp": 0,
+      "edition_notes": 3,
+      "generation": "gen1",
+      "source_file": "2024/index.html",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
+    },
+    {
+      "id": "2025-vol1",
+      "file": "data/editions/2025-vol1.json",
+      "label": "2025 高校术力口之声 Vol.1",
+      "works": 22,
+      "typed": 22,
+      "untyped": 0,
+      "sp": 0,
+      "edition_notes": 4,
+      "generation": "gen2",
+      "source_file": "2025/index.html",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
+    },
+    {
+      "id": "2025-vol2",
+      "file": "data/editions/2025-vol2.json",
+      "label": "2025 高校术力口之声 Vol.2",
+      "works": 20,
+      "typed": 20,
+      "untyped": 0,
+      "sp": 1,
+      "edition_notes": 4,
+      "generation": "gen3",
+      "source_file": "2025-vol2/index.html",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
+    },
+    {
+      "id": "2026-vol1",
+      "file": "data/editions/2026-vol1.json",
+      "label": "2026 高校术力口之声 Vol.1",
+      "works": 23,
+      "typed": 23,
+      "untyped": 0,
+      "sp": 1,
+      "edition_notes": 7,
+      "generation": "gen4",
+      "source_file": "2026-vol1/index.html",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
+    },
+    {
+      "id": "2026-vol2",
+      "file": "data/editions/2026-vol2.json",
+      "label": "2026 高校术力口之声 Vol.2",
+      "works": 33,
+      "typed": 33,
+      "untyped": 0,
+      "sp": 1,
+      "edition_notes": 6,
+      "generation": "gen5",
+      "source_file": "2026-vol2/index.html",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
+    }
+  ],
+  "totals": {
+    "works": 108,
+    "typed": 108,
+    "untyped": 0,
+    "editions": 5
+  },
+  "pending_user_input": [
+    {
+      "scope": "2026-vol2",
+      "field": "works[].vocal_ids / engine_ids",
+      "count": 1,
+      "note": "V5《未完结的盛夏》原文 Vocal 与引擎均为 /，已按栏目方要求写成「未知歌手」，待补充实际歌手"
+    },
+    {
+      "scope": "global",
+      "field": "schools[].province / city",
+      "count": null,
+      "note": "栏目方决定直接略掉高校地图功能，字段使用 status \"no_map\"，不视为缺失"
+    },
+    {
+      "scope": "global",
+      "field": "works[].sp_note",
+      "count": 3,
+      "note": "SP 策展文字（Curator's Note）待填写，属项目核心资产"
+    }
+  ],
+  "notes": [
+    "所有 *_raw 字段为原始文本，请勿删除",
+    "type 为 null 且 status.type = 'pending' 的条目不计入统计",
+    "山东大学三个校区社团（世伊漫协/青柠现视研/JUMP动漫协会）已标记为 same_university_multi_campus",
+    "高校地图功能已由栏目方决定略掉，schools[].province/city 使用 status \"no_map\"",
+    "type3 / type3_pjsk 快闪段封面在网站上直接略过，不建条目；type1 / type2 保留",
+    "《术力口》与《凌云漠》不作为作品条目，记于 2026-vol1 的 edition.notes",
+    "人工裁决记录见 data/taxonomy.json → user_decisions_2026"
+  ],
+  "coverage": {
+    "works_total": 108,
+    "works_typed": 108,
+    "works_untyped": 0,
+    "type_coverage_ratio": 1
+  },
+  "dictionaries": {
+    "schools": 354,
+    "clubs": 418,
+    "uploaders": 8,
+    "vocals": 33,
+    "engines": 9
+  },
+  "status_summary": {
+    "phase0": "completed",
+    "validations": "run `node scripts/validate.js`",
+    "decisions_applied": 27,
+    "editions_with_notes": 5,
+    "decisions_source": "Phase0待补充清单.md"
+  },
+  "edition_notes_summary": [
+    {
+      "edition_id": "2024",
+      "id": "note-2024-01",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2024",
+      "id": "note-2024-02",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2024",
+      "id": "note-2024-03",
+      "kind": "asset_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol1",
+      "id": "note-2025-vol1-01",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol1",
+      "id": "note-2025-vol1-02",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol1",
+      "id": "note-2025-vol1-03",
+      "kind": "asset_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol1",
+      "id": "note-2025-vol1-04",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol2",
+      "id": "note-2025-vol2-01",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol2",
+      "id": "note-2025-vol2-02",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol2",
+      "id": "note-2025-vol2-03",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2025-vol2",
+      "id": "note-2025-vol2-04",
+      "kind": "asset_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-01",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-02",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-03",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-04",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-05",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-v8-shulikou",
+      "kind": "omitted_work",
+      "title": "《术力口》",
+      "seq_label": "V8"
+    },
+    {
+      "edition_id": "2026-vol1",
+      "id": "note-2026-vol1-lingyunmo",
+      "kind": "uncollected_work",
+      "title": "【星尘infinity原创】凌云漠【忘川风华录同人·霍去病】“少年从军行 精忠许国灭天狼”",
+      "seq_label": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-01",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-02",
+      "kind": "comment",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-03",
+      "kind": "comment",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-04",
+      "kind": "comment",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-05",
+      "kind": "page_note",
+      "title": null
+    },
+    {
+      "edition_id": "2026-vol2",
+      "id": "note-2026-vol2-06",
+      "kind": "asset_note",
+      "title": null
+    }
+  ],
+  "data_updated_at": "2026-09-28",
+  "snapshots": {
+    "count": 1,
+    "first_date": "2026-09-28",
+    "latest": "2026-09-28"
+  }
+}

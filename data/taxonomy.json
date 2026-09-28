@@ -1,0 +1,852 @@
+{
+  "schema": "vocalocollege/1.0",
+  "table": "taxonomy",
+  "generated_at": "2026-09-28T00:00:00+08:00",
+  "work_types": [
+    {
+      "code": "OC",
+      "name_en": "Original Content",
+      "name_zh": "原创作品",
+      "color": "#6ca",
+      "description": "拥有独立词、曲、编、调体系的完整虚拟歌手原创曲或全原创作品产出。（全原创的其他作品，比如全原创语调教算入其中）"
+    },
+    {
+      "code": "RT",
+      "name_en": "Re-Tuning",
+      "name_zh": "翻调作品",
+      "color": "#8190dc",
+      "description": "使用术力口声库对既有曲目进行重新调教、填词或编曲。"
+    },
+    {
+      "code": "VC",
+      "name_en": "Vocal Cover",
+      "name_zh": "人声翻唱",
+      "color": "#32c8ff",
+      "description": "由高校个人歌手或社团进行的真人人声演绎。（带主唱的乐队演出算入其中）"
+    },
+    {
+      "code": "IC",
+      "name_en": "Instrumental Cover",
+      "name_zh": "乐器翻奏",
+      "color": "#e0a458",
+      "description": "涵盖乐队演奏、民乐适配及各类器乐改编。（不带主唱的乐队演出和仅乐器演出算入其中）"
+    },
+    {
+      "code": "DW",
+      "name_en": "Derivative Works",
+      "name_zh": "衍生创作",
+      "color": "#b06ca0",
+      "description": "包括宅舞（Dance）、MMD、打艺（Wota Gei）及视觉重制等。"
+    }
+  ],
+  "composite_pattern": {
+    "format": "[XX] 或 [XX/YYYY]",
+    "example": "[VC/PJSK]",
+    "observed": [
+      "[OC]",
+      "[RT]",
+      "[VC]",
+      "[IC]",
+      "[VC][IC]",
+      "[VC/RT]",
+      "[OC/PJSK]",
+      "[RT/PJSK]"
+    ],
+    "projects": [
+      {
+        "code": "PJSK",
+        "name": "世界计划 Project Sekai",
+        "enabled": true,
+        "note": "README 说明：当前仅考虑世界计划企划作为其他企划。cover_*_type3_pjsk 目录为其分类实现"
+      }
+    ],
+    "storage": {
+      "primary": "works[].type",
+      "secondary": "works[].type_secondary[]",
+      "project": "works[].project"
+    }
+  },
+  "tiers": [
+    {
+      "code": "featured",
+      "name_zh": "正片展示",
+      "note": "在页面上有独立条目与序号"
+    },
+    {
+      "code": "flash",
+      "name_zh": "快闪",
+      "confirmation": "confirmed_skip",
+      "note": "栏目方确认：封面上网站层面确实不展示，type3 可直接略过。type1/type2 需保留（对应透明序号背景，而非水蓝色）。"
+    },
+    {
+      "code": "sp",
+      "name_zh": "最推荐 SP Case",
+      "note": "每期至多一个；README 规定其类型必须为 [OC] 或 [RT]"
+    },
+    {
+      "code": "extra",
+      "name_zh": "论外 / 跨期补录",
+      "note": "2025-vol1『论外虚拟歌手作品』段（A1-A3），发布时间不在本期收录窗口内"
+    }
+  ],
+  "chart_grades": [
+    {
+      "code": "rainbow",
+      "css_class": "grade-rainbow",
+      "name_zh": "全站级",
+      "examples": [
+        "全站排行榜 20th"
+      ]
+    },
+    {
+      "code": "gold",
+      "css_class": "grade-gold",
+      "name_zh": "金",
+      "examples": [
+        "周刊虚拟歌手中文曲排行榜♪318 18th",
+        "周刊虚拟歌手中文曲排行榜♪659 28th"
+      ]
+    },
+    {
+      "code": "sliver",
+      "css_class": "grade-sliver",
+      "name_zh": "银",
+      "examples": [
+        "周刊虚拟歌手中文曲排行榜♪604 68th（pick up）",
+        "周刊VOCALOID中文新曲榜♪659 6th"
+      ],
+      "note": "原 CSS 类名为 grade-sliver（silver 的拼写错误）。此处保留原拼写，避免迁移时静默丢数据"
+    },
+    {
+      "code": "copper",
+      "css_class": "grade-copper",
+      "name_zh": "铜",
+      "examples": [
+        "周刊VOCALOID中文新曲榜♪625 11th",
+        "周刊VOCALOID中文新曲榜♪681 16th"
+      ]
+    }
+  ],
+  "chart_names_observed": [
+    "周刊虚拟歌手中文曲排行榜",
+    "周刊VOCALOID中文新曲榜",
+    "全站排行榜"
+  ],
+  "status_codes": [
+    {
+      "code": "ok",
+      "name_zh": "已确认",
+      "counts_in_stats": true
+    },
+    {
+      "code": "pending",
+      "name_zh": "待填写",
+      "counts_in_stats": false,
+      "used_for": [
+        "works[].type（2024 / 2025-vol1 全部 32 条）",
+        "editions[].sp_work_id（2026-vol2）",
+        "schools[].province/city",
+        "works[].vocal_ids（2026-vol2 V5）"
+      ]
+    },
+    {
+      "code": "inferred",
+      "name_zh": "已推断待核对",
+      "counts_in_stats": false,
+      "used_for": [
+        "engine_ids（『猜测』前缀）",
+        "school_id（前缀剥离匹配）",
+        "club_id（省略号截断）",
+        "project（PJSK 推断）"
+      ]
+    },
+    {
+      "code": "parsed",
+      "name_zh": "已解析",
+      "counts_in_stats": true
+    },
+    {
+      "code": "parsed_partial",
+      "name_zh": "部分解析",
+      "counts_in_stats": true,
+      "used_for": [
+        "staff（Vocal 多值无法与 engine 一一对应）",
+        "club_ids（STAFF 鸣谢中提及但关联字段未列）"
+      ]
+    },
+    {
+      "code": "raw_only",
+      "name_zh": "仅有原文",
+      "counts_in_stats": false,
+      "used_for": [
+        "staff（img[title] 为留言/感想，无 STAFF 结构）"
+      ],
+      "counts_in_stats_note": null
+    },
+    {
+      "code": "unresolved",
+      "name_zh": "未匹配",
+      "counts_in_stats": false,
+      "used_for": [
+        "club_id（页面写个人账号名或 CSV 无此社团）"
+      ]
+    },
+    {
+      "code": "absent",
+      "name_zh": "原作无此项",
+      "counts_in_stats": true,
+      "used_for": [
+        "staff（原文为 /）",
+        "published_at（2026-vol2 SP 缺此字段）",
+        "chart_peak（原文为 /）"
+      ]
+    },
+    {
+      "code": "not_applicable",
+      "name_zh": "不适用",
+      "counts_in_stats": true,
+      "used_for": [
+        "vocal_ids / engine_ids（VC、IC 类作品本就无虚拟歌手）"
+      ]
+    },
+    {
+      "code": "no_map",
+      "name_zh": "地图功能不实现",
+      "counts_in_stats": false,
+      "used_for": [
+        "schools[].province / city"
+      ],
+      "note": "栏目方决定直接略掉高校地图功能，故省市字段不填写且不视为缺失"
+    }
+  ],
+  "club_kinds": [
+    {
+      "code": "anime",
+      "name_zh": "动漫社 / 动漫协会"
+    },
+    {
+      "code": "vocalo",
+      "name_zh": "歌声合成专门社团"
+    },
+    {
+      "code": "music",
+      "name_zh": "音乐社 / 乐队 / 轻音部"
+    },
+    {
+      "code": "acg_union",
+      "name_zh": "ACG 联合企划（跨校）"
+    },
+    {
+      "code": "individual",
+      "name_zh": "个人账号"
+    },
+    {
+      "code": "unknown",
+      "name_zh": "待定"
+    }
+  ],
+  "cross_school_kinds": [
+    {
+      "code": "single_club",
+      "name_zh": "单社团"
+    },
+    {
+      "code": "same_university_multi_club",
+      "name_zh": "同校多社团（不同社团）"
+    },
+    {
+      "code": "same_university_multi_campus",
+      "name_zh": "同校多校区",
+      "example": "2026-vol2 V5《未完结的盛夏》：世伊漫协 + 青柠现视研 + JUMP动漫协会，均属山东大学，原文自述『一校三地』",
+      "note": "由栏目方确认：山东大学的三个校区社团，不构成跨校合作"
+    },
+    {
+      "code": "cross_school",
+      "name_zh": "跨校",
+      "example": "2025-vol1 V1《玉京北斗》：天津大学 + 南开大学 + 西安交通大学"
+    },
+    {
+      "code": "cross_region",
+      "name_zh": "跨地区联合企划",
+      "example": "东北ACG音乐联合企划、西安高校Vocaloid联合创作会"
+    },
+    {
+      "code": "unknown",
+      "name_zh": "待定"
+    }
+  ],
+  "split_delimiters": [
+    "，",
+    ",",
+    "、",
+    "/",
+    "；",
+    ";",
+    "&",
+    "＆"
+  ],
+  "null_tokens": [
+    "/",
+    "-",
+    "—",
+    "",
+    "无",
+    "暂无",
+    "N/A",
+    "（空）"
+  ],
+  "uncertainty_prefixes": [
+    "猜测",
+    "疑似",
+    "可能",
+    "未定"
+  ],
+  "placeholder_tokens": [
+    {
+      "raw": "@@@",
+      "context": "2026-vol2 V6 STAFF",
+      "action": "保留原文，标记人工补充"
+    },
+    {
+      "raw": "[DATAERROR_DELETED]",
+      "context": "2026-vol1 V3 作词",
+      "action": "保留原文，标记人工补充"
+    },
+    {
+      "raw": "我",
+      "context": "2026-vol2 V3 编曲；2026-vol2 H4 舞",
+      "action": "自指代词，非有效人名，保留原文"
+    },
+    {
+      "raw": "苯人",
+      "context": "2026-vol1 V10/V11/V12/V13 翻调",
+      "action": "网络自称，保留原文"
+    }
+  ],
+  "staff_role_aliases": {
+    "词": [
+      "作词",
+      "Lyrics",
+      "填词",
+      "中文填词"
+    ],
+    "曲": [
+      "作曲",
+      "Music",
+      "曲"
+    ],
+    "编": [
+      "编曲",
+      "Arrange",
+      "Arrangement"
+    ],
+    "调": [
+      "调教",
+      "调校",
+      "Vocal Edit",
+      "调声"
+    ],
+    "混": [
+      "混音",
+      "Mix",
+      "母带",
+      "混音/母带"
+    ],
+    "绘": [
+      "曲绘",
+      "Illustration",
+      "画师"
+    ],
+    "影": [
+      "PV",
+      "视频",
+      "视频制作",
+      "Movie",
+      "后期",
+      "剪辑"
+    ],
+    "演": [
+      "演唱",
+      "Vo.",
+      "Vocal",
+      "唱见",
+      "主唱",
+      "歌手",
+      "演唱者"
+    ],
+    "奏": [
+      "Gt.",
+      "Ba.",
+      "Kb.",
+      "Dr.",
+      "吉他",
+      "贝斯",
+      "键盘",
+      "鼓",
+      "架子鼓",
+      "钢琴",
+      "古筝",
+      "二胡",
+      "扬琴",
+      "琵琶",
+      "小提琴",
+      "口风琴",
+      "合成器"
+    ],
+    "策": [
+      "策划",
+      "监制",
+      "Plan",
+      "主策划",
+      "出品"
+    ]
+  },
+  "engine_uncertainty_handling": {
+    "rule": "engine_names_raw 原文中的『猜测』前缀必须保留；解析出的 engine_ids 结果统一标 status.engine_ids = 'inferred'（而非 'ok'）",
+    "observed": [
+      "猜测ACE Studio",
+      "猜测X Studio"
+    ],
+    "appears_in": [
+      {
+        "edition": "2025-vol1",
+        "seq": "V5",
+        "raw": "猜测X Studio"
+      },
+      {
+        "edition": "2026-vol1",
+        "seq": "V2",
+        "raw": "猜测ACE Studio"
+      },
+      {
+        "edition": "2026-vol1",
+        "seq": "V3",
+        "raw": "猜测X Studio"
+      },
+      {
+        "edition": "2026-vol1",
+        "seq": "V12",
+        "raw": "猜测ACE Studio"
+      }
+    ]
+  },
+  "known_pitfalls": [
+    {
+      "key": "edition_dir_mismatch",
+      "desc": "素材源目录名与站点目录名不同",
+      "map": {
+        "2026/": "2025-vol2",
+        "2026-1/": "2026-vol1",
+        "2026-2/": "2026-vol2",
+        "2025/": "2025-vol1",
+        "2024/": "2024"
+      },
+      "storage": "editions[].ext.source_folder"
+    },
+    {
+      "key": "club_label_changed",
+      "desc": "『关联动漫社：』（2024、2025 Vol.1）→『关联社团：』（2025 Vol.2 起）",
+      "storage": "works[].ext.legacy_club_label"
+    },
+    {
+      "key": "cover_path_inconsistent",
+      "desc": "2026-vol1 同期内部就有两种封面路径（cover_display / cover_2026-1_type2）",
+      "storage": "works[].media.cover_legacy"
+    },
+    {
+      "key": "type_attr_vs_section",
+      "desc": "2024/2025 Vol.1 的分类藏在 img[title] 的『属性：』行；2025 Vol.2 起由段落标题给出。两套体系不等价",
+      "storage": "works[].type_source 与 works[].ext.legacy_attribute_line"
+    },
+    {
+      "key": "flash_works_missing",
+      "desc": "cover_*_type3 与 cover_*_type3_pjsk 中的封面在页面上无条目",
+      "count_dirs": [
+        "cover_202510_type3 (41)",
+        "cover_202510_type3_pjsk (14)",
+        "cover_2026-1_type3 (12+)",
+        "cover_2026-1_type3_pjsk (12+)",
+        "cover_2026-2_type3 (12+)",
+        "cover_2026-2_type3_pjsk (12+)"
+      ],
+      "status": "pending_user"
+    },
+    {
+      "key": "comment_only_info",
+      "desc": "HTML 注释中含页面上没有的信息（凌云漠 BV1XjBjBFE79 / UID 16620133；V8《术力口》省略说明）",
+      "storage": "editions/2026-vol2.json → not_recorded_from_comments"
+    },
+    {
+      "key": "bv_case_sensitive",
+      "desc": "BV 号区分大小写。id 生成时统一转小写，但 bilibili.bvid 必须原样保留",
+      "examples": [
+        "BV1XNjuzfE3F",
+        "BV1WGDLYmExD",
+        "BV1hjlwz5EsQ",
+        "BV1WFXCBoEC8"
+      ]
+    },
+    {
+      "key": "multi_work_video",
+      "desc": "单个稿件含两首以上曲目，是否拆分条目待定",
+      "examples": [
+        "2026-vol2 V10《勾指起誓》x《恋爱裁判》x《依存症》（三曲串烧）",
+        "2026-vol2 H12《日常与地球的画框》《Unknown Mother-Goose》",
+        "2025-vol2 H6《鹅妈妈童谣&鸟之诗》",
+        "2026-vol2 H16《千年食谱颂&冠世一战》"
+      ]
+    },
+    {
+      "key": "individual_uploader_as_club",
+      "desc": "『关联社团』字段中混入个人 UP 主账号名",
+      "examples": [
+        "Starlight点点",
+        "某科学的国科子",
+        "MyYoru夜迷乐队",
+        "新空动漫社空空娘"
+      ],
+      "storage": "works[].uploader_id 与 clubs[].uploaders"
+    },
+    {
+      "key": "school_multi_record",
+      "desc": "CSV 中同一高校有多条社团记录（北京理工大学 4 条、吉林大学 4 条、中国科学技术大学 2 条等）",
+      "storage": "schools[].ext.csv_seqs[]"
+    },
+    {
+      "key": "csv_header_duplicate",
+      "desc": "院校社团信息.csv 表头最后两个字段名重复（B站术力口社团UID / 名称），解析时必须按位置取值而非列名",
+      "storage": "解析器配置"
+    },
+    {
+      "key": "2024_no_volume",
+      "desc": "2024 期无 Vol 号，id 即为 '2024'，volume 为 null",
+      "storage": "editions[2024].volume"
+    },
+    {
+      "key": "seq_gap",
+      "desc": "2026-vol1 序号从 V7 跳到 V9，无 V8",
+      "reason": "V8 为 2025-vol1 的《术力口》（某次元动漫社），信息缺失未展示"
+    }
+  ],
+  "user_decisions_2026": {
+    "decided_at": "2026-09-28",
+    "source": "Phase0待补充清单.md",
+    "type_mapping_rules": [
+      {
+        "rule": "虚拟歌手翻唱的 → RT",
+        "applies_to": [
+          "属性：翻唱曲",
+          "属性：翻唱曲（中文填词）",
+          "属性：翻唱曲（中文重填词）"
+        ]
+      },
+      {
+        "rule": "真人的 → VC",
+        "applies_to": [
+          "属性：人声翻唱"
+        ]
+      },
+      {
+        "rule": "乐队：有主唱的算 VC，没有主唱的算 IC",
+        "applies_to": [
+          "属性：乐队翻唱翻奏"
+        ]
+      },
+      {
+        "rule": "原创曲（含\"重制\"）→ OC",
+        "applies_to": [
+          "属性：原创曲",
+          "属性：原创曲（原创曲重制）"
+        ]
+      }
+    ],
+    "other": [
+      {
+        "item": "sp_work_id for 2026-vol2",
+        "decision": "确认为《Sayuu, See You》"
+      },
+      {
+        "item": "高校地图",
+        "decision": "直接略掉。province/city 使用 status \"no_map\""
+      },
+      {
+        "item": "type3 快闪封面",
+        "decision": "网站上直接略过 type3；type1/type2 保留（对应透明序号背景，而非水蓝色）"
+      },
+      {
+        "item": "多曲目稿件",
+        "decision": "保持合并（很多作品是多曲目）"
+      },
+      {
+        "item": "注释中的未收录作品",
+        "decision": "《凌云漠》与《术力口》均补录并提供备注"
+      },
+      {
+        "item": "社团名未匹配项",
+        "decision": "确认通过"
+      },
+      {
+        "item": "CSV 其余高校社团",
+        "decision": "全部导入"
+      },
+      {
+        "item": "2024 期视频已删除",
+        "decision": "暂定无备份链接"
+      },
+      {
+        "item": "2024 两个孤儿音频",
+        "decision": "这两个是直接被筛掉的（非漏录）"
+      },
+      {
+        "item": "音街鳗 = 音街ウナ",
+        "decision": "是同一角色"
+      },
+      {
+        "item": "CeVIO / UTAU",
+        "decision": "保留预留位"
+      },
+      {
+        "item": "club-ustc-vocalo 的\"未定\"",
+        "decision": "是（确有术力口社团）"
+      },
+      {
+        "item": "2026-vol1 H7 Blessing 双分类",
+        "decision": "正确"
+      },
+      {
+        "item": "2025-vol2 SP《致你》为 RT",
+        "decision": "算，这是一个 RT 作品被选择成为 SP 的实例"
+      },
+      {
+        "item": "2026-vol1 V9 序号跳 V8",
+        "decision": "V8《术力口》信息过多缺失在此省略（视频内未省略）"
+      },
+      {
+        "item": "X118",
+        "decision": "原视频标题内容，直接忽略"
+      },
+      {
+        "item": "2026-vol1 V2 三校",
+        "decision": "沸点（复旦大学）、D-Touch（天津大学）、南风（南开大学）"
+      },
+      {
+        "item": "占位符 [DATAERROR_DELETED] / @@@ / 我",
+        "decision": "保留（@@@ 为作者真实名称）"
+      },
+      {
+        "item": "2026-vol2 V5 Vocal 缺失",
+        "decision": "写成未知歌手"
+      },
+      {
+        "item": "《术力口》与《凌云漠》的处置",
+        "decision": "不作为作品条目，改为 2026 Vol.1 的期备注（edition.notes）"
+      }
+    ]
+  },
+  "cover_dirs_semantics": {
+    "type0": {
+      "usage": "片头 / 非作品素材",
+      "website": "skip"
+    },
+    "type1": {
+      "usage": "正片展示作品（OC/RT 主段）",
+      "website": "keep",
+      "note": "透明序号背景"
+    },
+    "type2": {
+      "usage": "正片展示作品（VC/IC 段 + SP）",
+      "website": "keep",
+      "note": "透明序号背景"
+    },
+    "type3": {
+      "usage": "快闪段",
+      "website": "skip",
+      "note": "栏目方确认网站上直接略过"
+    },
+    "type3_pjsk": {
+      "usage": "快闪段中的世界计划相关",
+      "website": "skip"
+    },
+    "cover_display": {
+      "usage": "网站展示用封面",
+      "website": "keep"
+    },
+    "confirmed_by": "user"
+  },
+  "edition_note_kinds": [
+    {
+      "code": "omitted_work",
+      "name_zh": "省略的作品",
+      "note": "视频中有、页面上省略、数据中不建条目"
+    },
+    {
+      "code": "uncollected_work",
+      "name_zh": "未收录的作品",
+      "note": "被提及但不走常规收录路径，不建条目"
+    },
+    {
+      "code": "comment",
+      "name_zh": "页面注释",
+      "note": "HTML 注释中的说明性文字"
+    },
+    {
+      "code": "page_note",
+      "name_zh": "页面说明",
+      "note": "可见于页面的说明文字"
+    },
+    {
+      "code": "asset_note",
+      "name_zh": "素材说明",
+      "note": "关于封面/音频等素材的说明"
+    }
+  ],
+  "edition_note_schema": {
+    "note": "期备注（edition.notes[]）用于记录不建条目的信息",
+    "fields": {
+      "id": "string，必填，格式 note-{edition_id}-{序号} 或语义化 id",
+      "kind": "enum，见 edition_note_kinds",
+      "title": "string | null，备注标题（省略/未收录的作品必有）",
+      "text": "string | null，说明性正文",
+      "seq_label": "string | null，涉及的序号（如 V8）",
+      "decided_by": "string，encoder | user",
+      "_src": "object，来源文件与行号"
+    },
+    "kinds": [
+      {
+        "code": "omitted_work",
+        "name_zh": "省略的作品",
+        "note": "视频中有、页面上省略、数据中不建条目"
+      },
+      {
+        "code": "uncollected_work",
+        "name_zh": "未收录的作品",
+        "note": "被提及但不走常规收录路径，不建条目"
+      },
+      {
+        "code": "comment",
+        "name_zh": "页面注释",
+        "note": "HTML 注释中的说明性文字"
+      },
+      {
+        "code": "page_note",
+        "name_zh": "页面说明",
+        "note": "可见于页面的说明文字"
+      },
+      {
+        "code": "asset_note",
+        "name_zh": "素材说明",
+        "note": "关于封面/音频等素材的说明"
+      }
+    ]
+  },
+  "staff_role_normalization": {
+    "note": "依据栏目方 data_schema.md 归并 STAFF role。细粒度原文保留在 works[].ext.staff_detail 与 staff_raw",
+    "coarse_roles": [
+      {
+        "code": "music",
+        "name_zh": "音乐",
+        "from": [
+          "作词",
+          "作曲",
+          "编曲",
+          "调教",
+          "调校",
+          "调声",
+          "混音",
+          "母带",
+          "和声编写",
+          "编曲指导",
+          "midi",
+          "音乐制作"
+        ]
+      },
+      {
+        "code": "visual",
+        "name_zh": "视觉",
+        "from": [
+          "曲绘",
+          "PV",
+          "视频制作",
+          "剪辑",
+          "后期",
+          "画师",
+          "原画",
+          "分镜",
+          "字幕",
+          "封面",
+          "题字",
+          "摄影"
+        ]
+      },
+      {
+        "code": "策划",
+        "name_zh": "策划",
+        "from": [
+          "策划",
+          "监制",
+          "出品",
+          "主策划"
+        ]
+      },
+      {
+        "code": "performance",
+        "name_zh": "演绎",
+        "from": [
+          "演唱",
+          "唱见",
+          "主唱",
+          "歌手",
+          "出演",
+          "乐队",
+          "各器乐",
+          "录音",
+          "修音",
+          "翻调"
+        ]
+      },
+      {
+        "code": "other",
+        "name_zh": "其他",
+        "from": [
+          "一般路过",
+          "协力",
+          "鸣谢",
+          "混",
+          "影 等无法归类者"
+        ]
+      }
+    ],
+    "role_labels": {
+      "music": "音乐",
+      "visual": "视觉",
+      "策划": "策划",
+      "performance": "演绎",
+      "other": "其他"
+    }
+  },
+  "school_club_ambiguity": {
+    "note": "同一院校下存在多个相关社团时，差异可能来自【院系不同】或【校区不同】。栏目方说明：并非个例，部分院校底下确实有不止一个相关社团。",
+    "policy": "不强行归并，也不强行推断层级；在 schools[].ambiguity 中记录未定状态，实体各自保持独立。",
+    "distinction_values": [
+      {
+        "code": "department",
+        "name_zh": "院系不同"
+      },
+      {
+        "code": "campus",
+        "name_zh": "校区不同"
+      },
+      {
+        "code": "unknown",
+        "name_zh": "院系或校区未定"
+      }
+    ],
+    "affected_schools": [
+      "school-ucas",
+      "school-ustc",
+      "school-jlu",
+      "school-sdu",
+      "school-xjtu"
+    ]
+  }
+}

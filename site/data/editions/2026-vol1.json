@@ -1,0 +1,3880 @@
+{
+  "schema": "vocalocollege/1.0",
+  "generation": "gen4",
+  "source_file": "2026-vol1/index.html",
+  "edition": {
+    "id": "2026-vol1",
+    "label": "2026 高校术力口之声 Vol.1",
+    "label_short": "2026 Vol.1",
+    "year": 2026,
+    "volume": 1,
+    "volume_label": "Vol.1",
+    "seq": 4,
+    "dir": "2026-vol1",
+    "legacy_dirs": [
+      "2026-vol1"
+    ],
+    "aliases": [],
+    "source_folder": "2026-1",
+    "collect_window": {
+      "start": "2025-10-01T00:00:00+08:00",
+      "end": "2026-03-01T00:00:00+08:00",
+      "raw": "2025-10-01 00:00:00 至 2026-03-01 00:00:00",
+      "kind": "range"
+    },
+    "video": {
+      "bvid": "BV14PPgzNEdW",
+      "url": "https://www.bilibili.com/video/BV14PPgzNEdW",
+      "status": "available",
+      "note": null
+    },
+    "cover": {
+      "path": null,
+      "path_legacy": "./cover.jpg"
+    },
+    "sp_work_id": "work-2026-vol1-bv1s5fgbfezy",
+    "sections": [
+      {
+        "title": "原创作品 [OC]",
+        "types_declared": [
+          "OC"
+        ],
+        "table_id": "oc",
+        "work_count": 8,
+        "collected_count": 7,
+        "omitted_count": 1,
+        "omitted_note": "V8《术力口》在原页面属原创段落，已被省略。work_count=8 为页面原有序号数，collected_count=7 为实际收录条目数"
+      },
+      {
+        "title": "翻调作品 [RT]",
+        "types_declared": [
+          "RT"
+        ],
+        "table_id": "oc",
+        "work_count": 5
+      },
+      {
+        "title": "翻唱翻奏作品 [VC][IC]",
+        "types_declared": [
+          "VC",
+          "IC"
+        ],
+        "table_id": "oc",
+        "work_count": 10
+      },
+      {
+        "title": "SPECIAL PICK",
+        "types_declared": [],
+        "table_id": "oc",
+        "work_count": 1
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-2026-vol1-01",
+        "kind": "page_note",
+        "title": null,
+        "text": "H7 序号为『H7 [VC/RT]』，为本栏目首次出现的双分类标记，已记入 type=VC、type_secondary=[RT]。",
+        "decided_by": "encoder",
+        "_src": {
+          "file": "2026-vol1/index.html"
+        }
+      },
+      {
+        "id": "note-2026-vol1-02",
+        "kind": "page_note",
+        "title": null,
+        "text": "本期封面路径不统一：H4-H10 引用 ./cover_2026-1_type2/，其余引用 ./cover_display/。",
+        "decided_by": "encoder",
+        "_src": {
+          "file": "2026-vol1/index.html"
+        }
+      },
+      {
+        "id": "note-2026-vol1-03",
+        "kind": "page_note",
+        "title": null,
+        "text": "V2/V3/V12 的歌手引擎原文带『猜测』前缀，engine_ids 已解析但 status 标 inferred。",
+        "decided_by": "encoder",
+        "_src": {
+          "file": "2026-vol1/index.html"
+        }
+      },
+      {
+        "id": "note-2026-vol1-04",
+        "kind": "page_note",
+        "title": null,
+        "text": "V7《如果世界在明天会毁灭》与 2026-vol2 V7《社恐Disco》同属中术大学、同一作者 ILLISH，但为不同作品。",
+        "decided_by": "encoder",
+        "_src": {
+          "file": "2026-vol1/index.html"
+        }
+      },
+      {
+        "id": "note-2026-vol1-05",
+        "kind": "page_note",
+        "title": null,
+        "text": "V10-V13 关联社团原文均为『南风动漫社...』，尾部省略号表示存在未列出的其他社团。",
+        "decided_by": "encoder",
+        "_src": {
+          "file": "2026-vol1/index.html"
+        }
+      },
+      {
+        "id": "note-2026-vol1-v8-shulikou",
+        "kind": "omitted_work",
+        "seq_label": "V8",
+        "title": "《术力口》",
+        "club": "某次元动漫社",
+        "school": "湖南工业职业技术学院",
+        "club_id": "club-hunan-voc",
+        "school_id": "school-csv-288",
+        "appears_in_video": true,
+        "appears_on_page": false,
+        "note": "信息过多缺失，在此省略（视频内未省略）。",
+        "reason": "该作品在原视频中出现，但页面与数据中信息过多缺失，栏目方决定不作为作品条目收录。",
+        "provenance": "原注释写于 2026-vol2/index.html:450，描述的是 2026 Vol.1 期的 V8（该期序号从 V7 跳到 V9，缺口即此作品）。",
+        "seq_effect": "因本条省略，2026 Vol.1 的页面序号自 V7 直接跳至 V9。",
+        "omitted_fields": [
+          "BV号",
+          "发布时间",
+          "STAFF",
+          "Vocal",
+          "歌手引擎",
+          "封面",
+          "音频",
+          "作品分类"
+        ],
+        "decided_by": "user",
+        "decided_at": "2026-09-28",
+        "_src": {
+          "file": "2026-vol2/index.html",
+          "line": 450,
+          "source": "html_comment"
+        }
+      },
+      {
+        "id": "note-2026-vol1-lingyunmo",
+        "kind": "uncollected_work",
+        "seq_label": null,
+        "title": "【星尘infinity原创】凌云漠【忘川风华录同人·霍去病】“少年从军行 精忠许国灭天狼”",
+        "title_short": "凌云漠",
+        "club": null,
+        "school": null,
+        "bvid": "BV1XjBjBFE79",
+        "url": "https://www.bilibili.com/video/BV1XjBjBFE79",
+        "uploader": "萧煜明",
+        "uploader_uid": "16620133",
+        "vocal_names_raw": [
+          "星尘Infinity"
+        ],
+        "appears_in_video": false,
+        "appears_on_page": false,
+        "note": "南风/沸点/D-Touch 三社联合拜年祭的星尘Infinity原创曲，发布于账号「萧煜明」（UID: 16620133）。",
+        "reason": "未作为作品条目收录。该作品不属于本栏目常规收录路径（发布账号非社团官方账号）。",
+        "provenance": "原注释写于 2026-vol2/index.html:443，属 2026 Vol.1 期三社联合拜年祭的补充说明。",
+        "related_collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+        "related_club_ids": [
+          "club-nankai-nanfeng",
+          "club-fudan-feidian",
+          "club-tju-dtouch"
+        ],
+        "related_school_ids": [
+          "school-nankai",
+          "school-fudan",
+          "school-tju"
+        ],
+        "decided_by": "user",
+        "decided_at": "2026-09-28",
+        "_src": {
+          "file": "2026-vol2/index.html",
+          "line": 443,
+          "source": "html_comment"
+        }
+      }
+    ],
+    "stats": {
+      "works": 23,
+      "typed": 23,
+      "untyped": 0,
+      "sp": 1,
+      "schools": 12,
+      "clubs": 13,
+      "vocals": 13,
+      "engines": 4,
+      "cross_unit": 0,
+      "oc": 8,
+      "rt": 5,
+      "vc": 10,
+      "ic": 0
+    },
+    "status": {
+      "sp_work_id": "ok",
+      "types": "ok",
+      "stats": "encoded"
+    },
+    "_src": {
+      "file": "2026-vol1/index.html",
+      "lines": "21-1028",
+      "extractor": "html-table-v3"
+    },
+    "sections_note": "sections 的 work_count 统计当期页面原有序号数（含被省略的 V8）；works 数组不含该条，故相差 1。省略记录见 edition.notes → note-2026-vol1-v8-shulikou。"
+  },
+  "works": [
+    {
+      "id": "work-2026-vol1-bv1cshgz3e7c",
+      "title": "【永夜原创曲】夏枯蝉雨 【现充爆炸乐队】",
+      "title_short": "夏枯蝉雨",
+      "title_alt": [],
+      "description_raw": "\n                        作词：空连\n作曲：青草墨\n编曲：青草墨\n调教：空连 青草墨\n曲绘：水边儿\n视频制作：水边儿\n混音：青草墨\n",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-10-06T12:00:00+08:00",
+      "published_at_raw": "2025-10-06 12:00:00",
+      "school_ids": [
+        "school-xidian"
+      ],
+      "club_ids": [
+        "club-xidian-shining"
+      ],
+      "club_names_raw": [
+        "Shining动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-yongye"
+      ],
+      "vocal_names_raw": [
+        "永夜Minus"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "staff_raw": "作词：空连\n作曲：青草墨\n编曲：青草墨\n调教：空连 青草墨\n曲绘：水边儿\n视频制作：水边儿\n混音：青草墨",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "空连",
+            "青草墨"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "水边儿"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1csHGz3E7C",
+          "url": "https://www.bilibili.com/video/BV1csHGz3E7C"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1csHGz3E7C",
+        "url": "https://www.bilibili.com/video/BV1csHGz3E7C",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1csHGz3E7C.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1csHGz3E7C.mp3"
+      },
+      "seq": {
+        "label": "V1",
+        "number": 1,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 76,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "作词",
+            "people": [
+              "空连"
+            ]
+          },
+          {
+            "role": "作曲",
+            "people": [
+              "青草墨"
+            ]
+          },
+          {
+            "role": "编曲",
+            "people": [
+              "青草墨"
+            ]
+          },
+          {
+            "role": "调教",
+            "people": [
+              "空连",
+              "青草墨"
+            ]
+          },
+          {
+            "role": "曲绘",
+            "people": [
+              "水边儿"
+            ]
+          },
+          {
+            "role": "视频制作",
+            "people": [
+              "水边儿"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "青草墨"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "作词",
+          "作曲",
+          "编曲",
+          "调教",
+          "曲绘",
+          "视频制作",
+          "混音"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1csHGz3E7C",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1q9fjb4efn",
+      "title": "【南时薰原创】薰风来时【午时华岁~2026三校联合拜年祭单品】",
+      "title_short": "薰风来时",
+      "title_alt": [],
+      "description_raw": "出品：南风动漫社@南风动漫社  \n作曲/编曲/混音：IronQ@IronQ_四氧化三铁  \n调校：绿绿@绿_Midori  \n曲绘：星子@星子又叫星璇子  \nPV：浮铃幽幽子@浮铃幽幽子  \n策划/作词：小榭又清发@小榭又清发  \n演唱：南时薰\n《时间之外的往事》作者：白上祭@白上祭祭子  \n特别鸣谢：呵呵呵ppqq、东风、玖二、子虚",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-21T10:31:33+08:00",
+      "published_at_raw": "2026-02-21 10:31:33",
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "club_names_raw": [
+        "南风动漫社",
+        "沸点动漫社",
+        "天津大学D-Touch动漫社"
+      ],
+      "collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+      "vocal_ids": [
+        "vocal-nanshixun"
+      ],
+      "vocal_names_raw": [
+        "南时薰"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "猜测ACE Studio"
+      ],
+      "staff_raw": "出品：南风动漫社@南风动漫社\n作曲/编曲/混音：IronQ@IronQ_四氧化三铁\n调校：绿绿@绿_Midori\n曲绘：星子@星子又叫星璇子\nPV：浮铃幽幽子@浮铃幽幽子\n策划/作词：小榭又清发@小榭又清发\n演唱：南时薰\n《时间之外的往事》作者：白上祭@白上祭祭子\n特别鸣谢：呵呵呵ppqq、东风、玖二、子虚",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "IronQ",
+            "绿绿",
+            "小榭又清发"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "星子",
+            "浮铃幽幽子"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "南风动漫社",
+            "小榭又清发"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1q9fjB4EfN",
+          "url": "https://www.bilibili.com/video/BV1q9fjB4EfN"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1q9fjB4EfN",
+        "url": "https://www.bilibili.com/video/BV1q9fjB4EfN",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1q9fjB4EfN.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1q9fjB4EfN.mp3"
+      },
+      "seq": {
+        "label": "V2",
+        "number": 2,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "inferred",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent",
+        "collaboration_id": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 119,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "标题标注『三校联合拜年祭单品』，但关联社团字段仅写『南风动漫社』，其他两校未记录；是否补充协作方待人工确认",
+        "engine_uncertain": "原文『猜测ACE Studio』，带不确定性前缀，原文保留于 engine_names_raw",
+        "curator_note": "栏目方确认：标题中的「三校联合拜年祭」为 沸点（复旦大学）、D-Touch（天津大学）、南风（南开大学）三校。",
+        "tri_school": [
+          "沸点（复旦大学）",
+          "D-Touch（天津大学）",
+          "南风（南开大学）"
+        ],
+        "collab_note": "经栏目方确认：本作品（序号 V2）属南风/沸点/D-Touch 三社联合拜年祭",
+        "staff_detail": [
+          {
+            "role": "出品",
+            "people": [
+              "南风动漫社"
+            ]
+          },
+          {
+            "role": "作曲",
+            "people": [
+              "IronQ"
+            ]
+          },
+          {
+            "role": "编曲",
+            "people": [
+              "IronQ"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "IronQ"
+            ]
+          },
+          {
+            "role": "调校",
+            "people": [
+              "绿绿"
+            ]
+          },
+          {
+            "role": "曲绘",
+            "people": [
+              "星子"
+            ]
+          },
+          {
+            "role": "PV",
+            "people": [
+              "浮铃幽幽子"
+            ]
+          },
+          {
+            "role": "策划",
+            "people": [
+              "小榭又清发"
+            ]
+          },
+          {
+            "role": "作词",
+            "people": [
+              "小榭又清发"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "出品",
+          "作曲",
+          "编曲",
+          "混音",
+          "调校",
+          "曲绘",
+          "PV",
+          "策划",
+          "作词"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1q9fjB4EfN",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1k3ztbgemc",
+      "title": "【洛天依原创】佐梦星澜 “具象一场 星和月闪耀的梦想”【佐佑2026拜年纪单品】",
+      "title_short": "佐梦星澜",
+      "title_alt": [],
+      "description_raw": "策划：@冰河寒风    @尤歈    \n策划/作曲/编曲：@蓝蓝蓝蓝蓝屿    \n作词：[DATAERROR_DELETED]    \n混音/视频：@sentiment_悠远P    \n调教：@天成纵贯线    \n曲绘：@Hi_Cora    @硝酸曦同学    \n协力：@奥德赛Outside    \n和声：@蕾米莉亚亚亚亚    @Hi_Cora    @LaAkue    @流莹liya    @外派罗德岛的锦依卫    @蓝蓝蓝蓝蓝屿     @凌洛尘OAO    @--小禾--    @小螃蟹Pang_xie    @youci_    @梓歆251",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-21T12:00:00+08:00",
+      "published_at_raw": "2026-02-21 12:00:00",
+      "school_ids": [
+        "school-bjtu"
+      ],
+      "club_ids": [
+        "club-bjtu-zuoyou"
+      ],
+      "club_names_raw": [
+        "佐佑动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-luotianyi"
+      ],
+      "vocal_names_raw": [
+        "洛天依"
+      ],
+      "engine_ids": [
+        "engine-xs"
+      ],
+      "engine_names_raw": [
+        "猜测X Studio"
+      ],
+      "staff_raw": "策划：@冰河寒风 @尤歈\n策划/作曲/编曲：@蓝蓝蓝蓝蓝屿\n作词：[DATAERROR_DELETED]\n混音/视频：@sentiment_悠远P\n调教：@天成纵贯线\n曲绘：@Hi_Cora @硝酸曦同学\n协力：@奥德赛Outside\n和声：@蕾米莉亚亚亚亚 @Hi_Cora @LaAkue @流莹liya @外派罗德岛的锦依卫 @蓝蓝蓝蓝蓝屿 @凌洛尘OAO @--小禾-- @小螃蟹Pang_xie @youci_ @梓歆251",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "蓝蓝蓝蓝蓝屿",
+            "[DATAERROR_DELETED]",
+            "sentiment_悠远P",
+            "天成纵贯线",
+            "蕾米莉亚亚亚亚",
+            "Hi_Cora",
+            "LaAkue",
+            "流莹liya",
+            "外派罗德岛的锦依卫",
+            "凌洛尘OAO",
+            "--小禾--",
+            "小螃蟹Pang_xie",
+            "youci_",
+            "梓歆251"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "sentiment_悠远P",
+            "Hi_Cora",
+            "硝酸曦同学"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "冰河寒风",
+            "尤歈",
+            "蓝蓝蓝蓝蓝屿"
+          ]
+        },
+        {
+          "role": "other",
+          "people": [
+            "奥德赛Outside"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1K3ZTBGEmc",
+          "url": "https://www.bilibili.com/video/BV1K3ZTBGEmc"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1K3ZTBGEmc",
+        "url": "https://www.bilibili.com/video/BV1K3ZTBGEmc",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1K3ZTBGEmc.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1K3ZTBGEmc.mp3"
+      },
+      "seq": {
+        "label": "V3",
+        "number": 3,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "inferred",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 163,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "作词原文为占位符 [DATAERROR_DELETED]，非人名，请人工补充",
+        "engine_uncertain": "原文『猜测X Studio』",
+        "placeholder_note": "栏目方确认：原文占位符保留，不改动。",
+        "staff_detail": [
+          {
+            "role": "策划",
+            "people": [
+              "冰河寒风",
+              "尤歈",
+              "蓝蓝蓝蓝蓝屿"
+            ]
+          },
+          {
+            "role": "作曲",
+            "people": [
+              "蓝蓝蓝蓝蓝屿"
+            ]
+          },
+          {
+            "role": "编曲",
+            "people": [
+              "蓝蓝蓝蓝蓝屿"
+            ]
+          },
+          {
+            "role": "作词",
+            "people": [
+              "[DATAERROR_DELETED]"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "sentiment_悠远P"
+            ]
+          },
+          {
+            "role": "视频",
+            "people": [
+              "sentiment_悠远P"
+            ]
+          },
+          {
+            "role": "调教",
+            "people": [
+              "天成纵贯线"
+            ]
+          },
+          {
+            "role": "曲绘",
+            "people": [
+              "Hi_Cora",
+              "硝酸曦同学"
+            ]
+          },
+          {
+            "role": "协力",
+            "people": [
+              "奥德赛Outside"
+            ]
+          },
+          {
+            "role": "和声",
+            "people": [
+              "蕾米莉亚亚亚亚",
+              "Hi_Cora",
+              "LaAkue",
+              "流莹liya",
+              "外派罗德岛的锦依卫",
+              "蓝蓝蓝蓝蓝屿",
+              "凌洛尘OAO",
+              "--小禾--",
+              "小螃蟹Pang_xie",
+              "youci_",
+              "梓歆251"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "策划",
+          "作曲",
+          "编曲",
+          "作词",
+          "混音",
+          "视频",
+          "调教",
+          "曲绘",
+          "协力",
+          "和声"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1K3ZTBGEmc",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1hycgzeefh",
+      "title": "【洛天依/乐正绫原创】岁暮歌【西安高校Vocaloid联合创作会】",
+      "title_short": "岁暮歌",
+      "title_alt": [],
+      "description_raw": "曲/混：StranieroKyokune\n词：白琳\n调：HCl口服液\n绘/影：MeRC4urY0",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-16T22:00:00+08:00",
+      "published_at_raw": "2026-02-16 22:00:00",
+      "school_ids": [
+        "school-xidian"
+      ],
+      "club_ids": [
+        "club-xidian-vocalo"
+      ],
+      "club_names_raw": [
+        "西安高校vocaloid创作社"
+      ],
+      "collaboration_id": "collab-2026-vol1-xian-vocalo",
+      "vocal_ids": [
+        "vocal-luotianyi",
+        "vocal-yuezhengling"
+      ],
+      "vocal_names_raw": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "engine_ids": [
+        "engine-vocaloid"
+      ],
+      "engine_names_raw": [
+        "VOCALOID"
+      ],
+      "staff_raw": "曲/混：StranieroKyokune\n词：白琳\n调：HCl口服液\n绘/影：MeRC4urY0",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "StranieroKyokune",
+            "白琳",
+            "HCl口服液"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "MeRC4urY0"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "周刊VOCALOID中文新曲榜♪707 34th",
+      "chart_grade": "copper",
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1hYcgzeEFH",
+          "url": "https://www.bilibili.com/video/BV1hYcgzeEFH"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1hYcgzeEFH",
+        "url": "https://www.bilibili.com/video/BV1hYcgzeEFH",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1hYcgzeEFH.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1hYcgzeEFH.mp3"
+      },
+      "seq": {
+        "label": "V4",
+        "number": 4,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "collaboration_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "raw_only"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 206,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "『西安高校Vocaloid联合创作会』为跨校联合企划，CSV 第 146 行标注『未定』，归属西安电子科技大学",
+        "staff_detail": [
+          {
+            "role": "曲",
+            "people": [
+              "StranieroKyokune"
+            ]
+          },
+          {
+            "role": "混",
+            "people": [
+              "StranieroKyokune"
+            ]
+          },
+          {
+            "role": "词",
+            "people": [
+              "白琳"
+            ]
+          },
+          {
+            "role": "调",
+            "people": [
+              "HCl口服液"
+            ]
+          },
+          {
+            "role": "绘",
+            "people": [
+              "MeRC4urY0"
+            ]
+          },
+          {
+            "role": "影",
+            "people": [
+              "MeRC4urY0"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "曲",
+          "混",
+          "词",
+          "调",
+          "绘",
+          "影"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1hYcgzeEFH",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1mtmjbqe7x",
+      "title": "【徵羽摩柯七周年】请为我画一只绵羊【LV7：循风轻旅】",
+      "title_short": "请为我画一只绵羊",
+      "title_alt": [],
+      "description_raw": "徵羽摩柯七周年同人生日会【LV7：循风轻旅】单品 请为我画一只绵羊\n策划/作曲/调校/监制：我只笑笑不说话@我只笑笑不说话鸭  \n编曲：信弦@丶信弦  \n作词：零舸@零舸  \n曲绘：若冰@安千犬  \n混音：Joker_P@Joker_Cannon  \nPV：穗月黎花@穗月黎花  \n特别感谢@ppl019录音混音接单中",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-12-10T22:30:00+08:00",
+      "published_at_raw": "2025-12-10 22:30:00",
+      "school_ids": [
+        "school-sysu"
+      ],
+      "club_ids": [
+        "club-sysu-zhongshu"
+      ],
+      "club_names_raw": [
+        "中术大学"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-moke"
+      ],
+      "vocal_names_raw": [
+        "徵羽摩柯"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "徵羽摩柯七周年同人生日会【LV7：循风轻旅】单品 请为我画一只绵羊\n策划/作曲/调校/监制：我只笑笑不说话@我只笑笑不说话鸭\n编曲：信弦@丶信弦\n作词：零舸@零舸\n曲绘：若冰@安千犬\n混音：Joker_P@Joker_Cannon\nPV：穗月黎花@穗月黎花\n特别感谢@ppl019录音混音接单中",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "我只笑笑不说话",
+            "信弦",
+            "零舸",
+            "Joker_P"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "若冰",
+            "穗月黎花"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "我只笑笑不说话"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "周刊虚拟歌手中文曲排行榜♪696 104th",
+      "chart_grade": "sliver",
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1mtmJBQE7X",
+          "url": "https://www.bilibili.com/video/BV1mtmJBQE7X"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1mtmJBQE7X",
+        "url": "https://www.bilibili.com/video/BV1mtmJBQE7X",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1mtmJBQE7X.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1mtmJBQE7X.mp3"
+      },
+      "seq": {
+        "label": "V5",
+        "number": 5,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "raw_only"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 245,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "策划",
+            "people": [
+              "我只笑笑不说话"
+            ]
+          },
+          {
+            "role": "作曲",
+            "people": [
+              "我只笑笑不说话"
+            ]
+          },
+          {
+            "role": "调校",
+            "people": [
+              "我只笑笑不说话"
+            ]
+          },
+          {
+            "role": "监制",
+            "people": [
+              "我只笑笑不说话"
+            ]
+          },
+          {
+            "role": "编曲",
+            "people": [
+              "信弦"
+            ]
+          },
+          {
+            "role": "作词",
+            "people": [
+              "零舸"
+            ]
+          },
+          {
+            "role": "曲绘",
+            "people": [
+              "若冰"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "Joker_P"
+            ]
+          },
+          {
+            "role": "PV",
+            "people": [
+              "穗月黎花"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "策划",
+          "作曲",
+          "调校",
+          "监制",
+          "编曲",
+          "作词",
+          "曲绘",
+          "混音",
+          "PV"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1mtmJBQE7X",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv14n2xbkem7",
+      "title": "【徵羽摩柯七周年】柯目七：唠唠柯【LV7：循风轻旅】",
+      "title_short": "柯目七：唠唠柯",
+      "title_alt": [],
+      "description_raw": "策划：@洛天依P 、@中术大学 \n编剧：@洛天依P @xyuuwt @沙雕P \n语调：@空诩_ \n混音：@欧洲风明 \n画师：@沧渊的内个海 \n视频制作：@言和P \n",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-12-10T21:58:21+08:00",
+      "published_at_raw": "2025-12-10 21:58:21",
+      "school_ids": [
+        "school-sysu"
+      ],
+      "club_ids": [
+        "club-sysu-zhongshu"
+      ],
+      "club_names_raw": [
+        "中术大学"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-moke"
+      ],
+      "vocal_names_raw": [
+        "徵羽摩柯"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "策划：@洛天依P 、@中术大学\n编剧：@洛天依P @xyuuwt @沙雕P\n语调：@空诩_\n混音：@欧洲风明\n画师：@沧渊的内个海\n视频制作：@言和P",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "空诩_",
+            "欧洲风明"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "沧渊的内个海",
+            "言和P"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "洛天依P",
+            "中术大学"
+          ]
+        },
+        {
+          "role": "other",
+          "people": [
+            "洛天依P",
+            "xyuuwt",
+            "沙雕P"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV14n2XBkEM7",
+          "url": "https://www.bilibili.com/video/BV14n2XBkEM7"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV14n2XBkEM7",
+        "url": "https://www.bilibili.com/video/BV14n2XBkEM7",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV14n2XBkEM7.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV14n2XBkEM7.mp3"
+      },
+      "seq": {
+        "label": "V6",
+        "number": 6,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 288,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "STAFF 原文含 @ 前缀，已剥离",
+        "staff_detail": [
+          {
+            "role": "策划",
+            "people": [
+              "洛天依P",
+              "中术大学"
+            ]
+          },
+          {
+            "role": "编剧",
+            "people": [
+              "洛天依P",
+              "xyuuwt",
+              "沙雕P"
+            ]
+          },
+          {
+            "role": "语调",
+            "people": [
+              "空诩_"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "欧洲风明"
+            ]
+          },
+          {
+            "role": "画师",
+            "people": [
+              "沧渊的内个海"
+            ]
+          },
+          {
+            "role": "视频制作",
+            "people": [
+              "言和P"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "策划",
+          "编剧",
+          "语调",
+          "混音",
+          "画师",
+          "视频制作"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV14n2XBkEM7",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1kufezmef7",
+      "title": "【洛天依原创】如果世界在明天会毁灭",
+      "title_short": "如果世界在明天会毁灭",
+      "title_alt": [],
+      "description_raw": "词/曲/调教/混音/PV：@ILLISH  \n绘：@安千犬  \n演唱：洛天依ACE\n",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-16T18:00:00+08:00",
+      "published_at_raw": "2026-02-16 18:00:00",
+      "school_ids": [
+        "school-sysu"
+      ],
+      "club_ids": [
+        "club-sysu-zhongshu"
+      ],
+      "club_names_raw": [
+        "中术大学"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-luotianyi"
+      ],
+      "vocal_names_raw": [
+        "洛天依"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "vocal_variants": [
+        {
+          "raw": "洛天依ACE",
+          "vocal_id": "vocal-luotianyi",
+          "engine_id": "engine-ace"
+        }
+      ],
+      "staff_raw": "词/曲/调教/混音/PV：@ILLISH\n绘：@安千犬\n演唱：洛天依ACE",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "ILLISH"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "ILLISH",
+            "安千犬"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1kUFezmEF7",
+          "url": "https://www.bilibili.com/video/BV1kUFezmEF7"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1kUFezmEF7",
+        "url": "https://www.bilibili.com/video/BV1kUFezmEF7",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1kUFezmEF7.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1kUFezmEF7.mp3"
+      },
+      "seq": {
+        "label": "V7",
+        "number": 7,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 329,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "『洛天依ACE』表明使用 ACE Studio 声库",
+        "staff_detail": [
+          {
+            "role": "词",
+            "people": [
+              "ILLISH"
+            ]
+          },
+          {
+            "role": "曲",
+            "people": [
+              "ILLISH"
+            ]
+          },
+          {
+            "role": "调教",
+            "people": [
+              "ILLISH"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "ILLISH"
+            ]
+          },
+          {
+            "role": "PV",
+            "people": [
+              "ILLISH"
+            ]
+          },
+          {
+            "role": "绘",
+            "people": [
+              "安千犬"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "词",
+          "曲",
+          "调教",
+          "混音",
+          "PV",
+          "绘"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1kUFezmEF7",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1yc4azyenz",
+      "title": "【飞梦ACE COVER】404 NOT FOUND【飞梦ACG联萌秋季百团应援曲】",
+      "title_short": "404 NOT FOUND",
+      "title_alt": [],
+      "description_raw": "调教：@浪隐波风   \nmidi：@星痕starorbit  \n混音：@陈年咸菜Jun  \n本家：BV1vE411R7iD\n",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-10-11T22:30:53+08:00",
+      "published_at_raw": "2025-10-11 22:30:53",
+      "school_ids": [
+        "school-buaa"
+      ],
+      "club_ids": [
+        "club-buaa-xingyun"
+      ],
+      "club_names_raw": [
+        "星韵社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-feimeng"
+      ],
+      "vocal_names_raw": [
+        "飞梦"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "调教：@浪隐波风\nmidi：@星痕starorbit\n混音：@陈年咸菜Jun\n本家：BV1vE411R7iD",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "浪隐波风",
+            "星痕starorbit",
+            "陈年咸菜Jun"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1yc4AzYENZ",
+          "url": "https://www.bilibili.com/video/BV1yc4AzYENZ"
+        },
+        {
+          "kind": "bilibili_origin",
+          "id": "BV1vE411R7iD",
+          "note": "本家"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1yc4AzYENZ",
+        "url": "https://www.bilibili.com/video/BV1yc4AzYENZ",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1yc4AzYENZ.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1yc4AzYENZ.mp3"
+      },
+      "seq": {
+        "label": "V9",
+        "number": 9,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 419,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "『飞梦』为北航飞梦ACG联盟的自有歌声角色，CSV 第 203 行标注该社有术力口社团『星韵社』",
+        "seq_note": "序号 V9。原页面从 V7 直接跳到 V9，V8 为《术力口》（某次元动漫社，信息过多缺失，视频内有，已记入本期备注）。",
+        "staff_detail": [
+          {
+            "role": "调教",
+            "people": [
+              "浪隐波风"
+            ]
+          },
+          {
+            "role": "midi",
+            "people": [
+              "星痕starorbit"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "陈年咸菜Jun"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "调教",
+          "midi",
+          "混音"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1yc4AzYENZ",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv14nf3brehr",
+      "title": "【重音テト】有你的江湖【Synthesizer V cover】",
+      "title_short": "有你的江湖",
+      "title_alt": [],
+      "description_raw": "原曲：风灵玉秀ED\n原唱：岚aya\n作词：Haku\n作曲编曲：DMYoung\n\nvocal：重音テト\n翻调：苯人\n",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T23:35:01+08:00",
+      "published_at_raw": "2026-02-20 23:35:01",
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "club_names_raw": [
+        "南风动漫社",
+        "沸点动漫社",
+        "天津大学D-Touch动漫社"
+      ],
+      "collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+      "vocal_ids": [
+        "vocal-teto"
+      ],
+      "vocal_names_raw": [
+        "重音Teto"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "staff_raw": "原曲：风灵玉秀ED\n原唱：岚aya\n作词：Haku\n作曲编曲：DMYoung\n\nvocal：重音テト\n翻调：苯人",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "苯人"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV14Nf3BREHr",
+          "url": "https://www.bilibili.com/video/BV14Nf3BREHr"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV14Nf3BREHr",
+        "url": "https://www.bilibili.com/video/BV14Nf3BREHr",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV14Nf3BREHr.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV14Nf3BREHr.mp3"
+      },
+      "seq": {
+        "label": "V10",
+        "number": 10,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent",
+        "collaboration_id": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 458,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "关联社团原文『南风动漫社...』尾部省略号，表示还有其他社团未列出；club_ids 仅记南风动漫社，status 标 inferred",
+        "note_vocal": "原文 Vocal 写作『重音テト』（日文），与 title 的『重音Teto』为同一歌声",
+        "collab_note": "经栏目方确认：本作品（序号 V10）属南风/沸点/D-Touch 三社联合拜年祭",
+        "staff_detail": [
+          {
+            "role": "翻调",
+            "people": [
+              "苯人"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "翻调"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV14Nf3BREHr",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv14pf3bxeot",
+      "title": "【夏语遥】马赛克卷er【Synthesizer V cover】",
+      "title_short": "モザイクロール",
+      "title_alt": [],
+      "description_raw": "原曲： DECO*27-モザイクロール (Reloaded)\nLyrics & Music: DECO*27\nArrangement: Rockwell\nMovie by OTOIRO\n\n翻调vocal：夏语遥\n和声：音街una、Mai、重音teto\n翻调：苯人\n",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T23:22:42+08:00",
+      "published_at_raw": "2026-02-20 23:22:42",
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "club_names_raw": [
+        "南风动漫社",
+        "沸点动漫社",
+        "天津大学D-Touch动漫社"
+      ],
+      "collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+      "vocal_ids": [
+        "vocal-xiayuyao",
+        "vocal-una",
+        "vocal-mai",
+        "vocal-teto"
+      ],
+      "vocal_names_raw": [
+        "夏语遥",
+        "音街Una",
+        "Mai",
+        "重音Teto"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "staff_raw": "原曲： DECO*27-モザイクロール (Reloaded)\nLyrics & Music: DECO*27\nArrangement: Rockwell\nMovie by OTOIRO\n\n翻调vocal：夏语遥\n和声：音街una、Mai、重音teto\n翻调：苯人",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "苯人"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV14Pf3BxEoT",
+          "url": "https://www.bilibili.com/video/BV14Pf3BxEoT"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV14Pf3BxEoT",
+        "url": "https://www.bilibili.com/video/BV14Pf3BxEoT",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV14Pf3BxEoT.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV14Pf3BxEoT.mp3"
+      },
+      "seq": {
+        "label": "V11",
+        "number": 11,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent",
+        "collaboration_id": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 500,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "STAFF 中『和声』的三人已并入 vocal_ids（因 Vocal 行原文含和声者）。原文 STAFF 另列原曲作者 DECO*27/Rockwell/OTOIRO，未计入 staff（非本作创作者）",
+        "collab_note": "经栏目方确认：本作品（序号 V11）属南风/沸点/D-Touch 三社联合拜年祭",
+        "staff_detail": [
+          {
+            "role": "翻调",
+            "people": [
+              "苯人"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "翻调"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV14Pf3BxEoT",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1cdf3bdexf",
+      "title": "【午时华岁~2026三校联合拜年祭单品】夜行少女（南时薰cover）",
+      "title_short": "夜行少女",
+      "title_alt": [],
+      "description_raw": "原作：BV1Xx41117Tz\n作词：林晓 作曲编曲：小野道 英文作词/演唱：花近 PV:青年萨玛\n\n曲绘&翻调：绿绿\n混音：呵呵呵ppqq\n",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T21:16:04+08:00",
+      "published_at_raw": "2026-02-20 21:16:04",
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "club_names_raw": [
+        "南风动漫社",
+        "沸点动漫社",
+        "天津大学D-Touch动漫社"
+      ],
+      "collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+      "vocal_ids": [
+        "vocal-nanshixun"
+      ],
+      "vocal_names_raw": [
+        "南时薰"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "猜测ACE Studio"
+      ],
+      "staff_raw": "原作：BV1Xx41117Tz\n作词：林晓 作曲编曲：小野道 英文作词/演唱：花近 PV:青年萨玛\n\n曲绘&翻调：绿绿\n混音：呵呵呵ppqq",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "呵呵呵ppqq"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "绿绿"
+          ]
+        },
+        {
+          "role": "performance",
+          "people": [
+            "绿绿"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1cdf3BDEXF",
+          "url": "https://www.bilibili.com/video/BV1cdf3BDEXF"
+        },
+        {
+          "kind": "bilibili_origin",
+          "id": "BV1Xx41117Tz",
+          "note": "原作"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1cdf3BDEXF",
+        "url": "https://www.bilibili.com/video/BV1cdf3BDEXF",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1cdf3BDEXF.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1cdf3BDEXF.mp3"
+      },
+      "seq": {
+        "label": "V12",
+        "number": 12,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "inferred",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent",
+        "collaboration_id": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 543,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "STAFF 中『作词：林晓 作曲编曲：小野道 英文作词/演唱：花近 PV:青年萨玛』为原作 STAFF，未计入本作 staff",
+        "engine_uncertain": "原文『猜测ACE Studio』",
+        "collab_note": "经栏目方确认：本作品（序号 V12）属南风/沸点/D-Touch 三社联合拜年祭",
+        "staff_detail": [
+          {
+            "role": "曲绘",
+            "people": [
+              "绿绿"
+            ]
+          },
+          {
+            "role": "翻调",
+            "people": [
+              "绿绿"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "呵呵呵ppqq"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "曲绘",
+          "翻调",
+          "混音"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1cdf3BDEXF",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1wgf3bheh2",
+      "title": "【音街ウナ＆重音テト】カワユイ星【Synthesizer V cover】",
+      "title_short": "カワユイ星",
+      "title_alt": [],
+      "description_raw": "原曲：\nナユタン星からの物体V （https://youtu.be/10HehkR09fk?si=sZEu8RY5hEiy5uVK）\nVocaloid：初音未来(Miku Hatsune)\n作曲&作词：ナユタン星人(NayutalieN)\n\nvocal：音街ウナ、重音テト、PASTEL\n翻调＆PV：苯人（曲绘描改自ナユタン星人）\n",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T23:06:31+08:00",
+      "published_at_raw": "2026-02-20 23:06:31",
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "club_names_raw": [
+        "南风动漫社",
+        "沸点动漫社",
+        "天津大学D-Touch动漫社"
+      ],
+      "collaboration_id": "collab-2026-vol1-sanjiao-newyear",
+      "vocal_ids": [
+        "vocal-una",
+        "vocal-teto",
+        "vocal-pastel"
+      ],
+      "vocal_names_raw": [
+        "音街ウナ",
+        "重音テト"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "vocal_variants": [
+        {
+          "raw": "音街ウナ",
+          "vocal_id": "vocal-una",
+          "engine_id": "engine-sv"
+        },
+        {
+          "raw": "重音テト",
+          "vocal_id": "vocal-teto",
+          "engine_id": "engine-sv"
+        },
+        {
+          "raw": "PASTEL",
+          "vocal_id": "vocal-pastel",
+          "engine_id": "engine-sv",
+          "note": "仅在 img[title] 的 vocal 行出现，未进入 Vocal 字段"
+        }
+      ],
+      "staff_raw": "原曲：ナユタン星からの物体V\nVocaloid：初音未来(Miku Hatsune)\n作曲&作词：ナユタン星人(NayutalieN)\n\nvocal：音街ウナ、重音テト、PASTEL\n翻调＆PV：苯人（曲绘描改自ナユタン星人）",
+      "staff": [
+        {
+          "role": "visual",
+          "people": [
+            "苯人"
+          ]
+        },
+        {
+          "role": "performance",
+          "people": [
+            "苯人"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "/",
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1Wgf3BHEH2",
+          "url": "https://www.bilibili.com/video/BV1Wgf3BHEH2"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1Wgf3BHEH2",
+        "url": "https://www.bilibili.com/video/BV1Wgf3BHEH2",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1Wgf3BHEH2.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1Wgf3BHEH2.mp3"
+      },
+      "seq": {
+        "label": "V13",
+        "number": 13,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "parsed_partial",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent",
+        "collaboration_id": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 583,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "parse_warning": "页面 Vocal 字段原文只有 2 项（音街ウナ，重音テト），但 img[title] 的 vocal 行有 3 项（含 PASTEL），已补入 vocal_ids",
+        "collab_note": "经栏目方确认：本作品（序号 V13）属南风/沸点/D-Touch 三社联合拜年祭",
+        "staff_detail": [
+          {
+            "role": "翻调",
+            "people": [
+              "苯人"
+            ]
+          },
+          {
+            "role": "PV",
+            "people": [
+              "苯人"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "翻调",
+          "PV"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1Wgf3BHEH2",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv12gqabxeks",
+      "title": "【深蓝动漫节】神的随波逐流｜深蓝动漫社",
+      "title_short": "神のまにまに",
+      "title_alt": [],
+      "description_raw": "演出乐队：Unknown Light\n\n维月丘 vol.\n渊渊 vol.\n切洛尔 gui.\n失真 gui.\n碘化铅 key.\n红烧肥肥 drum.\n",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-12-16T15:40:11+08:00",
+      "published_at_raw": "2025-12-16 15:40:11",
+      "school_ids": [
+        "school-dlmu"
+      ],
+      "club_ids": [
+        "club-dlmu-darkblue"
+      ],
+      "club_names_raw": [
+        "DarkBlue深蓝动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "演出乐队：Unknown Light\n\n维月丘 vol.\n渊渊 vol.\n切洛尔 gui.\n失真 gui.\n碘化铅 key.\n红烧肥肥 drum.",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Unknown Light",
+            "维月丘",
+            "渊渊",
+            "切洛尔",
+            "失真",
+            "碘化铅",
+            "红烧肥肥"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV12gqaBxEks",
+          "url": "https://www.bilibili.com/video/BV12gqaBxEks"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV12gqaBxEks",
+        "url": "https://www.bilibili.com/video/BV12gqaBxEks",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV12gqaBxEks.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H1 [VC]",
+        "number": 1,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 658,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "演出乐队",
+            "people": [
+              "Unknown Light"
+            ]
+          },
+          {
+            "role": "vol.",
+            "people": [
+              "维月丘",
+              "渊渊"
+            ]
+          },
+          {
+            "role": "gui.",
+            "people": [
+              "切洛尔",
+              "失真"
+            ]
+          },
+          {
+            "role": "key.",
+            "people": [
+              "碘化铅"
+            ]
+          },
+          {
+            "role": "drum.",
+            "people": [
+              "红烧肥肥"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "演出乐队",
+          "vol.",
+          "gui.",
+          "key.",
+          "drum."
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV12gqaBxEks",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1z8ctbme6a",
+      "title": "【澪幻空间】宅歌配音部合唱第一期《勾指起誓》",
+      "title_short": "勾指起誓",
+      "title_alt": [],
+      "description_raw": "歌曲音频：@是维祎呀 \n视频制作：@hidden心情好点了吗 \n演唱：维祎，陌璃，立風，糖糖，伯约，海德薇，hidden\n",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-11-13T22:38:59+08:00",
+      "published_at_raw": "2025-11-13 22:38:59",
+      "school_ids": [
+        "school-ldu"
+      ],
+      "club_ids": [
+        "club-ldu-linghuan"
+      ],
+      "club_names_raw": [
+        "鲁东澪幻空间动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "歌曲音频：@是维祎呀\n视频制作：@hidden心情好点了吗\n演唱：维祎，陌璃，立風，糖糖，伯约，海德薇，hidden",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "是维祎呀"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "hidden心情好点了吗"
+          ]
+        },
+        {
+          "role": "performance",
+          "people": [
+            "维祎",
+            "陌璃",
+            "立風",
+            "糖糖",
+            "伯约",
+            "海德薇",
+            "hidden"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1Z8CtBmE6a",
+          "url": "https://www.bilibili.com/video/BV1Z8CtBmE6a"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1Z8CtBmE6a",
+        "url": "https://www.bilibili.com/video/BV1Z8CtBmE6a",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1Z8CtBmE6a.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H2 [VC]",
+        "number": 2,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 690,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "歌曲音频",
+            "people": [
+              "是维祎呀"
+            ]
+          },
+          {
+            "role": "视频制作",
+            "people": [
+              "hidden心情好点了吗"
+            ]
+          },
+          {
+            "role": "演唱",
+            "people": [
+              "维祎",
+              "陌璃",
+              "立風",
+              "糖糖",
+              "伯约",
+              "海德薇",
+              "hidden"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "歌曲音频",
+          "视频制作",
+          "演唱"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1Z8CtBmE6a",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1wmzaboebm",
+      "title": "我们二次元有自己的难忘今宵",
+      "title_short": "神のまにまに（群唱）",
+      "title_alt": [],
+      "description_raw": "唱见：\n银精灵，\n宋西：@松西雪  \n月希歌：@月希歌  \nCyber：@Cyberです  \nQQQ：@全球驰名商标QQQ  \n掉脑人：@掉脑人  \n朽木：@朽木不可白哉_Official  \n金眠：@眠2333  \n祝玥：@もっとキス  \nEnki：@enki---  \n深海鱼：@薄荷脆皮深海鱼  \n节能：@我嘞个节能啊  \n\n策划，器乐：夜迷乐队，（主唱：银精灵，宋西）\n架子鼓：砂糖橘@_TangERin_  \n键盘：阿川@川畜  \n吉他：唯默@唯默YuiMo  \n贝斯：利玛窦@利玛窦玛利  \n吉他2：@哈哈哈哈哈哈哈基文  \n\n混音：@__ID___ \n修音：@绵绵狼cottensheep\n",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-16T01:38:19+08:00",
+      "published_at_raw": "2026-02-16 01:38:19",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "唱见：银精灵，宋西，月希歌，Cyber，QQQ，掉脑人，朽木，金眠，祝玥，Enki，深海鱼，节能\n策划，器乐：夜迷乐队，（主唱：银精灵，宋西）\n架子鼓：砂糖橘，键盘：阿川，吉他：唯默，贝斯：利玛窦，吉他2\n混音：ID\n修音：绵绵狼cottensheep",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "ID"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "夜迷乐队"
+          ]
+        },
+        {
+          "role": "performance",
+          "people": [
+            "银精灵",
+            "宋西",
+            "月希歌",
+            "Cyber",
+            "QQQ",
+            "掉脑人",
+            "朽木",
+            "金眠",
+            "祝玥",
+            "Enki",
+            "深海鱼",
+            "节能",
+            "夜迷乐队",
+            "砂糖橘",
+            "阿川",
+            "唯默",
+            "利玛窦",
+            "绵绵狼cottensheep"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1WMZABoEbM",
+          "url": "https://www.bilibili.com/video/BV1WMZABoEbM"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1WMZABoEbM",
+        "url": "https://www.bilibili.com/video/BV1WMZABoEbM",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1WMZABoEbM.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H3 [VC]",
+        "number": 3,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 717,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "多社团/乐队联合演出。页面对应 2025-vol2 H2《ドラマツルギー》同属东北ACG音乐联合企划",
+        "staff_detail": [
+          {
+            "role": "唱见",
+            "people": [
+              "银精灵",
+              "宋西",
+              "月希歌",
+              "Cyber",
+              "QQQ",
+              "掉脑人",
+              "朽木",
+              "金眠",
+              "祝玥",
+              "Enki",
+              "深海鱼",
+              "节能"
+            ]
+          },
+          {
+            "role": "策划",
+            "people": [
+              "夜迷乐队"
+            ]
+          },
+          {
+            "role": "器乐",
+            "people": [
+              "夜迷乐队"
+            ]
+          },
+          {
+            "role": "架子鼓",
+            "people": [
+              "砂糖橘"
+            ]
+          },
+          {
+            "role": "键盘",
+            "people": [
+              "阿川"
+            ]
+          },
+          {
+            "role": "吉他",
+            "people": [
+              "唯默"
+            ]
+          },
+          {
+            "role": "贝斯",
+            "people": [
+              "利玛窦"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "ID"
+            ]
+          },
+          {
+            "role": "修音",
+            "people": [
+              "绵绵狼cottensheep"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "唱见",
+          "策划",
+          "器乐",
+          "架子鼓",
+          "键盘",
+          "吉他",
+          "贝斯",
+          "混音",
+          "修音"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1WMZABoEbM",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1akzbbje36",
+      "title": "⌈Sech0乐队⌋少女レイ（少女Rei）——⛓️‍💥永远破碎的同款钥匙圈🚋",
+      "title_short": "少女レイ",
+      "title_alt": [],
+      "description_raw": "乐队：Sech0乐队",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-01-27T09:00:00+08:00",
+      "published_at_raw": "2026-01-27 09:00:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "乐队：Sech0乐队",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Sech0乐队"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1AKzbBJE36",
+          "url": "https://www.bilibili.com/video/BV1AKzbBJE36"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1AKzbBJE36",
+        "url": "https://www.bilibili.com/video/BV1AKzbBJE36",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1AKzbBJE36.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H4 [VC]",
+        "number": 4,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 764,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "封面引用 ./cover_2026-1_type2/ 而非 ./cover_display/，为本期封面路径不统一的实例之一",
+        "staff_detail": [
+          {
+            "role": "乐队",
+            "people": [
+              "Sech0乐队"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "乐队"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1AKzbBJE36",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1bsipbwesw",
+      "title": "【西农YUI动漫社】勾指起誓-术群群友",
+      "title_short": "勾指起誓",
+      "title_alt": [],
+      "description_raw": "演唱：术群群友\n@OIFE  等人\n混音：鲤@要乐鲤  \n摄影：HB-@祈星の愚者\n",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-12-31T10:30:00+08:00",
+      "published_at_raw": "2025-12-31 10:30:00",
+      "school_ids": [
+        "school-nwafu"
+      ],
+      "club_ids": [
+        "club-nwafu-yui"
+      ],
+      "club_names_raw": [
+        "YUI动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "演唱：术群群友\n@OIFE 等人\n混音：鲤@要乐鲤\n摄影：HB-@祈星の愚者",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "鲤"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "HB-"
+          ]
+        },
+        {
+          "role": "performance",
+          "people": [
+            "术群群友",
+            "OIFE"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1BSiPBwEsW",
+          "url": "https://www.bilibili.com/video/BV1BSiPBwEsW"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1BSiPBwEsW",
+        "url": "https://www.bilibili.com/video/BV1BSiPBwEsW",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1BSiPBwEsW.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H5 [VC]",
+        "number": 5,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 788,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "『YUI动漫社』对应 CSV 第 92 行『西北农林科技大学,20413390,西农YUI动漫社』",
+        "staff_detail": [
+          {
+            "role": "演唱",
+            "people": [
+              "术群群友",
+              "OIFE"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "鲤"
+            ]
+          },
+          {
+            "role": "摄影",
+            "people": [
+              "HB-"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "演唱",
+          "混音",
+          "摄影"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1BSiPBwEsW",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1c5rfbgeu3",
+      "title": "⌈Sech0乐队⌋弱虫モンブラン（胆小鬼蒙布朗）乐队cover——沉溺甜味的胆小鬼之歌",
+      "title_short": "弱虫モンブラン",
+      "title_alt": [],
+      "description_raw": "乐队：Sech0乐队",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-01-16T10:00:00+08:00",
+      "published_at_raw": "2026-01-16 10:00:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "乐队：Sech0乐队",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Sech0乐队"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1C5rfBGEU3",
+          "url": "https://www.bilibili.com/video/BV1C5rfBGEU3"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1C5rfBGEU3",
+        "url": "https://www.bilibili.com/video/BV1C5rfBGEU3",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1C5rfBGEU3.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H6 [VC]",
+        "number": 6,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 816,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "乐队",
+            "people": [
+              "Sech0乐队"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "乐队"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1C5rfBGEU3",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1mnzibze9z",
+      "title": "【2026YUI动漫社新春拜年祭单品】Blessing各唱各挑战",
+      "title_short": "Blessing",
+      "title_alt": [],
+      "description_raw": "演唱：敵金是个假的stacker，PSYchedelic-_-，希洛洛咯，屙一口烂粥，夜暗幽魂，伊布叮叮，凌夜鸩，Coco",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [
+        "RT"
+      ],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T13:05:00+08:00",
+      "published_at_raw": "2026-02-20 13:05:00",
+      "school_ids": [
+        "school-nwafu"
+      ],
+      "club_ids": [
+        "club-nwafu-yui"
+      ],
+      "club_names_raw": [
+        "YUI动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "演唱：敵金是个假的stacker，PSYchedelic-_-，希洛洛咯，屙一口烂粥，夜暗幽魂，伊布叮叮，凌夜鸩，Coco",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "敵金是个假的stacker",
+            "PSYchedelic-_-",
+            "希洛洛咯",
+            "屙一口烂粥",
+            "夜暗幽魂",
+            "伊布叮叮",
+            "凌夜鸩",
+            "Coco"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1MnZiBZE9z",
+          "url": "https://www.bilibili.com/video/BV1MnZiBZE9z"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1MnZiBZE9z",
+        "url": "https://www.bilibili.com/video/BV1MnZiBZE9z",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1MnZiBZE9z.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H7 [VC/RT]",
+        "number": 7,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 840,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "note": "全栏目唯一双分类标记 [VC/RT] 的实例。type=VC（主），type_secondary=[RT]。是否应归为 RT 或两者并列，请人工确认",
+        "staff_detail": [
+          {
+            "role": "演唱",
+            "people": [
+              "敵金是个假的stacker",
+              "PSYchedelic-_-",
+              "希洛洛咯",
+              "屙一口烂粥",
+              "夜暗幽魂",
+              "伊布叮叮",
+              "凌夜鸩",
+              "Coco"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "演唱"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1MnZiBZE9z",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1prIzbteje",
+      "title": "【Sonny Youth乐队】相互取笑后说再见吧---シャルル (cover）",
+      "title_short": "シャルル",
+      "title_alt": [],
+      "description_raw": "Sonny Youth乐队\n主唱：节能\n吉他：章鱼\n吉他：子悠\n贝斯：Ikua\n鼓：小黑\n键盘：醒",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-01-06T11:22:02+08:00",
+      "published_at_raw": "2026-01-06 11:22:02",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "Sonny Youth乐队\n主唱：节能\n吉他：章鱼\n吉他：子悠\n贝斯：Ikua\n鼓：小黑\n键盘：醒",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Sonny Youth乐队",
+            "节能",
+            "章鱼",
+            "子悠",
+            "Ikua",
+            "小黑",
+            "醒"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1pRiZBtEJE",
+          "url": "https://www.bilibili.com/video/BV1pRiZBtEJE"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1pRiZBtEJE",
+        "url": "https://www.bilibili.com/video/BV1pRiZBtEJE",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1pRiZBtEJE.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H8 [VC]",
+        "number": 8,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 864,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "乐队",
+            "people": [
+              "Sonny Youth乐队"
+            ]
+          },
+          {
+            "role": "主唱",
+            "people": [
+              "节能"
+            ]
+          },
+          {
+            "role": "吉他",
+            "people": [
+              "章鱼",
+              "子悠"
+            ]
+          },
+          {
+            "role": "贝斯",
+            "people": [
+              "Ikua"
+            ]
+          },
+          {
+            "role": "鼓",
+            "people": [
+              "小黑"
+            ]
+          },
+          {
+            "role": "键盘",
+            "people": [
+              "醒"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "乐队",
+          "主唱",
+          "吉他",
+          "贝斯",
+          "鼓",
+          "键盘"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1pRiZBtEJE",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1r7b4bgeuo",
+      "title": "⌈Sech0乐队⌋夜明けと蛍——苍蓝之色 黎明与萤光",
+      "title_short": "夜明けと蛍",
+      "title_alt": [],
+      "description_raw": "乐队：Sech0乐队",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2025,
+      "published_at": "2025-12-23T20:00:00+08:00",
+      "published_at_raw": "2025-12-23 20:00:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "乐队：Sech0乐队",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Sech0乐队"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1r7B4BgEuo",
+          "url": "https://www.bilibili.com/video/BV1r7B4BgEuo"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1r7B4BgEuo",
+        "url": "https://www.bilibili.com/video/BV1r7B4BgEuo",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1r7B4BgEuo.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H9 [VC]",
+        "number": 9,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 894,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "乐队",
+            "people": [
+              "Sech0乐队"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "乐队"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1r7B4BgEuo",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1wjitbjex9",
+      "title": "⌈Sech0乐队⌋抜錨（起航）——总有一天 将那红线斩断➿",
+      "title_short": "抜錨",
+      "title_alt": [],
+      "description_raw": "乐队：Sech0乐队",
+      "type": "VC",
+      "type_raw": "翻唱翻奏作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-01-01T09:00:00+08:00",
+      "published_at_raw": "2026-01-01 09:00:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "乐队：Sech0乐队",
+      "staff": [
+        {
+          "role": "performance",
+          "people": [
+            "Sech0乐队"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1WJiTBJEX9",
+          "url": "https://www.bilibili.com/video/BV1WJiTBJEX9"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1WJiTBJEX9",
+        "url": "https://www.bilibili.com/video/BV1WJiTBJEX9",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_2026-1_type2/BV1WJiTBJEX9.jpg",
+        "audio_legacy": null
+      },
+      "seq": {
+        "label": "H10 [VC]",
+        "number": 10,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "inferred",
+        "club_id": "inferred",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "parsed_partial",
+        "published_at": "ok",
+        "chart_peak": "absent"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 918,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "staff_detail": [
+          {
+            "role": "乐队",
+            "people": [
+              "Sech0乐队"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "乐队"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1WJiTBJEX9",
+        "retrieved_at": "2026-09-28"
+      }
+    },
+    {
+      "id": "work-2026-vol1-bv1s5fgbfezy",
+      "title": "2026年了，还有人愿意听这样的民国风原创歌曲吗？【洛天依、乐正绫】乡·水·忆｜“乡水一如初见”【南北组】【“梦光之约”新春歌会单品】",
+      "title_short": "乡·水·忆",
+      "title_alt": [],
+      "description_raw": "作曲/编曲：@溯星P  \n作词@三叁九玖awa  \n调教@鬼面P  \n混音@linkfqy  \n曲绘@陌玖XG  \n视频制作@穗月黎花  \n演唱@洛天依  @乐正绫  \n策划/监制@洛天依P  @中术大学  \n题字/工程灌词@洛天依P",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "section_title",
+      "project": null,
+      "tags": [],
+      "tier": "sp",
+      "is_sp": true,
+      "sp_note": null,
+      "edition_id": "2026-vol1",
+      "year": 2026,
+      "published_at": "2026-02-20T20:30:00+08:00",
+      "published_at_raw": "2026-02-20 20:30:00",
+      "school_ids": [
+        "school-sysu"
+      ],
+      "club_ids": [
+        "club-sysu-zhongshu"
+      ],
+      "club_names_raw": [
+        "中术大学"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-luotianyi",
+        "vocal-yuezhengling"
+      ],
+      "vocal_names_raw": [
+        "洛天依",
+        "乐正绫"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "作曲/编曲：@溯星P\n作词@三叁九玖awa\n调教@鬼面P\n混音@linkfqy\n曲绘@陌玖XG\n视频制作@穗月黎花\n演唱@洛天依 @乐正绫\n策划/监制@洛天依P @中术大学\n题字/工程灌词@洛天依P",
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "溯星P",
+            "三叁九玖awa",
+            "鬼面P",
+            "linkfqy"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "陌玖XG",
+            "穗月黎花",
+            "洛天依P"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "洛天依P",
+            "中术大学"
+          ]
+        }
+      ],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": "周刊虚拟歌手中文曲排行榜♪708 64th",
+      "chart_grade": "sliver",
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1S5fgBfEZY",
+          "url": "https://www.bilibili.com/video/BV1S5fgBfEZY"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1S5fgBfEZY",
+        "url": "https://www.bilibili.com/video/BV1S5fgBfEZY",
+        "uploader": null,
+        "uid": null,
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": "./cover_display/BV1S5fgBfEZY.jpg",
+        "audio_legacy": "./audios_2026-1_mp3/BV1S5fgBfEZY.mp3"
+      },
+      "seq": {
+        "label": "SP [OC]",
+        "number": null,
+        "family": "SP",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "sp_note": "pending",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "parsed",
+        "published_at": "ok",
+        "chart_peak": "raw_only"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 983,
+        "table_id": "oc",
+        "confidence": 1
+      },
+      "ext": {
+        "sp_note_status": "策展文字（Curator's Note）待填写",
+        "note": "SP [OC]。作品为民国风原创，符合 README 中 SP 须为 [OC] 或 [RT] 的规定",
+        "staff_detail": [
+          {
+            "role": "作曲",
+            "people": [
+              "溯星P"
+            ]
+          },
+          {
+            "role": "编曲",
+            "people": [
+              "溯星P"
+            ]
+          },
+          {
+            "role": "作词",
+            "people": [
+              "三叁九玖awa"
+            ]
+          },
+          {
+            "role": "调教",
+            "people": [
+              "鬼面P"
+            ]
+          },
+          {
+            "role": "混音",
+            "people": [
+              "linkfqy"
+            ]
+          },
+          {
+            "role": "曲绘",
+            "people": [
+              "陌玖XG"
+            ]
+          },
+          {
+            "role": "视频制作",
+            "people": [
+              "穗月黎花"
+            ]
+          },
+          {
+            "role": "策划",
+            "people": [
+              "洛天依P",
+              "中术大学"
+            ]
+          },
+          {
+            "role": "监制",
+            "people": [
+              "洛天依P",
+              "中术大学"
+            ]
+          },
+          {
+            "role": "题字",
+            "people": [
+              "洛天依P"
+            ]
+          },
+          {
+            "role": "工程灌词",
+            "people": [
+              "洛天依P"
+            ]
+          }
+        ],
+        "staff_roles": [
+          "作曲",
+          "编曲",
+          "作词",
+          "调教",
+          "混音",
+          "曲绘",
+          "视频制作",
+          "策划",
+          "监制",
+          "题字",
+          "工程灌词"
+        ]
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1S5fgBfEZY",
+        "retrieved_at": "2026-09-28"
+      }
+    }
+  ],
+  "collaborations": [
+    {
+      "id": "collab-2026-vol1-xian-vocalo",
+      "kind": "series",
+      "label": "西安高校Vocaloid联合创作会",
+      "work_ids": [
+        "work-2026-vol1-bv1hycgzeefh"
+      ],
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "club_ids": [
+        "club-xidian-vocalo"
+      ],
+      "school_ids": [
+        "school-xidian"
+      ],
+      "is_cross_school": true,
+      "cross_school_kind": "cross_school",
+      "raw": "西安高校Vocaloid联合创作会",
+      "evidence": [
+        {
+          "kind": "title",
+          "text": "【西安高校Vocaloid联合创作会】"
+        },
+        {
+          "kind": "csv",
+          "text": "CSV 第 146 行 西安电子科技大学 『是否有术力口社团』= 未定，术力口社团 = 西安高校vocaloid创作社"
+        }
+      ],
+      "detected_by": "rule.union_project",
+      "confidence": 0.8,
+      "status": {
+        "school_ids": "pending",
+        "note": "『未定』表示该社是否算术力口社团尚未确认；跨校成员名单待补充"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 231
+      }
+    },
+    {
+      "id": "collab-2026-vol1-sanjiao-newyear",
+      "kind": "work",
+      "label": "午时华岁~2026 三校联合拜年祭",
+      "work_ids": [
+        "work-2026-vol1-bv1q9fjb4efn",
+        "work-2026-vol1-bv14nf3brehr",
+        "work-2026-vol1-bv14pf3bxeot",
+        "work-2026-vol1-bv1cdf3bdexf",
+        "work-2026-vol1-bv1wgf3bheh2"
+      ],
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng",
+        "club-fudan-feidian",
+        "club-tju-dtouch"
+      ],
+      "school_ids": [
+        "school-nankai",
+        "school-fudan",
+        "school-tju"
+      ],
+      "is_cross_school": true,
+      "cross_school_kind": "cross_school",
+      "raw": "午时华岁~2026三校联合拜年祭单品",
+      "evidence": [
+        {
+          "kind": "title",
+          "text": "【午时华岁~2026三校联合拜年祭单品】（薰风来时）"
+        },
+        {
+          "kind": "user_correction",
+          "text": "栏目方确认：V2→薰风来时, V10→有你的江湖, V11→马赛克卷er, V12→夜行少女, V13→カワユイ星"
+        },
+        {
+          "kind": "source_comment",
+          "text": "该对应关系由 2026-vol2 页面的 HTML 注释给出：V2，V10，V11，V12，V13 属于南风，沸点，D-Touch三个动漫社的联合拜年祭。"
+        }
+      ],
+      "detected_by": "user_correction",
+      "confidence": 1,
+      "status": {
+        "work_ids": "ok",
+        "school_ids": "ok"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 135
+      },
+      "seq_mapping": {
+        "V2": "work-2026-vol1-bv1q9fjb4efn",
+        "V10": "work-2026-vol1-bv14nf3brehr",
+        "V11": "work-2026-vol1-bv14pf3bxeot",
+        "V12": "work-2026-vol1-bv1cdf3bdexf",
+        "V13": "work-2026-vol1-bv1wgf3bheh2"
+      },
+      "seq_mapping_note": "栏目方确认的序号对应关系",
+      "curator_note": "栏目方确认：V2/V10/V11/V12/V13 均为南风/沸点/D-Touch 三社联合拜年祭作品。"
+    }
+  ],
+  "flash_candidates": {
+    "note": "cover_2026-1_type3 与 cover_2026-1_type3_pjsk 目录中的封面，页面上无对应条目（快闪展示段）。",
+    "cover_dirs": [
+      "cover_2026-1_type3",
+      "cover_2026-1_type3_pjsk"
+    ],
+    "status": "pending_user"
+  },
+  "moved_out": [
+    {
+      "former_work_id": "work-2026-vol1-mouciyuan-shulikou",
+      "title": "《术力口》",
+      "as": "edition_note",
+      "reason": "栏目方指示：不作为作品条目，改记为期备注",
+      "decided_by": "user"
+    }
+  ]
+}

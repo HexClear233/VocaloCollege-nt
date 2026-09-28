@@ -1,0 +1,1247 @@
+{
+  "schema": "vocalocollege/1.0",
+  "table": "vocals",
+  "generated_at": "2026-09-28T00:00:00+08:00",
+  "source": "各期页面『Vocal』字段 + img[title] STAFF 行",
+  "count": 33,
+  "vocals": [
+    {
+      "id": "vocal-miku",
+      "name": "初音未来",
+      "name_ja": "初音ミク",
+      "name_en": "Hatsune Miku",
+      "name_alt": [
+        "初音ミク",
+        "MIKU",
+        "Miku",
+        "Miku Hatsune",
+        "初音未来"
+      ],
+      "engine_ids": [
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2018,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 98
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "初音未来",
+          "初音ミク",
+          "MIKU",
+          "Miku"
+        ]
+      }
+    },
+    {
+      "id": "vocal-kagamine-rin",
+      "name": "镜音铃",
+      "name_ja": "鏡音リン",
+      "name_en": "Kagamine Rin",
+      "name_alt": [
+        "鏡音リン",
+        "镜音铃"
+      ],
+      "engine_ids": [
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2015,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 98
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "鏡音リン"
+        ]
+      }
+    },
+    {
+      "id": "vocal-luotianyi",
+      "name": "洛天依",
+      "name_ja": null,
+      "name_en": "Luo Tianyi",
+      "name_alt": [
+        "洛天依",
+        "洛天依AI",
+        "洛天依ACE",
+        "洛天依XS",
+        "世界第一的吃货殿下"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace",
+        "engine-xs"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2015,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 139
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "洛天依",
+          "洛天依AI",
+          "洛天依ACE",
+          "洛天依XS"
+        ],
+        "note": "同一歌声角色跨 VOCALOID / ACE Studio / X Studio 多个声库；原文后缀已解析进 engine_ids，原文写法保留在 vocal_names_raw"
+      }
+    },
+    {
+      "id": "vocal-yuezhengling",
+      "name": "乐正绫",
+      "name_ja": null,
+      "name_en": "Yuezheng Ling",
+      "name_alt": [
+        "乐正绫",
+        "乐正绫V3",
+        "乐正绫ACE"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2015,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 139
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "乐正绫",
+          "乐正绫V3",
+          "乐正绫ACE"
+        ]
+      }
+    },
+    {
+      "id": "vocal-yanhe",
+      "name": "言和",
+      "name_ja": null,
+      "name_en": "Yan He",
+      "name_alt": [
+        "言和",
+        "言和ACE"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025/index.html",
+        "line": 71
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "言和",
+          "言和ACE"
+        ]
+      }
+    },
+    {
+      "id": "vocal-xingchen",
+      "name": "星尘",
+      "name_ja": null,
+      "name_en": "Xingchen",
+      "name_alt": [
+        "星尘",
+        "星尘Infinity",
+        "星尘infinity"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2022,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024",
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 301
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "星尘Infinity",
+          "星尘infinity",
+          "星尘"
+        ],
+        "note": "2025-vol2 V10 的 Vocal 行中同时出现『星尘infinity』与『星尘』，已确认指向同一歌声，去重合并"
+      }
+    },
+    {
+      "id": "vocal-teto",
+      "name": "重音Teto",
+      "name_ja": "重音テト",
+      "name_en": "Kasane Teto",
+      "name_alt": [
+        "重音Teto",
+        "重音テト",
+        "teto",
+        "テト"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2024,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2025-vol2",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025/index.html",
+        "line": 206
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "重音テト",
+          "重音Teto",
+          "teto"
+        ]
+      }
+    },
+    {
+      "id": "vocal-una",
+      "name": "音街Una",
+      "name_ja": "音街ウナ",
+      "name_en": "Otoha Una",
+      "name_alt": [
+        "音街ウナ",
+        "音街Una",
+        "音街鳗"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2",
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 433
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "音街鳗",
+          "音街ウナ",
+          "音街Una"
+        ],
+        "note": "页面出现过三种写法，其中『音街鳗』为 2025-vol2 V8 的写法，需人工核对是否确为同一角色"
+      }
+    },
+    {
+      "id": "vocal-moqingxian",
+      "name": "墨清弦",
+      "name_ja": null,
+      "name_en": "Mo Qingxian",
+      "name_alt": [
+        "墨清弦"
+      ],
+      "engine_ids": [
+        "engine-ace",
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 99
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-moke",
+      "name": "徵羽摩柯",
+      "name_ja": null,
+      "name_en": "Zhiyu Moke",
+      "name_alt": [
+        "徵羽摩柯"
+      ],
+      "engine_ids": [
+        "engine-ace",
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2",
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 524
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-longya",
+      "name": "乐正龙牙",
+      "name_ja": null,
+      "name_en": "Yuezheng Longya",
+      "name_alt": [
+        "乐正龙牙"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 524
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-xinhua",
+      "name": "心华",
+      "name_ja": null,
+      "name_en": "Xin Hua",
+      "name_alt": [
+        "心华"
+      ],
+      "engine_ids": [
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025/index.html",
+        "line": 665
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-yongye",
+      "name": "永夜Minus",
+      "name_ja": null,
+      "name_en": "Yongye Minus",
+      "name_alt": [
+        "永夜Minus",
+        "永夜 Minus",
+        "永夜"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2025-vol1",
+      "edition_ids": [
+        "2025-vol1",
+        "2026-vol1",
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025/index.html",
+        "line": 480
+      },
+      "ext": {
+        "name_variants_in_pages": [
+          "永夜Minus",
+          "永夜"
+        ]
+      }
+    },
+    {
+      "id": "vocal-chiyu",
+      "name": "赤羽",
+      "name_ja": null,
+      "name_en": "Chi Yu",
+      "name_alt": [
+        "赤羽"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "inferred",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 510
+      },
+      "ext": {
+        "note": "引擎依据同期『VOCALOID，Synthesizer V』推断，具体归属待确认"
+      }
+    },
+    {
+      "id": "vocal-shian",
+      "name": "诗岸",
+      "name_ja": null,
+      "name_en": "Shi An",
+      "name_alt": [
+        "诗岸"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 194
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-cangqiong",
+      "name": "苍穹",
+      "name_ja": null,
+      "name_en": "Cang Qiong",
+      "name_alt": [
+        "苍穹"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 670
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-xiayuyao",
+      "name": "夏语遥",
+      "name_ja": null,
+      "name_en": "Xia Yuyao",
+      "name_alt": [
+        "夏语遥"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol1",
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 522
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-gumi",
+      "name": "GUMI",
+      "name_ja": "Megpoid",
+      "name_en": "GUMI",
+      "name_alt": [
+        "Megpoid",
+        "GUMI"
+      ],
+      "engine_ids": [
+        "engine-vocaloid"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "inferred",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 589
+      },
+      "ext": {
+        "note": "页面 Vocal 行写『Megpoid』，同作品 STAFF 调校行写『GUMI』，为同一歌声"
+      }
+    },
+    {
+      "id": "vocal-popy",
+      "name": "夢ノ結唱 POPY",
+      "name_ja": "夢ノ結唱 POPY",
+      "name_en": "POPY",
+      "name_alt": [
+        "夢ノ結唱 POPY"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 330
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-hanakuma",
+      "name": "花隈千冬",
+      "name_ja": "花隈千冬",
+      "name_en": "Hanakuma Chifuyu",
+      "name_alt": [
+        "花隈千冬"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 143
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-nanshixun",
+      "name": "南时薰",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "南时薰"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol1",
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "inferred",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 142
+      },
+      "ext": {
+        "note": "引擎原文为『猜测ACE Studio』，带不确定性前缀"
+      }
+    },
+    {
+      "id": "vocal-feimeng",
+      "name": "飞梦",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "飞梦"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol1",
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 437
+      },
+      "ext": {
+        "note": "北航飞梦ACG联盟的自有歌声角色，与社团同名"
+      }
+    },
+    {
+      "id": "vocal-xiaqiming",
+      "name": "夏祁铭",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "夏祁铭",
+        "夏祁铭normal",
+        "夏祁铭vivid"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 275
+      },
+      "ext": {
+        "note": "原文 Vocal 为『夏祁铭normal/vivid』，表示两种声线"
+      }
+    },
+    {
+      "id": "vocal-qifu",
+      "name": "起复",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "起复"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace",
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2025,
+      "first_edition_id": "2025-vol2",
+      "edition_ids": [
+        "2025-vol2"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "pending",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2025-vol2/index.html",
+        "line": 524
+      },
+      "ext": {
+        "note": "出自 9 人翻调，engine 无法一一对应"
+      }
+    },
+    {
+      "id": "vocal-mai",
+      "name": "Mai",
+      "name_ja": null,
+      "name_en": "Mai",
+      "name_alt": [
+        "Mai"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol1",
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 522
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-pastel",
+      "name": "PASTEL",
+      "name_ja": null,
+      "name_en": "PASTEL",
+      "name_alt": [
+        "PASTEL"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "kind": "virtual_singer",
+      "origin": "jp",
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol1",
+      "edition_ids": [
+        "2026-vol1"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "inferred",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol1/index.html",
+        "line": 590
+      },
+      "ext": {
+        "note": "仅在 img[title] 的 vocal 行出现，未进入页面 Vocal 字段"
+      }
+    },
+    {
+      "id": "vocal-dianying",
+      "name": "点萤",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "点萤"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-ruibiya",
+      "name": "瑞比娅",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "瑞比娅"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-yunyuguang",
+      "name": "雲宇光",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "雲宇光"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-huanxiaoyi",
+      "name": "幻晓伊",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "幻晓伊"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-xihelv",
+      "name": "曦和律",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "曦和律"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-tiansuici",
+      "name": "天碎瓷",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "天碎瓷"
+      ],
+      "engine_ids": [
+        "engine-deepvocal"
+      ],
+      "kind": "virtual_singer",
+      "origin": "cn",
+      "first_appearance": 2024,
+      "first_edition_id": "2024",
+      "edition_ids": [
+        "2024"
+      ],
+      "work_ids": [],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "ok",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2024/index.html",
+        "line": 218
+      },
+      "ext": {}
+    },
+    {
+      "id": "vocal-unknown",
+      "name": "未知歌手",
+      "name_ja": null,
+      "name_en": null,
+      "name_alt": [
+        "未知歌手",
+        "未知"
+      ],
+      "engine_ids": [
+        "engine-unknown"
+      ],
+      "kind": "virtual_singer",
+      "origin": null,
+      "first_appearance": 2026,
+      "first_edition_id": "2026-vol2",
+      "edition_ids": [
+        "2026-vol2"
+      ],
+      "work_ids": [
+        "work-2026-vol2-bv1jsvm6bere"
+      ],
+      "stats": {
+        "works": null
+      },
+      "status": {
+        "engine_ids": "pending",
+        "stats": "pending"
+      },
+      "_src": {
+        "file": "2026-vol2/index.html",
+        "line": 283
+      },
+      "ext": {
+        "note": "占位条目。2026-vol2 V5《未完结的盛夏》原文 Vocal 与歌手引擎均为 /，栏目方确认写成未知歌手",
+        "replace_when_known": "待确认实际虚拟歌手后，应替换为具体 vocal id"
+      }
+    }
+  ],
+  "pending_unresolved": [
+    {
+      "raw": "南时薰",
+      "appears_in": [
+        "2026-vol1 V2",
+        "2026-vol1 V12"
+      ],
+      "status": "已建条目，但引擎为推断（原文『猜测ACE Studio』）"
+    },
+    {
+      "raw": "音街鳗",
+      "appears_in": [
+        "2025-vol2 V8"
+      ],
+      "status": "已归入 vocal-una，请人工确认"
+    },
+    {
+      "raw": "重音テト / 重音Teto",
+      "appears_in": [
+        "多处"
+      ],
+      "status": "已归入 vocal-teto"
+    },
+    {
+      "raw": "乐正绫V3 / 乐正绫ACE / 洛天依ACE / 洛天依AI / 洛天依XS",
+      "appears_in": [
+        "多处"
+      ],
+      "status": "已归一，原文写法保留在 works[].vocal_names_raw 与 vocal_variants"
+    }
+  ],
+  "not_virtual_singers": {
+    "note": "以下名字出现在 STAFF 或舞台描述中，但为真人或扮演者，未建 vocal 条目",
+    "entries": [
+      {
+        "raw": "乐正绫 / 徵羽摩柯",
+        "context": "2026-vol2 H4《繁华唱遍》页面『舞:乐正绫』『歌:徵羽摩柯』",
+        "reason": "为真人扮演虚拟歌手形象的舞台节目，非虚拟歌手演唱"
+      },
+      {
+        "raw": "世界第一的吃货殿下",
+        "context": "2026-vol2 H16 原 staff 表中的演唱者",
+        "reason": "为洛天依的别称，属原曲信息，未计入本作 vocal"
+      }
+    ]
+  }
+}

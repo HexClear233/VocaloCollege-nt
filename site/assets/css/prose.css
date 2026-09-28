@@ -1,0 +1,134 @@
+/* ==========================================================================
+   prose.css — 长文排版（收录细则页）
+   用于 .prose 容器内的标题、段落、列表、定义列表
+   ========================================================================== */
+
+.prose {
+  max-width: 760px;
+  margin: 0 auto;
+  color: var(--text);
+}
+
+.prose h1 {
+  font-size: var(--fs-2xl);
+  margin-bottom: var(--sp-3);
+}
+
+.prose h2 {
+  font-size: var(--fs-lg);
+  margin-top: var(--sp-7);
+  margin-bottom: var(--sp-3);
+  padding-bottom: var(--sp-2);
+  border-bottom: 2px solid var(--border);
+  transition: border-color var(--t);
+  scroll-margin-top: calc(var(--header-h) + var(--sp-4));
+}
+.prose h2:first-of-type { margin-top: var(--sp-5); }
+
+.prose h3 {
+  font-size: var(--fs-md);
+  margin-top: var(--sp-5);
+  margin-bottom: var(--sp-2);
+}
+
+.prose p { margin-bottom: var(--sp-3); }
+
+.prose ol, .prose ul {
+  margin: 0 0 var(--sp-4);
+  padding-left: var(--sp-5);
+}
+.prose li { margin-bottom: var(--sp-2); }
+.prose li:last-child { margin-bottom: 0; }
+
+.prose a { font-weight: 500; }
+
+.prose__lead {
+  font-size: var(--fs-md);
+  color: var(--secondary);
+  margin-bottom: var(--sp-5);
+}
+
+/* 页内目录 */
+.prose__toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  margin-bottom: var(--sp-6);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  transition: background-color var(--t), border-color var(--t);
+}
+.prose__toc a {
+  font-size: var(--fs-sm);
+  color: var(--secondary);
+  padding: 2px var(--sp-2);
+  border-radius: var(--r-sm);
+  transition: color var(--t-fast), background-color var(--t-fast);
+}
+.prose__toc a:hover {
+  color: var(--text);
+  background: var(--surface);
+  text-decoration: none;
+}
+
+/* 强调段（原文用大号加粗表达的整段要点） */
+.prose__emph {
+  font-size: var(--fs-md);
+  font-weight: 600;
+  line-height: 1.75;
+  padding: var(--sp-4);
+  background: var(--accent-soft);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--r) var(--r) 0;
+}
+
+/* 说明性段落 */
+.prose__note {
+  color: var(--secondary);
+  font-size: var(--fs-sm);
+  padding: var(--sp-3) var(--sp-4);
+  background: var(--surface-sunken);
+  border-radius: var(--r);
+  transition: background-color var(--t);
+}
+
+/* 警告/注意段（原文用红色表达的规则） */
+.prose__warn {
+  padding: var(--sp-3) var(--sp-4);
+  border-left: 3px solid #E5484D;
+  background: color-mix(in srgb, #E5484D 8%, transparent);
+  border-radius: 0 var(--r) var(--r) 0;
+}
+[data-theme='dark'] .prose__warn {
+  background: color-mix(in srgb, #E5484D 14%, transparent);
+}
+
+/* 分类符号定义列表 */
+.prose__defs {
+  margin: 0 0 var(--sp-5);
+}
+.prose__defs dt {
+  font-weight: 600;
+  margin-top: var(--sp-4);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+.prose__defs dt i { color: var(--secondary); font-weight: 400; }
+.prose__defs dd {
+  margin: var(--sp-1) 0 0;
+  padding-left: var(--sp-4);
+  border-left: 2px solid var(--border);
+  color: var(--secondary);
+  transition: border-color var(--t);
+}
+
+@media (max-width: 640px) {
+  .prose { max-width: 100%; }
+  .prose h2 { margin-top: var(--sp-6); }
+  .prose__toc { padding: var(--sp-2) var(--sp-3); }
+  .prose__defs dd { padding-left: var(--sp-3); }
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "vocalocollege/snapshot-index/1.0",
+  "generated_at": "2026-09-28T23:26:26+08:00",
+  "latest": "2026-09-28",
+  "count": 1,
+  "first_date": "2026-09-28",
+  "note": "每次运行 scripts/build_statistics.js 后运行 scripts/snapshot.js 追加一条。同日重复运行会覆盖。",
+  "series": [
+    {
+      "date": "2026-09-28",
+      "works": 108,
+      "schools": 44,
+      "clubs": 51,
+      "vocals": 33,
+      "editions": 5,
+      "OC": 40,
+      "RT": 24,
+      "VC": 40,
+      "IC": 4,
+      "DW": 0,
+      "sp": 3,
+      "collaborations": 8
+    }
+  ],
+  "deltas": []
+}
