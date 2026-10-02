@@ -3154,7 +3154,7 @@
       "tags": [],
       "tier": "sp",
       "is_sp": true,
-      "sp_note": null,
+      "sp_note": "可以确定的是，翻调的质量着实可以。",
       "edition_id": "2025-vol2",
       "year": 2025,
       "published_at": "2025-07-04T18:00:00+08:00",
@@ -3243,7 +3243,7 @@
         "type": "ok",
         "school_id": "ok",
         "club_id": "parsed_partial",
-        "sp_note": "pending",
+        "sp_note": "ok",
         "vocal_ids": "ok",
         "engine_ids": "ok",
         "staff": "parsed",
@@ -3310,6 +3310,10 @@
           "at": "2026-09-28",
           "reason": "STAFF 鸣谢 USTC歌声合成技术协会，补上原文名使 id 与 name 数量一致",
           "before": "{\"ids\":[\"club-ustc-leo\",\"club-ustc-vocalo\"],\"names\":[\"LEO动漫协会\"]}"
+        },
+        "sp_note_source": {
+          "provided_by": "user",
+          "decided_at": "2026-09-28"
         }
       },
       "source": {

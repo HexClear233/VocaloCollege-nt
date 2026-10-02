@@ -116,7 +116,7 @@ section('Data center - structure');
   // 收录概念
   ok(r.collectCards >= 5, r.collectCards + ' collection rule cards (>=5)');
   ok(r.collectListItems >= 4, r.collectListItems + ' methodology bullets (>=4)');
-  ok(r.collectTableRows === 6, 'per-edition table 6 rows (5 editions + total) (got ' +
+  ok(r.collectTableRows === 7, 'per-edition table 7 rows (6 editions + total) (got ' +
     r.collectTableRows + ')');
   ok(r.hasCollectionApi === 'object', 'VCCollection API loaded');
 }
@@ -156,18 +156,18 @@ section('Data center - computed numbers');
     };
   `);
 
-  ok(r.donutTotal === '108', 'donut total = 108 (got ' + r.donutTotal + ')');
+  ok(r.donutTotal === '155', 'donut total = 155 (got ' + r.donutTotal + ')');
   // .chart-legend__item 同时命中环形图图例与行内图例，故取 ≥4
   ok(r.legend.length >= 4, 'legend has >=4 entries (got ' + r.legend.length + ')');
-  ok(r.legend.join('|').indexOf('原创40') >= 0, 'legend shows 原创 40');
-  ok(r.legend.join('|').indexOf('翻调24') >= 0, 'legend shows 翻调 24');
-  ok(r.legend.join('|').indexOf('人声翻唱40') >= 0, 'legend shows 人声翻唱 40');
-  ok(r.legend.join('|').indexOf('乐器翻奏4') >= 0, 'legend shows 乐器翻奏 4');
+  ok(r.legend.join('|').indexOf('原创44') >= 0, 'legend shows 原创 44');
+  ok(r.legend.join('|').indexOf('翻调26') >= 0, 'legend shows 翻调 26');
+  ok(r.legend.join('|').indexOf('人声翻唱47') >= 0, 'legend shows 人声翻唱 47');
+  ok(r.legend.join('|').indexOf('乐器翻奏5') >= 0, 'legend shows 乐器翻奏 5');
 
-  // 类型表合计：OC40 RT24 VC40 IC4 合计108（DW 列为 —）
+  // 类型表合计：OC44 RT26 VC47 IC5 DW33 合计155
   if (r.totalRow) {
     const nums = r.totalRow.filter(x => /^\d+$/.test(x.trim())).map(Number);
-    ok(nums.indexOf(108) >= 0, 'table total row contains 108 (got ' + JSON.stringify(r.totalRow) + ')');
+    ok(nums.indexOf(155) >= 0, 'table total row contains 155 (got ' + JSON.stringify(r.totalRow) + ')');
   } else ok(false, 'table total row exists');
 
   ok(r.yearLabels.indexOf('2024') >= 0 && r.yearLabels.indexOf('2025') >= 0 && r.yearLabels.indexOf('2026') >= 0,

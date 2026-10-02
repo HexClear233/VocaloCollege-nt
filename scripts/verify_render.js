@@ -76,13 +76,13 @@ for (const p of PAGES) {
     add(domOnly.includes('最新收录'), '含 LATEST WORKS 段');
     add(domOnly.includes('数据中心'), '含 DATA 段');
     add(domOnly.includes('探索'), '含 EXPLORE 段');
-    add(/stat-num">108</.test(domOnly), '作品总数 108 已渲染');
+    add(/stat-num">155</.test(domOnly), '作品总数 155 已渲染');
     add((domOnly.match(/class="stat-num"/g) || []).length >= 8, 'stat-block 已渲染出内容');
-    // 往期节目：5 张期卡片
-    add((domOnly.match(/class="ec"/g) || []).length >= 6, '往期节目卡片 ≥6（1 最新 + 5 列表）');
+    // 往期节目：6 张期卡片
+    add((domOnly.match(/class="ec"/g) || []).length >= 7, '往期节目卡片 ≥7（1 最新 + 6 列表）');
     // 数据区不再为空
     add((domOnly.match(/class="tbar"/g) || []).length === 5, '分类构成条 5 行');
-    add((domOnly.match(/class="data-bar"/g) || []).length === 5, '各期规模条 5 行');
+    add((domOnly.match(/class="data-bar"/g) || []).length === 6, '各期规模条 6 行');
     add(domOnly.includes('收录细则'), '导航含收录细则');
   }
   if (p.name === 'about') {

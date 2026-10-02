@@ -667,6 +667,148 @@
   font-family: var(--font-mono);
 }
 
+/* DW 卡片（作品库混排时的视觉降级） */
+.wc--dw .wc__cover { opacity: 0.82; }
+.wc--dw .wc__title { font-size: var(--fs-sm); }
+
+/* ==========================================================================
+   <dw-row> — 衍生创作单行条目
+   DW 不与 OC/RT/VC/IC 同级，故以「详细信息」式单行条目呈现，而非卡片。
+   视觉参照文件管理器的详细列表：表头 + 斑马纹行 + 悬停高亮。
+   ========================================================================== */.dw-list {
+  margin: var(--sp-4) 0 0;
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  overflow: hidden;
+  background: var(--surface);
+  transition: background-color var(--t), border-color var(--t);
+}
+
+/* 表头 */
+.dw-list__head {
+  display: grid;
+  grid-template-columns: 52px 64px minmax(0, 1fr) 96px 168px 104px 116px;
+  gap: var(--sp-3);
+  align-items: center;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--surface-sunken);
+  border-bottom: 1px solid var(--border);
+  font-size: var(--fs-xs);
+  font-weight: 600;
+  color: var(--secondary);
+  letter-spacing: 0.02em;
+  transition: background-color var(--t), border-color var(--t);
+}
+
+/* 行容器 */
+.dw-row-host { display: block; }
+
+.dw-row {
+  display: grid;
+  grid-template-columns: 52px 64px minmax(0, 1fr) 96px 168px 104px 116px;
+  gap: var(--sp-3);
+  align-items: center;
+  padding: var(--sp-2) var(--sp-3);
+  border-bottom: 1px solid var(--border);
+  color: var(--text);
+  text-decoration: none;
+  transition: background-color var(--t-fast), color var(--t-fast);
+}
+.dw-row-host:last-child .dw-row { border-bottom: 0; }
+.dw-row:hover { background: var(--surface-raised); text-decoration: none; }
+.dw-row--nolink { cursor: default; }
+
+/* 列：序号 */
+.dw-row__seq {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+  text-align: right;
+  padding-right: var(--sp-2);
+  white-space: nowrap;
+}
+
+/* 列：缩略图（16:9 小图） */
+.dw-row__thumb {
+  display: block;
+  width: 64px;
+  height: 36px;
+  border-radius: var(--r-sm);
+  overflow: hidden;
+  background: var(--surface-sunken);
+  flex: none;
+}
+.dw-row__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: var(--cover-filter);
+}
+.dw-row__thumb-fallback {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--surface-sunken);
+}
+
+/* 列：标题 */
+.dw-row__title {
+  font-size: var(--fs-sm);
+  line-height: 1.45;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+
+/* 列：分类 */
+.dw-row__cat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: nowrap;
+}
+.dw-row__pjsk {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  padding: 0 4px;
+  white-space: nowrap;
+}
+
+/* 列：UP主 / 日期 / BV */
+.dw-row__up,
+.dw-row__date,
+.dw-row__bvid {
+  font-size: var(--fs-xs);
+  color: var(--secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dw-row__bvid { font-family: var(--font-mono); }
+.dw-row__date { font-variant-numeric: tabular-nums; }
+
+/* 窄屏：隐藏次要列 */
+@media (max-width: 900px) {
+  .dw-list__head { display: none; }
+  .dw-row {
+    grid-template-columns: 44px 56px minmax(0, 1fr) 88px;
+    gap: var(--sp-2);
+  }
+  .dw-row__up, .dw-row__date, .dw-row__bvid { display: none; }
+  .dw-row__thumb { width: 56px; height: 32px; }
+}
+@media (max-width: 560px) {
+  .dw-row { grid-template-columns: 40px 48px minmax(0, 1fr); }
+  .dw-row__cat { display: none; }
+  .dw-row__thumb { width: 48px; height: 27px; }
+}
+
 /* ==========================================================================
    加载 / 错误状态
    ========================================================================== */

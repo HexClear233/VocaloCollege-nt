@@ -1,8 +1,8 @@
 {
   "schema": "vocalocollege/snapshot-index/1.0",
-  "generated_at": "2026-09-28T23:26:26+08:00",
-  "latest": "2026-09-28",
-  "count": 1,
+  "generated_at": "2026-10-02T10:32:16+08:00",
+  "latest": "2026-10-02",
+  "count": 3,
   "first_date": "2026-09-28",
   "note": "每次运行 scripts/build_statistics.js 后运行 scripts/snapshot.js 追加一条。同日重复运行会覆盖。",
   "series": [
@@ -20,7 +20,47 @@
       "DW": 0,
       "sp": 3,
       "collaborations": 8
+    },
+    {
+      "date": "2026-10-01",
+      "works": 108,
+      "schools": 44,
+      "clubs": 51,
+      "vocals": 33,
+      "editions": 5,
+      "OC": 40,
+      "RT": 24,
+      "VC": 40,
+      "IC": 4,
+      "DW": 0,
+      "sp": 3,
+      "collaborations": 8
+    },
+    {
+      "date": "2026-10-02",
+      "works": 155,
+      "schools": 57,
+      "clubs": 64,
+      "vocals": 33,
+      "editions": 6,
+      "OC": 44,
+      "RT": 26,
+      "VC": 47,
+      "IC": 5,
+      "DW": 33,
+      "sp": 4,
+      "collaborations": 8
     }
   ],
-  "deltas": []
+  "deltas": [
+    {
+      "from": "2026-10-01",
+      "to": "2026-10-02",
+      "works": 47,
+      "schools": 13,
+      "clubs": 13,
+      "vocals": 0,
+      "sum": 73
+    }
+  ]
 }

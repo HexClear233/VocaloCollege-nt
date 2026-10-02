@@ -101,30 +101,30 @@ section('Works library - structure');
   `, 'works.html');
 
   ok(!r.__error, 'loads without error' + (r.__error ? ' -> ' + String(r.__error).slice(0, 160) : ''));
-  ok(r.initial === 108, 'initial render 108 works (got ' + r.initial + ')');
+  ok(r.initial === 155, 'initial render 155 works (got ' + r.initial + ')');
   ok(r.hasSearch, 'search box present');
   ok(r.facets === 7, '7 facet groups (got ' + r.facets + ')');
-  ok(r.types === 4, '4 type options (OC/RT/VC/IC; DW has no works) (got ' + r.types + ')');
-  ok(r.editions === 5, '5 edition options (got ' + r.editions + ')');
+  ok(r.types === 5, '5 type options (OC/RT/VC/IC/DW) (got ' + r.types + ')');
+  ok(r.editions === 6, '6 edition options (got ' + r.editions + ')');
   ok(r.vocals === 33, '33 vocal options (got ' + r.vocals + ')');
-  ok(r.schools === 44, '44 school options (got ' + r.schools + ')');
-  ok(r.clubs === 51, '51 club options (got ' + r.clubs + ')');
+  ok(r.schools === 57, '57 school options (got ' + r.schools + ')');
+  ok(r.clubs === 64, '64 club options (got ' + r.clubs + ')');
   ok(r.sortOptions === 4, '4 sort options (got ' + r.sortOptions + ')');
-  ok(/108/.test(r.count), 'count text has 108 ("' + r.count.trim() + '")');
+  ok(/155/.test(r.count), 'count text has 155 ("' + r.count.trim() + '")');
 }
 
 // ============================================================ 2. filter/search
 section('Works library - filter and search');
 {
   const cases = [
-    ['works.html?types=OC', 40, 'type=OC'],
-    ['works.html?types=RT', 24, 'type=RT'],
-    ['works.html?types=VC', 40, 'type=VC'],
-    ['works.html?types=IC', 4, 'type=IC'],
+    ['works.html?types=OC', 44, 'type=OC'],
+    ['works.html?types=RT', 26, 'type=RT'],
+    ['works.html?types=VC', 47, 'type=VC'],
+    ['works.html?types=IC', 5, 'type=IC'],
     ['works.html?editions=2024', 10, 'edition=2024'],
     ['works.html?editions=2026-vol2', 33, 'edition=2026-vol2'],
-    ['works.html?sp=1', 3, 'SP only'],
-    ['works.html?onair=1', 67, 'on-air only'],
+    ['works.html?sp=1', 4, 'SP only'],
+    ['works.html?onair=1', 77, 'on-air only'],
     ['works.html?q=' + encodeURIComponent('烟花说'), 1, 'search title'],
     ['works.html?q=' + encodeURIComponent('南京邮电'), 2, 'search school'],
     ['works.html?q=' + encodeURIComponent('柒世纪'), 2, 'search club'],
@@ -147,8 +147,8 @@ section('Works library - filter and search');
 section('Archives - list and detail');
 {
   const kinds = [
-    ['schools', 'school', 44, 'school-sysu', '中山大学'],
-    ['clubs', 'club', 51, 'club-sysu-zhongshu', '中术大学'],
+    ['schools', 'school', 57, 'school-sysu', '中山大学'],
+    ['clubs', 'club', 64, 'club-sysu-zhongshu', '中术大学'],
     ['vocals', 'vocal', 33, 'vocal-miku', '初音未来']
   ];
 
@@ -243,12 +243,12 @@ section('SPECIAL PICK page');
     };
   `, 'sp.html');
   ok(!r.__error, 'SP page loads' + (r.__error ? ' -> ' + String(r.__error).slice(0, 160) : ''));
-  ok(r.entries === 3, '3 SP entries (got ' + r.entries + ')');
+  ok(r.entries === 4, '4 SP entries (got ' + r.entries + ')');
   ok(r.title === 'SPECIAL PICK', 'title = "' + r.title + '"');
   ok(r.hasCurator, 'has Curator Note block');
   ok(r.hasPrinciple, 'has SP principles');
   ok(r.staffRows > 0, r.staffRows + ' staff rows');
-  ok(r.editions.length === 3 && /2026/.test(r.editions[0]),
+  ok(r.editions.length === 4 && /2026/.test(r.editions[0]),
     'reverse chronological: ' + r.editions.join(' / '));
 }
 
@@ -263,8 +263,8 @@ section('Files and data integrity');
   const nSchool = fs.readdirSync(path.join(SITE, 'schools')).filter(f => f.endsWith('.html')).length;
   const nClub = fs.readdirSync(path.join(SITE, 'clubs')).filter(f => f.endsWith('.html')).length;
   const nVocal = fs.readdirSync(path.join(SITE, 'vocals')).filter(f => f.endsWith('.html')).length;
-  ok(nSchool === 45, 'schools/ has 45 pages (got ' + nSchool + ')');
-  ok(nClub === 52, 'clubs/ has 52 pages (got ' + nClub + ')');
+  ok(nSchool === 58, 'schools/ has 58 pages (got ' + nSchool + ')');
+  ok(nClub === 65, 'clubs/ has 65 pages (got ' + nClub + ')');
   ok(nVocal === 34, 'vocals/ has 34 pages (got ' + nVocal + ')');
 }
 

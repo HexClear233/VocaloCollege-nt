@@ -82,10 +82,13 @@
       var edLabel = ed ? (ed.label_short || ed.label) : '';
 
       // --- 收录层级（对应源站 xuhao / non-display-xuhao）---
+      // 判定只看「是否进入视频正片」(seq.visible)，与 tier 无关：
+      // 快闪段作品 tier=flash 且 visible=false，同样应标记为「仅网页收录」并变暗。
       var hasTierSplit = !!(ed && ed.has_seq_split);
       var onAir = !!(w.seq && w.seq.visible === true);
+      var isDW = (w.type === 'DW');
       var tierHTML = '';
-      if (hasTierSplit && w.tier === 'featured') {
+      if (hasTierSplit && !isDW) {
         tierHTML = onAir
           ? '<span class="wc__tier wc__tier--onair" title="该作品已收录进本期栏目视频">收录于视频</span>'
           : '<span class="wc__tier wc__tier--listed" title="该作品仅在本站收录，未进入本期栏目视频">仅网页收录</span>';
@@ -137,14 +140,97 @@
       this.classList.add('wc');
       if (w.tier === 'extra') this.classList.add('wc--extra');
       if (w.is_sp) this.classList.add('wc--sp');
+      // DW 为低一级的衍生创作，卡片形态下也做视觉降级（作品库混排时）
+      if (w.type === 'DW') this.classList.add('wc--dw');
       this.classList.toggle('wc--numbered', !!seqLabel);
-      if (hasTierSplit && w.tier === 'featured') {
+      // 层级样式：未进入视频正片的作品变暗（含快闪段作品）
+      if (hasTierSplit && !isDW) {
         this.classList.add(onAir ? 'wc--onair' : 'wc--listed');
       }
     };
 
     customElements.define('work-card', WorkCard);
     return WorkCard;
+  })();
+
+  /* ======================================================================
+     <dw-row>  衍生创作单行条目（Windows 资源管理器「详细信息」式）
+     DW 不与 OC/RT/VC/IC 同级，故以单行粗条目呈现，而非卡片。
+     列：序号（可选） · 缩略图 · 标题 · 类型 · UP主 · 日期 · BV号
+     用法：
+       const el = document.createElement('dw-row');
+       el.work = workObject;
+       el.ctx  = { root: '..' }
+     ====================================================================== */
+  var DwRow = /** @class */ (function () {
+    function DwRow() {
+      var self = Reflect.construct(HTMLElement, [], DwRow);
+      self._work = null;
+      self._ctx = null;
+      return self;
+    }
+    DwRow.prototype = Object.create(HTMLElement.prototype);
+    DwRow.prototype.constructor = DwRow;
+    Object.setPrototypeOf(DwRow, HTMLElement);
+
+    Object.defineProperty(DwRow.prototype, 'work', {
+      set: function (w) { this._work = w; if (this.isConnected) this.render(); },
+      get: function () { return this._work; }
+    });
+    Object.defineProperty(DwRow.prototype, 'ctx', {
+      set: function (c) { this._ctx = c || null; if (this.isConnected) this.render(); },
+      get: function () { return this._ctx; }
+    });
+
+    DwRow.prototype.connectedCallback = function () { this.render(); };
+
+    DwRow.prototype.render = function () {
+      var w = this._work;
+      if (!w) return;
+
+      var url = (w.bilibili && w.bilibili.url) ||
+                (w.links && w.links[0] && w.links[0].url) || null;
+      var bvid = (w.bilibili && w.bilibili.bvid) || '';
+      var cover = window.VCData ? window.VCData.coverURL(w) : null;
+      var seqLabel = (w.seq && w.seq.label) ? w.seq.label : '';
+
+      // 日期：只取 YYYY-MM-DD
+      var date = '';
+      if (w.published_at_raw) date = String(w.published_at_raw).slice(0, 10);
+      else if (w.published_at) date = String(w.published_at).slice(0, 10);
+
+      // UP主：优先原始上传者，回退社团名
+      var uploader = (w.bilibili && w.bilibili.uploader) || '';
+      if (!uploader && w.club_names_raw && w.club_names_raw.length) {
+        uploader = w.club_names_raw.join('、');
+      }
+
+      var projectBadge = w.project
+        ? '<span class="dw-row__pjsk" title="世界计划（Project Sekai）相关">' + esc(w.project) + '</span>'
+        : '';
+
+      this.innerHTML =
+        '<a class="dw-row' + (url ? '' : ' dw-row--nolink') + '"' +
+          (url ? ' href="' + esc(url) + '" target="_blank" rel="noopener noreferrer"' : '') + '>' +
+          '<span class="dw-row__seq">' + esc(seqLabel) + '</span>' +
+          '<span class="dw-row__thumb">' +
+            (cover
+              ? '<img src="' + esc(cover) + '" alt="" loading="lazy" decoding="async"' +
+                ' onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{className:\'dw-row__thumb-fallback\'}))">'
+              : '<span class="dw-row__thumb-fallback"></span>') +
+          '</span>' +
+          '<span class="dw-row__title" title="' + esc(w.title) + '">' + esc(w.title_short || w.title) + '</span>' +
+          '<span class="dw-row__cat"><span class="badge badge--dw">DW</span>' + projectBadge + '</span>' +
+          '<span class="dw-row__up" title="' + esc(uploader) + '">' + esc(uploader) + '</span>' +
+          '<span class="dw-row__date">' + esc(date) + '</span>' +
+          '<span class="dw-row__bvid">' + esc(bvid) + '</span>' +
+        '</a>';
+
+      this.classList.add('dw-row-host');
+    };
+
+    customElements.define('dw-row', DwRow);
+    return DwRow;
   })();
 
   /* ======================================================================

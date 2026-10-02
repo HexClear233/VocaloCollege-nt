@@ -4585,7 +4585,7 @@
       "tags": [],
       "tier": "sp",
       "is_sp": true,
-      "sp_note": null,
+      "sp_note": "一首毕业季应援曲，符合当前毕业的校园底色。",
       "edition_id": "2026-vol2",
       "year": 2026,
       "published_at": "2026-05-31T15:03:01+08:00",
@@ -4673,7 +4673,7 @@
         "type": "ok",
         "school_id": "ok",
         "club_id": "ok",
-        "sp_note": "pending",
+        "sp_note": "ok",
         "published_at": "ok",
         "vocal_ids": "ok",
         "engine_ids": "ok",
@@ -4701,7 +4701,11 @@
         ],
         "staff_roles": [
           "策划"
-        ]
+        ],
+        "sp_note_source": {
+          "provided_by": "user",
+          "decided_at": "2026-09-28"
+        }
       },
       "source": {
         "source": "Bilibili",

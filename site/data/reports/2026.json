@@ -1,7 +1,7 @@
 {
   "schema": "vocalocollege/annual-report/1.0",
   "year": 2026,
-  "generated_at": "2026-09-28T15:47:13.890Z",
+  "generated_at": "2026-10-02T02:32:16.583Z",
   "title": "VocaloCollege 2026 Annual Report",
   "subtitle": "高校术力口之声 2026 年度记录",
   "statement": [
@@ -10,47 +10,53 @@
     "数字描述的是 VocaloCollege 的**收录情况**，不代表社团真实产出总量，也不构成质量评价。"
   ],
   "summary": {
-    "works": 48,
-    "editions": 2,
-    "schools": 23,
-    "clubs": 25,
-    "vocals": 21,
-    "OC": 14,
-    "RT": 8,
-    "VC": 24,
-    "IC": 2,
-    "DW": 0,
+    "works": 95,
+    "editions": 3,
+    "schools": 38,
+    "clubs": 41,
+    "vocals": 23,
+    "OC": 18,
+    "RT": 10,
+    "VC": 31,
+    "IC": 3,
+    "DW": 33,
     "typeUnknown": 0,
-    "sp": 2,
+    "sp": 3,
     "collaborations": 6,
     "crossSchool": 4,
-    "onAir": 23,
-    "listedOnly": 25
+    "onAir": 33,
+    "listedOnly": 62
   },
   "typeBreakdown": [
     {
       "type": "OC",
       "label": "原创",
-      "count": 14,
-      "pct": 29.2
+      "count": 18,
+      "pct": 18.9
     },
     {
       "type": "RT",
       "label": "翻调",
-      "count": 8,
-      "pct": 16.7
+      "count": 10,
+      "pct": 10.5
     },
     {
       "type": "VC",
       "label": "人声翻唱",
-      "count": 24,
-      "pct": 50
+      "count": 31,
+      "pct": 32.6
     },
     {
       "type": "IC",
       "label": "乐器翻奏",
-      "count": 2,
-      "pct": 4.2
+      "count": 3,
+      "pct": 3.2
+    },
+    {
+      "type": "DW",
+      "label": "衍生创作",
+      "count": 33,
+      "pct": 34.7
     }
   ],
   "newEntities": {
@@ -94,6 +100,58 @@
       {
         "id": "school-njit",
         "name": "南京工程学院"
+      },
+      {
+        "id": "school-csv-118",
+        "name": "武汉大学"
+      },
+      {
+        "id": "school-csv-282",
+        "name": "湖南工商大学"
+      },
+      {
+        "id": "school-csv-125",
+        "name": "成都理工大学"
+      },
+      {
+        "id": "school-csv-102",
+        "name": "安徽大学"
+      },
+      {
+        "id": "school-csv-310",
+        "name": "河南中医药大学"
+      },
+      {
+        "id": "school-csv-332",
+        "name": "商丘师范学院"
+      },
+      {
+        "id": "school-csv-135",
+        "name": "华南师范大学"
+      },
+      {
+        "id": "school-csv-343",
+        "name": "电子科技大学"
+      },
+      {
+        "id": "school-csv-240",
+        "name": "郑州轻工业大学"
+      },
+      {
+        "id": "school-csv-188",
+        "name": "北京服装学院"
+      },
+      {
+        "id": "school-csv-400",
+        "name": "太原师范学院"
+      },
+      {
+        "id": "school-csv-272",
+        "name": "西北大学"
+      },
+      {
+        "id": "school-csv-337",
+        "name": "山东财经大学"
       }
     ],
     "clubs": [
@@ -144,6 +202,58 @@
       {
         "id": "club-njit-jimuzhisen",
         "name": "积木之森动漫社"
+      },
+      {
+        "id": "club-csv-118",
+        "name": "武汉大学动漫协会"
+      },
+      {
+        "id": "club-csv-282",
+        "name": "天也动漫社_official"
+      },
+      {
+        "id": "club-csv-125",
+        "name": "CG动漫协会"
+      },
+      {
+        "id": "club-csv-102",
+        "name": "红月动漫社"
+      },
+      {
+        "id": "club-csv-310",
+        "name": "漫联萌official"
+      },
+      {
+        "id": "club-csv-332",
+        "name": "翎光动漫社"
+      },
+      {
+        "id": "club-csv-411",
+        "name": "翼年动漫"
+      },
+      {
+        "id": "club-csv-343",
+        "name": "电子科技大学动漫社"
+      },
+      {
+        "id": "club-csv-413",
+        "name": "輕葉原动漫社"
+      },
+      {
+        "id": "club-csv-188",
+        "name": "破立漫画社"
+      },
+      {
+        "id": "club-csv-400",
+        "name": "太师九霄龙影动漫社"
+      },
+      {
+        "id": "club-csv-272",
+        "name": "青枫_official"
+      },
+      {
+        "id": "club-csv-337",
+        "name": "星骑动漫社"
       }
     ],
     "vocals": [
@@ -203,6 +313,11 @@
       "id": "2026-vol2",
       "label": "2026 高校术力口之声 Vol.2",
       "works": 33
+    },
+    {
+      "id": "2026-vol3",
+      "label": "2026 高校术力口之声 Vol.3",
+      "works": 47
     }
   ],
   "collaborations": [
@@ -329,21 +444,21 @@
     {
       "id": "vocal-luotianyi",
       "name": "洛天依",
-      "count": 7
+      "count": 9
     },
     {
       "id": "vocal-xingchen",
       "name": "星尘",
+      "count": 6
+    },
+    {
+      "id": "vocal-yanhe",
+      "name": "言和",
       "count": 5
     },
     {
       "id": "vocal-miku",
       "name": "初音未来",
-      "count": 4
-    },
-    {
-      "id": "vocal-yanhe",
-      "name": "言和",
       "count": 4
     },
     {
@@ -355,6 +470,11 @@
       "id": "vocal-yuezhengling",
       "name": "乐正绫",
       "count": 3
+    },
+    {
+      "id": "vocal-hanakuma",
+      "name": "花隈千冬",
+      "count": 2
     },
     {
       "id": "vocal-nanshixun",
@@ -382,11 +502,6 @@
       "count": 1
     },
     {
-      "id": "vocal-hanakuma",
-      "name": "花隈千冬",
-      "count": 1
-    },
-    {
       "id": "vocal-longya",
       "name": "乐正龙牙",
       "count": 1
@@ -397,8 +512,18 @@
       "count": 1
     },
     {
+      "id": "vocal-moqingxian",
+      "name": "墨清弦",
+      "count": 1
+    },
+    {
       "id": "vocal-unknown",
       "name": "未知歌手",
+      "count": 1
+    },
+    {
+      "id": "vocal-xiaqiming",
+      "name": "夏祁铭",
       "count": 1
     },
     {
@@ -433,6 +558,803 @@
     }
   ],
   "works": [
+    {
+      "id": "work-2026-vol3-bv1crao6yehe",
+      "title": "【2026夏日晚会单品 | 舞蹈】晴天好心情＋快乐合成器",
+      "title_short": "【2026夏日晚会单品 | 舞蹈】晴天好心情＋快乐合成器",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-30T19:00:00+08:00",
+      "bvid": "BV1cRao6yEHE",
+      "url": "https://www.bilibili.com/video/BV1cRao6yEHE",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "电子科技大学动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1qbah6belo",
+      "title": "【香菜哒咩】就这个beyond the way 爽！",
+      "title_short": "【香菜哒咩】就这个beyond the way 爽！",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-30T18:05:00+08:00",
+      "bvid": "BV1qBaH6BELo",
+      "url": "https://www.bilibili.com/video/BV1qBaH6BELo",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "星骑动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1bqah6de5q",
+      "title": "【2026夏日晚会单品 | 舞蹈】プレイ",
+      "title_short": "【2026夏日晚会单品 | 舞蹈】プレイ",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-28T12:00:00+08:00",
+      "bvid": "BV1bQah6DE5Q",
+      "url": "https://www.bilibili.com/video/BV1bQah6DE5Q",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "电子科技大学动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1huae6nep1",
+      "title": "从V3到ACE的「光与影的对白」【第九卦限乐队&USTC歌声合成技术协会-2026中科大勿负韶华迎新晚会】",
+      "title_short": "从V3到ACE的「光与影的对白」【第九卦限乐队&USTC歌声合成技术协会-2026中科大勿负韶华迎新晚会】",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-28T11:55:00+08:00",
+      "bvid": "BV1HUae6nEp1",
+      "url": "https://www.bilibili.com/video/BV1HUae6nEp1",
+      "edition_id": "2026-vol3",
+      "vocal_names": [
+        "洛天依"
+      ],
+      "club_names": [
+        "USTC歌声合成技术协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1mthd6jecf",
+      "title": "羽枫动漫社——2026西北大学团聚之夜迎新节目《亲爱的》宅舞",
+      "title_short": "羽枫动漫社——2026西北大学团聚之夜迎新节目《亲爱的》宅舞",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-27T00:40:35+08:00",
+      "bvid": "BV1mthd6JEcf",
+      "url": "https://www.bilibili.com/video/BV1mthd6JEcf",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "青枫_official"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1wrh26sepg",
+      "title": "【天也cv部】《千里邀月》中秋快乐~",
+      "title_short": "【天也cv部】《千里邀月》中秋快乐~",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-25T19:27:12+08:00",
+      "bvid": "BV1wrh26SEPg",
+      "url": "https://www.bilibili.com/video/BV1wrh26SEPg",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "天也动漫社_official"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1cxhe6beuu",
+      "title": "佐佑定番！点进来收获快乐吧～快乐合成器大合跳",
+      "title_short": "佐佑定番！点进来收获快乐吧～快乐合成器大合跳",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-22T19:19:18+08:00",
+      "bvid": "BV1cXhE6BEUu",
+      "url": "https://www.bilibili.com/video/BV1cXhE6BEUu",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "佐佑动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1yge86lejz",
+      "title": "遵义医科大学动漫社招新表演《拼凑乌托邦》【wota艺】",
+      "title_short": "遵义医科大学动漫社招新表演《拼凑乌托邦》【wota艺】",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-20T00:13:38+08:00",
+      "bvid": "BV1yGe86LEJz",
+      "url": "https://www.bilibili.com/video/BV1yGe86LEJz",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1lwyx6tesx",
+      "title": "【九霄龙影动漫社】爱言叶但是2026迎新版",
+      "title_short": "【九霄龙影动漫社】爱言叶但是2026迎新版",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-12T12:06:23+08:00",
+      "bvid": "BV1LwYX6tEsX",
+      "url": "https://www.bilibili.com/video/BV1LwYX6tEsX",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "太师九霄龙影动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1rvy56nesf",
+      "title": "【夏祁铭原创印象曲】夏、再见【HB to 鬼面P】",
+      "title_short": "【夏祁铭原创印象曲】夏、再见【HB to 鬼面P】",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-11T12:00:00+08:00",
+      "bvid": "BV1RvY56nEsF",
+      "url": "https://www.bilibili.com/video/BV1RvY56nEsF",
+      "edition_id": "2026-vol3",
+      "vocal_names": [
+        "夏祁铭"
+      ],
+      "club_names": [
+        "中术大学"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1rfbw6rejd",
+      "title": "青菀I Can’t Wait～",
+      "title_short": "青菀I Can’t Wait～",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-07T10:01:51+08:00",
+      "bvid": "BV1Rfbw6rEjd",
+      "url": "https://www.bilibili.com/video/BV1Rfbw6rEjd",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1qet169ezf",
+      "title": "文艺复兴！8年后居然还有社团翻跳与你同行～b with you～",
+      "title_short": "文艺复兴！8年后居然还有社团翻跳与你同行～b with you～",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-05T12:26:41+08:00",
+      "bvid": "BV1Qet169EzF",
+      "url": "https://www.bilibili.com/video/BV1Qet169EzF",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "佐佑动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1j8tv6mey7",
+      "title": "【武大漫协春日庆典】beyond the way",
+      "title_short": "【武大漫协春日庆典】beyond the way",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-09-01T21:58:01+08:00",
+      "bvid": "BV1j8tV6MEY7",
+      "url": "https://www.bilibili.com/video/BV1j8tV6MEY7",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "武汉大学动漫协会"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv15n4m6be39",
+      "title": "【破立漫画社·26年春日游园会】ちっちゃな私/小小的我",
+      "title_short": "【破立漫画社·26年春日游园会】ちっちゃな私/小小的我",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-30T04:23:42+08:00",
+      "bvid": "BV15N4m6bE39",
+      "url": "https://www.bilibili.com/video/BV15N4m6bE39",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "破立漫画社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1yk4m6zefy",
+      "title": "【破立漫画社·26年春日游园会】にっこり^^調査隊のテーマ/微笑调查队",
+      "title_short": "【破立漫画社·26年春日游园会】にっこり^^調査隊のテーマ/微笑调查队",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-30T04:19:10+08:00",
+      "bvid": "BV1YK4m6ZEfY",
+      "url": "https://www.bilibili.com/video/BV1YK4m6ZEfY",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "破立漫画社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1u54m6pejh",
+      "title": "【破立漫画社·26年春日游园会】絶対敵対メチャキライヤー/绝对敌对超级讨厌",
+      "title_short": "【破立漫画社·26年春日游园会】絶対敵対メチャキライヤー/绝对敌对超级讨厌",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-30T02:33:04+08:00",
+      "bvid": "BV1u54m6pEjH",
+      "url": "https://www.bilibili.com/video/BV1u54m6pEjH",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "破立漫画社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv19k416se11",
+      "title": "【破立漫画社·26年春日游园会】King",
+      "title_short": "【破立漫画社·26年春日游园会】King",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-29T21:42:04+08:00",
+      "bvid": "BV19k416sE11",
+      "url": "https://www.bilibili.com/video/BV19k416sE11",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "破立漫画社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1e5hj6deum",
+      "title": "【积木之森 · 2026天印纪】目击！Teto31份糖曲巧",
+      "title_short": "【积木之森 · 2026天印纪】目击！Teto31份糖曲巧",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-26T02:12:50+08:00",
+      "bvid": "BV1E5hj6dEum",
+      "url": "https://www.bilibili.com/video/BV1E5hj6dEum",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "积木之森动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1el8b6senb",
+      "title": "【南时薰cover】白鸟过河滩",
+      "title_short": "【南时薰cover】白鸟过河滩",
+      "type": "RT",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-23T19:47:48+08:00",
+      "bvid": "BV1eL8b6SEnB",
+      "url": "https://www.bilibili.com/video/BV1eL8b6SEnB",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1xw8y6yeus",
+      "title": "【花隈千冬原创曲】親愛なるキミに捧ぐ | 为亲爱的你献上 - 夏日歌会原创曲",
+      "title_short": "【花隈千冬原创曲】親愛なるキミに捧ぐ | 为亲爱的你献上 - 夏日歌会原创曲",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-23T14:29:24+08:00",
+      "bvid": "BV1xw8y6yEUs",
+      "url": "https://www.bilibili.com/video/BV1xw8y6yEUs",
+      "edition_id": "2026-vol3",
+      "vocal_names": [
+        "花隈千冬"
+      ],
+      "club_names": [
+        "南风动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1e78b6gehj",
+      "title": "【mep|反乌托邦】2026技术部迎新合作企划",
+      "title_short": "【mep|反乌托邦】2026技术部迎新合作企划",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-22T12:00:00+08:00",
+      "bvid": "BV1e78B6gEhJ",
+      "url": "https://www.bilibili.com/video/BV1e78B6gEhJ",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "輕葉原动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1ge8v6yefe",
+      "title": "【2026夏日晚会单品 | 舞蹈小品】请和我结婚吧！💗",
+      "title_short": "【2026夏日晚会单品 | 舞蹈小品】请和我结婚吧！💗",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-19T12:00:00+08:00",
+      "bvid": "BV1gE8V6YEfE",
+      "url": "https://www.bilibili.com/video/BV1gE8V6YEfE",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "电子科技大学动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv187bx6kerc",
+      "title": "再相逢【洛天依言和墨清弦原创/ilem十二周年投稿庆典单品】",
+      "title_short": "再相逢【洛天依言和墨清弦原创/ilem十二周年投稿庆典单品】",
+      "type": "OC",
+      "is_sp": true,
+      "year": 2026,
+      "published_at": "2026-08-18T12:00:00+08:00",
+      "bvid": "BV187bX6kERC",
+      "url": "https://www.bilibili.com/video/BV187bX6kERC",
+      "edition_id": "2026-vol3",
+      "vocal_names": [
+        "洛天依",
+        "言和",
+        "墨清弦"
+      ],
+      "club_names": [
+        "西安高校vocaloid创作社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1pnby6zevz",
+      "title": "【脑蚀】舞蹈翻跳 | 2026翼年纪【五角星】",
+      "title_short": "【脑蚀】舞蹈翻跳 | 2026翼年纪【五角星】",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-15T21:42:14+08:00",
+      "bvid": "BV1Pnby6zEVZ",
+      "url": "https://www.bilibili.com/video/BV1Pnby6zEVZ",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "翼年动漫"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv19sgg6xeef",
+      "title": "⌈Sech0乐队⌋サマータイムレコード（新録）（夏令时记录）——这个夏天的故事不会结束☀️",
+      "title_short": "⌈Sech0乐队⌋サマータイムレコード（新録）（夏令时记录）——这个夏天的故事不会结束☀️",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-15T08:15:00+08:00",
+      "bvid": "BV19SgG6XEEf",
+      "url": "https://www.bilibili.com/video/BV19SgG6XEEf",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1pxuz6kewq",
+      "title": "【MMD】SUKI娘的反乌托邦 Pt.2",
+      "title_short": "【MMD】SUKI娘的反乌托邦 Pt.2",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-12T03:26:20+08:00",
+      "bvid": "BV1pXuz6kEWq",
+      "url": "https://www.bilibili.com/video/BV1pXuz6kEWq",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "中石大SUKI动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1oluz6se6u",
+      "title": "室内打伞长不高没关系我们垫了8cm ｜【东京泰迪熊🧸舞台记录】",
+      "title_short": "室内打伞长不高没关系我们垫了8cm ｜【东京泰迪熊🧸舞台记录】",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-11T18:00:00+08:00",
+      "bvid": "BV1oLuZ6SE6u",
+      "url": "https://www.bilibili.com/video/BV1oLuZ6SE6u",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "翎光动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1hrut6kemt",
+      "title": "立秋也要和mmj一起遮阳伞汽水！",
+      "title_short": "立秋也要和mmj一起遮阳伞汽水！",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-07T17:10:45+08:00",
+      "bvid": "BV1HRut6kEMT",
+      "url": "https://www.bilibili.com/video/BV1HRut6kEMT",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1tbua6jeuh",
+      "title": "【漫临天下16th】单品：《萨姆沙》",
+      "title_short": "【漫临天下16th】单品：《萨姆沙》",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-04T21:42:19+08:00",
+      "bvid": "BV1tBuA6jEuh",
+      "url": "https://www.bilibili.com/video/BV1tBuA6jEuh",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "漫临天下动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1uvua6eepx",
+      "title": "【漫临天下16th】单品：《告死鸟》《pink flavor》",
+      "title_short": "【漫临天下16th】单品：《告死鸟》《pink flavor》",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-04T21:35:21+08:00",
+      "bvid": "BV1UvuA6EEpX",
+      "url": "https://www.bilibili.com/video/BV1UvuA6EEpX",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "漫临天下动漫社"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1jkmo6jegq",
+      "title": "【漫临天下16th】单品：《beyond the way》《ready steady》",
+      "title_short": "【漫临天下16th】单品：《beyond the way》《ready steady》",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-04T00:37:11+08:00",
+      "bvid": "BV1JkMo6JEGq",
+      "url": "https://www.bilibili.com/video/BV1JkMo6JEGq",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "漫临天下动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv13xg36seg7",
+      "title": "【中文vocaloid】中v中不中",
+      "title_short": "【中文vocaloid】中v中不中",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-02T12:00:00+08:00",
+      "bvid": "BV13XG36SEg7",
+      "url": "https://www.bilibili.com/video/BV13XG36SEg7",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "中南大东西动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1hekr6xeu4",
+      "title": "⌈Sech0乐队⌋天ノ弱（天之弱）——写满反话的爱之歌🎭",
+      "title_short": "⌈Sech0乐队⌋天ノ弱（天之弱）——写满反话的爱之歌🎭",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-02T09:00:00+08:00",
+      "bvid": "BV1heKr6XEU4",
+      "url": "https://www.bilibili.com/video/BV1heKr6XEU4",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "东北ACG音乐联合企划"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1en3u6we4x",
+      "title": "【武大漫协春日庆典】东京泰迪熊 天之弱 —— VOID乐队",
+      "title_short": "【武大漫协春日庆典】东京泰迪熊 天之弱 —— VOID乐队",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-01T22:55:42+08:00",
+      "bvid": "BV1eN3U6WE4X",
+      "url": "https://www.bilibili.com/video/BV1eN3U6WE4X",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "武汉大学动漫协会"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1mdg36mebl",
+      "title": "像脱氧核苷酸一样呐",
+      "title_short": "像脱氧核苷酸一样呐",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-08-01T14:13:05+08:00",
+      "bvid": "BV1MdG36mEBL",
+      "url": "https://www.bilibili.com/video/BV1MdG36mEBL",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "佐佑动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1bg3v63eww",
+      "title": "【武大漫协春日庆典】威風堂々 & 虎視眈々",
+      "title_short": "【武大漫协春日庆典】威風堂々 & 虎視眈々",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-28T17:04:44+08:00",
+      "bvid": "BV1bG3v63Eww",
+      "url": "https://www.bilibili.com/video/BV1bG3v63Eww",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "武汉大学动漫协会"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1ktgo6feck",
+      "title": "【武大漫协春日庆典】拼凑的断音",
+      "title_short": "【武大漫协春日庆典】拼凑的断音",
+      "type": "IC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-27T09:11:04+08:00",
+      "bvid": "BV1KTgo6FEck",
+      "url": "https://www.bilibili.com/video/BV1KTgo6FEck",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "武汉大学动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv1cr3m6oegb",
+      "title": "【2026招生简章】❀♪医学生们的随波逐流♬❀漫联萌社-因为有我们的爱温暖整个宇宙!!!",
+      "title_short": "【2026招生简章】❀♪医学生们的随波逐流♬❀漫联萌社-因为有我们的爱温暖整个宇宙!!!",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-25T17:20:00+08:00",
+      "bvid": "BV1CR3M6oEGb",
+      "url": "https://www.bilibili.com/video/BV1CR3M6oEGb",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "漫联萌official"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1xlgx6weey",
+      "title": "【安大红月动漫社】月安纪单品——神在哪里 在苦巧克力后面",
+      "title_short": "【安大红月动漫社】月安纪单品——神在哪里 在苦巧克力后面",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-24T17:50:00+08:00",
+      "bvid": "BV1XLgx6WEeY",
+      "url": "https://www.bilibili.com/video/BV1XLgx6WEeY",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "红月动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1xlgx6web8",
+      "title": "【安大红月动漫社】月安纪单品——黎明前线",
+      "title_short": "【安大红月动漫社】月安纪单品——黎明前线",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-24T17:50:00+08:00",
+      "bvid": "BV1XLgx6WEB8",
+      "url": "https://www.bilibili.com/video/BV1XLgx6WEB8",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "红月动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1qnky6be5e",
+      "title": "【直播回放】あの夏が饱和する【CG动漫协会暮岁纪】",
+      "title_short": "【直播回放】あの夏が饱和する【CG动漫协会暮岁纪】",
+      "type": "VC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-22T00:30:09+08:00",
+      "bvid": "BV1QnKY6bE5E",
+      "url": "https://www.bilibili.com/video/BV1QnKY6bE5E",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "CG动漫协会"
+      ],
+      "onAir": true
+    },
+    {
+      "id": "work-2026-vol3-bv19hka6jezl",
+      "title": "【世界计划】vbs·街巷狂想计划",
+      "title_short": "【世界计划】vbs·街巷狂想计划",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-20T12:00:00+08:00",
+      "bvid": "BV19HKA6jEzL",
+      "url": "https://www.bilibili.com/video/BV19HKA6jEzL",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "中南大东西动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1qnkw6ueum",
+      "title": "【宇宙】来看双马尾小偶像跳LOVEIT!!",
+      "title_short": "【宇宙】来看双马尾小偶像跳LOVEIT!!",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-18T18:00:00+08:00",
+      "bvid": "BV1QNKw6uEuM",
+      "url": "https://www.bilibili.com/video/BV1QNKw6uEuM",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1zhmx6xekb",
+      "title": "⁺✞ʚ核平糯ɞ✟₊&CandyCookieChocolate",
+      "title_short": "⁺✞ʚ核平糯ɞ✟₊&CandyCookieChocolate",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-11T12:00:00+08:00",
+      "bvid": "BV1ZhMx6xEkb",
+      "url": "https://www.bilibili.com/video/BV1ZhMx6xEkb",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1tyn76gepu",
+      "title": "【好吃×莲芷】世末歌者 | 曲终之时，你是否便会回应她的心音？【2026七草夏日纪】",
+      "title_short": "【好吃×莲芷】世末歌者 | 曲终之时，你是否便会回应她的心音？【2026七草夏日纪】",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-10T18:00:00+08:00",
+      "bvid": "BV1TYN76GEPu",
+      "url": "https://www.bilibili.com/video/BV1TYN76GEPu",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv13zmp63eoa",
+      "title": "【FLY动漫社】【扁鱼】随心所欲mercy ♡果然对我没兴趣吗(ᗜ ˰ ᗜ)",
+      "title_short": "【FLY动漫社】【扁鱼】随心所欲mercy ♡果然对我没兴趣吗(ᗜ ˰ ᗜ)",
+      "type": "DW",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-10T12:00:00+08:00",
+      "bvid": "BV13ZMp63Eoa",
+      "url": "https://www.bilibili.com/video/BV13ZMp63Eoa",
+      "edition_id": "2026-vol3",
+      "vocal_names": [],
+      "club_names": [
+        "FLY动漫社"
+      ],
+      "onAir": false
+    },
+    {
+      "id": "work-2026-vol3-bv1aati6kezy",
+      "title": "【星尘原创曲】雨季与你【现充爆炸乐队】",
+      "title_short": "【星尘原创曲】雨季与你【现充爆炸乐队】",
+      "type": "OC",
+      "is_sp": false,
+      "year": 2026,
+      "published_at": "2026-07-02T12:00:00+08:00",
+      "bvid": "BV1aaTi6kEzY",
+      "url": "https://www.bilibili.com/video/BV1aaTi6kEzY",
+      "edition_id": "2026-vol3",
+      "vocal_names": [
+        "星尘"
+      ],
+      "club_names": [
+        "西电Shining动漫社"
+      ],
+      "onAir": true
+    },
     {
       "id": "work-2026-vol2-bv18w7j6ketg",
       "title": "【国科大2026夏日宴】千年食谱颂&冠世一战",

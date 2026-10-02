@@ -1,20 +1,20 @@
 {
   "schema": "vocalocollege/report-index/1.0",
-  "generated_at": "2026-09-28T15:47:13.890Z",
+  "generated_at": "2026-10-02T02:32:16.585Z",
   "note": "本报告是记录，不是评比。不含院校/社团的作品数排行。",
   "years": [
     {
       "year": 2026,
       "file": "reports/2026.json",
-      "works": 48,
-      "schools": 23,
-      "clubs": 25,
-      "vocals": 21,
-      "newSchools": 10,
-      "newClubs": 12,
+      "works": 95,
+      "schools": 38,
+      "clubs": 41,
+      "vocals": 23,
+      "newSchools": 23,
+      "newClubs": 25,
       "newVocals": 11,
       "collaborations": 6,
-      "sp": 2
+      "sp": 3
     },
     {
       "year": 2025,

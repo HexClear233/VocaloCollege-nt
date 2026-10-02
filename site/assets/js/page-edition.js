@@ -89,21 +89,23 @@
 
     var used = {};
     var extras = [];   // tier=extra（论外）
+    var dwList = [];   // DW（衍生创作）—— 单行条目，不与 OC/RT/VC/IC 同级
     ed.works.forEach(function (w) {
       if (w.tier === 'extra') extras.push(w);
+      else if (w.type === 'DW') dwList.push(w);
     });
 
     SECTIONS.forEach(function (sec) {
       var list;
       if (sec.types) {
         list = ed.works.filter(function (w) {
-          return sec.types.indexOf(w.type) >= 0 && w.tier !== 'extra';
+          return sec.types.indexOf(w.type) >= 0 && w.tier !== 'extra' && w.type !== 'DW';
         });
         sec.types.forEach(function (t) { used[t] = 1; });
       } else {
         // 兜底段：type 为 null 或未被前面覆盖的
         list = ed.works.filter(function (w) {
-          return w.tier !== 'extra' && (!w.type || !used[w.type]);
+          return w.tier !== 'extra' && w.type !== 'DW' && (!w.type || !used[w.type]);
         });
       }
       if (!list.length) return;
@@ -151,6 +153,36 @@
       });
       se.appendChild(ge);
       host.appendChild(se);
+    }
+
+    // ---------- 衍生创作 [DW] ----------
+    // DW 是「对既有曲目的二次演绎」，不与 OC/RT/VC/IC 同级，
+    // 故以单行粗条目（详细信息式）呈现，而非作品卡片。
+    if (dwList.length) {
+      var sd = el('section', 'type-section');
+      var hd = el('div', 'type-section__head');
+      hd.appendChild(el('h2', 'type-section__name', '衍生创作 [DW]'));
+      hd.appendChild(el('span', 'type-section__count', dwList.length + ' 件'));
+      sd.appendChild(hd);
+      sd.appendChild(el('p', 'data-note',
+        '衍生创作是对既有术力口曲目的二次演绎（宅舞、MMD、打艺、视觉重制等），' +
+        '与原创、翻调、翻唱翻奏并非同一层级，故以下以条目形式列出。'));
+
+      var wrap = el('div', 'dw-list');
+      // 表头（对齐列宽）
+      var head = el('div', 'dw-list__head');
+      ['序号', '封面', '标题', '分类', 'UP主', '日期', 'BVID'].forEach(function (t) {
+        head.appendChild(el('span', '', t));
+      });
+      wrap.appendChild(head);
+
+      dwList.forEach(function (w) {
+        var row = document.createElement('dw-row');
+        row.work = w;
+        wrap.appendChild(row);
+      });
+      sd.appendChild(wrap);
+      host.appendChild(sd);
     }
 
     // ---------- SPECIAL PICK ----------

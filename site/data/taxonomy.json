@@ -660,12 +660,13 @@
     },
     "type3": {
       "usage": "快闪段",
-      "website": "skip",
-      "note": "栏目方确认网站上直接略过"
+      "website": "keep_as_dw_entry",
+      "note": "栏目方确认：DW 展示，以粗略条目形式呈现（非选项卡），因 DW 不与 OC/RT/VC/IC 同级"
     },
     "type3_pjsk": {
       "usage": "快闪段中的世界计划相关",
-      "website": "skip"
+      "website": "keep_as_dw_entry",
+      "note": "同上；PJSK 相关 DW 亦以粗条目形式展示"
     },
     "cover_display": {
       "usage": "网站展示用封面",

@@ -1,0 +1,22 @@
+{
+  "schema": "vocalocollege/snapshot/1.0",
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T14:09:14+08:00",
+  "works": 108,
+  "editions": 5,
+  "schools": 44,
+  "clubs": 51,
+  "vocals": 33,
+  "engines": 6,
+  "OC": 40,
+  "RT": 24,
+  "VC": 40,
+  "IC": 4,
+  "DW": 0,
+  "sp": 3,
+  "onAir": 67,
+  "listedOnly": 41,
+  "collaborations": 8,
+  "crossSchoolWorks": 8,
+  "multiClubWorks": 9
+}

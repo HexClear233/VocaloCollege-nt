@@ -66,13 +66,13 @@ section('Auto statistics - data/statistics.json');
   const S = JSON.parse(fs.readFileSync(p, 'utf8'));
   ok(S.schema === 'vocalocollege/statistics/1.0', 'schema ok: ' + S.schema);
   ok(!!S.generated_at, 'has generated_at: ' + S.generated_at);
-  ok(S.overview.works === 108, 'overview.works = 108 (got ' + S.overview.works + ')');
-  ok(S.overview.schools === 44, 'overview.schools = 44 (got ' + S.overview.schools + ')');
-  ok(S.overview.clubs === 51, 'overview.clubs = 51 (got ' + S.overview.clubs + ')');
+  ok(S.overview.works === 155, 'overview.works = 155 (got ' + S.overview.works + ')');
+  ok(S.overview.schools === 57, 'overview.schools = 57 (got ' + S.overview.schools + ')');
+  ok(S.overview.clubs === 64, 'overview.clubs = 64 (got ' + S.overview.clubs + ')');
   ok(S.overview.vocals === 33, 'overview.vocals = 33 (got ' + S.overview.vocals + ')');
-  ok(S.overview.OC === 40 && S.overview.RT === 24 && S.overview.VC === 40 && S.overview.IC === 4,
-    'type counts OC40/RT24/VC40/IC4');
-  ok(S.overview.sp === 3, 'SP = 3 (got ' + S.overview.sp + ')');
+  ok(S.overview.OC === 44 && S.overview.RT === 26 && S.overview.VC === 47 && S.overview.IC === 5,
+    'type counts OC44/RT26/VC47/IC5');
+  ok(S.overview.sp === 4, 'SP = 3 (got ' + S.overview.sp + ')');
   ok(S.policy.counts_platform_metrics === false, 'policy: does NOT count platform metrics');
   ok(S.policy.contains_rankings === false, 'policy: contains no rankings');
   // 不得出现任何平台指标字段
@@ -171,7 +171,7 @@ section('Annual reports - data/reports/');
 
   const r2026 = JSON.parse(fs.readFileSync(path.join(dir, '2026.json'), 'utf8'));
   ok(r2026.year === 2026, 'report year = 2026');
-  ok(r2026.summary.works === 48, '2026 works = 48 (got ' + r2026.summary.works + ')');
+  ok(r2026.summary.works === 95, '2026 works = 95 (got ' + r2026.summary.works + ')');
   ok(r2026.works.length === r2026.summary.works, 'works list matches summary');
   ok(Array.isArray(r2026.statement) && r2026.statement.length > 0,
     'has "record not ranking" statement');

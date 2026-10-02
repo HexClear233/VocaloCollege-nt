@@ -94,13 +94,29 @@
         "works": "encoded",
         "types": "ok"
       }
+    },
+    {
+      "id": "2026-vol3",
+      "file": "data/editions/2026-vol3.json",
+      "label": "2026 高校术力口之声 Vol.3",
+      "works": 47,
+      "typed": 47,
+      "untyped": 0,
+      "sp": 1,
+      "edition_notes": 5,
+      "generation": "gen6",
+      "source_file": "2026-3/resource.csv",
+      "status": {
+        "works": "encoded",
+        "types": "ok"
+      }
     }
   ],
   "totals": {
-    "works": 108,
-    "typed": 108,
+    "works": 155,
+    "typed": 155,
     "untyped": 0,
-    "editions": 5
+    "editions": 6
   },
   "pending_user_input": [
     {
@@ -120,6 +136,18 @@
       "field": "works[].sp_note",
       "count": 3,
       "note": "SP 策展文字（Curator's Note）待填写，属项目核心资产"
+    },
+    {
+      "scope": "2026-vol3",
+      "field": "edition.sp_work_id",
+      "count": 1,
+      "note": "CSV 未标注本期 SPECIAL PICK，待栏目方确认"
+    },
+    {
+      "scope": "2026-vol3",
+      "field": "works[].vocal_ids / engine_ids",
+      "count": 8,
+      "note": "CSV 无 Vocal / 引擎列；已由简介补录 6 条，其余真人演出条目为 not_applicable"
     }
   ],
   "notes": [
@@ -129,11 +157,12 @@
     "高校地图功能已由栏目方决定略掉，schools[].province/city 使用 status \"no_map\"",
     "type3 / type3_pjsk 快闪段封面在网站上直接略过，不建条目；type1 / type2 保留",
     "《术力口》与《凌云漠》不作为作品条目，记于 2026-vol1 的 edition.notes",
-    "人工裁决记录见 data/taxonomy.json → user_decisions_2026"
+    "人工裁决记录见 data/taxonomy.json → user_decisions_2026",
+    "2026-vol3 为首次大批量收录 DW 的期数（33 件）；DW 在网站以粗条目形式展示"
   ],
   "coverage": {
-    "works_total": 108,
-    "works_typed": 108,
+    "works_total": 155,
+    "works_typed": 155,
     "works_untyped": 0,
     "type_coverage_ratio": 1
   },
@@ -299,10 +328,10 @@
       "title": null
     }
   ],
-  "data_updated_at": "2026-09-28",
+  "data_updated_at": "2026-10-02",
   "snapshots": {
-    "count": 1,
+    "count": 3,
     "first_date": "2026-09-28",
-    "latest": "2026-09-28"
+    "latest": "2026-10-02"
   }
 }

@@ -3560,7 +3560,7 @@
       "tags": [],
       "tier": "sp",
       "is_sp": true,
-      "sp_note": null,
+      "sp_note": "首先，中术大学是很强的中术创作社团，再加上鬼面P的调教和其他协助，其数据和质量，个人认为，近似于，甚至超越于《丹心落》（2025Vol.1 V7）。",
       "edition_id": "2026-vol1",
       "year": 2026,
       "published_at": "2026-02-20T20:30:00+08:00",
@@ -3650,7 +3650,7 @@
         "type": "ok",
         "school_id": "ok",
         "club_id": "ok",
-        "sp_note": "pending",
+        "sp_note": "ok",
         "vocal_ids": "ok",
         "engine_ids": "ok",
         "staff": "parsed",
@@ -3748,7 +3748,11 @@
           "监制",
           "题字",
           "工程灌词"
-        ]
+        ],
+        "sp_note_source": {
+          "provided_by": "user",
+          "decided_at": "2026-09-28"
+        }
       },
       "source": {
         "source": "Bilibili",

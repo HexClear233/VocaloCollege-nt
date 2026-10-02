@@ -1,0 +1,4463 @@
+{
+  "schema": "vocalocollege/1.0",
+  "generation": "gen6",
+  "source_file": "2026-3/resource.csv + src/constants_2026-3.ts",
+  "edition": {
+    "id": "2026-vol3",
+    "label": "2026 高校术力口之声 Vol.3",
+    "label_short": "2026 Vol.3",
+    "year": 2026,
+    "volume": 3,
+    "volume_label": "Vol.3",
+    "seq": 6,
+    "dir": "2026-vol3",
+    "legacy_dirs": [
+      "2026-vol3"
+    ],
+    "aliases": [],
+    "source_folder": "2026-3",
+    "collect_window": {
+      "start": "2026-07-01T00:00:00+08:00",
+      "end": "2026-10-01T00:00:00+08:00",
+      "raw": "2026-07-01 0:00 ~ 2026-10-01 0:00",
+      "kind": "range"
+    },
+    "video": {
+      "bvid": "BV15Na26MENh",
+      "url": "https://www.bilibili.com/video/BV15Na26MENh",
+      "status": "available",
+      "note": null
+    },
+    "cover": {
+      "path": null,
+      "path_legacy": null
+    },
+    "sp_work_id": "work-2026-vol3-bv187bx6kerc",
+    "sp_work_id_status": "ok",
+    "sp_confirmed_note": "栏目方确认：本期 SP 为《再相逢》",
+    "sections": [
+      {
+        "title": "原创作品 [OC]",
+        "types_declared": [
+          "OC"
+        ],
+        "table_id": "oc",
+        "work_count": 3
+      },
+      {
+        "title": "翻调作品 [RT]",
+        "types_declared": [
+          "RT"
+        ],
+        "table_id": "oc",
+        "work_count": 1
+      },
+      {
+        "title": "翻唱翻奏作品 [VC][IC]",
+        "types_declared": [
+          "VC",
+          "IC"
+        ],
+        "table_id": "oc",
+        "work_count": 5
+      },
+      {
+        "title": "衍生创作 [DW]",
+        "types_declared": [
+          "DW"
+        ],
+        "table_id": "oc",
+        "work_count": 33
+      },
+      {
+        "title": "快闪段（未进正片的 OC/RT/VC/IC）",
+        "types_declared": [],
+        "table_id": "oc",
+        "work_count": 4
+      },
+      {
+        "title": "SPECIAL PICK",
+        "types_declared": [],
+        "table_id": "oc",
+        "work_count": 1
+      }
+    ],
+    "notes": [
+      {
+        "id": "note-2026-vol3-01",
+        "kind": "page_note",
+        "title": null,
+        "decided_by": "encoder",
+        "text": "本期为首次大批量收录 DW（衍生创作）的期数。依栏目方 2026-09-28 审定，DW 在网站上予以展示，以粗略条目形式呈现，不与 OC/RT/VC/IC 同级。",
+        "_src": {
+          "file": "2026-3/resource.csv"
+        }
+      },
+      {
+        "id": "note-2026-vol3-02",
+        "kind": "page_note",
+        "title": null,
+        "decided_by": "encoder",
+        "text": "本期出现虚拟歌手 + 真人乐队的组合形式（《光与影的对白》，第九卦限乐队为洛天依伴奏）。",
+        "_src": {
+          "file": "src/constants_2026-3.ts"
+        }
+      },
+      {
+        "id": "note-2026-vol3-03",
+        "kind": "page_note",
+        "title": null,
+        "decided_by": "encoder",
+        "text": "自本期起 [VC][IC] 段以歌曲为关键字去重（本期未体现）。",
+        "_src": {
+          "file": "src/constants_2026-3.ts"
+        }
+      },
+      {
+        "id": "note-2026-vol3-04",
+        "kind": "page_note",
+        "title": null,
+        "decided_by": "encoder",
+        "text": "受收录时间范围较短影响，本期投稿量明显少于秋冬季刊与春季刊。本期共调查社团 419 个、视频 424 件。",
+        "_src": {
+          "file": "src/constants_2026-3.ts"
+        }
+      },
+      {
+        "id": "note-2026-vol3-05",
+        "kind": "page_note",
+        "title": null,
+        "decided_by": "encoder",
+        "text": "《千里邀月》参考的是真人本家（泠鸢yousa 等），但原曲存在虚拟歌手本家，依步骤 6 蓝本校验判定合规，故收录。",
+        "_src": {
+          "file": "src/constants_2026-3.ts"
+        }
+      }
+    ],
+    "stats": {
+      "works": 47,
+      "featured": 10,
+      "flash": 37,
+      "typed": 47,
+      "untyped": 0,
+      "sp": 1,
+      "oc": 4,
+      "rt": 1,
+      "vc": 4,
+      "ic": 1,
+      "dw": 33,
+      "schools": 24,
+      "clubs": 25,
+      "vocals": 6,
+      "engines": 3
+    },
+    "status": {
+      "sp_work_id": "ok",
+      "types": "ok",
+      "stats": "encoded"
+    },
+    "_src": {
+      "file": "src/constants_2026-3.ts",
+      "extractor": "constants-v1"
+    }
+  },
+  "works": [
+    {
+      "id": "work-2026-vol3-bv1rvy56nesf",
+      "title": "【夏祁铭原创印象曲】夏、再见【HB to 鬼面P】",
+      "title_short": "【夏祁铭原创印象曲】夏、再见【HB to 鬼面P】",
+      "title_alt": [],
+      "description_raw": "策划：中术大学/洛天依P\n作曲/编曲：溯星P\n作词：陌玖XG\n调教：言和P、洛天依P（倒反天罡）\n演唱：夏祁铭vivid\n混音：欧洲风明、linkfqy\n曲绘：陌玖XG\nPV：穗月黎花\nHB to 鬼面P\n1.姑妈（划掉）鬼面老师生日快乐！其实是鬼面老师伉俪生日快乐！祝两位幸福美满~\n2.这首歌一开始不是专门的生贺曲，所以可惜歌词内容没有做到去年BV1YuH8z5Esd这首专门生贺一样，其实歌词内容有点刀子，主要是歌名比较适合由姑妈做CV的夏祁铭，故称“夏祁铭原创印象曲”。本来还有一首抽抽又象象的生贺曲，可惜被咕咕咕了[大哭]\n3.这首歌是《夏、再见》的男声本家，在此之前有天依演唱的女声本家BV1H1gz63E1K，曾荣获虚拟歌手创作赛的推荐。\n4.感恩诸位staff老师，溯星老师写作的旋律非常动听，可惜不一定调出了想要的哭腔效果，或许还有其他版本，请姑妈来（？）陌玖老师的词非常般配，也绘制了夏祁铭的立绘，混音风明老师也辛苦了，妙手回春啊大夫~",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "VOCALOID",
+        "虚拟歌手",
+        "原创曲",
+        "原创音乐",
+        "夏祁铭",
+        "生日",
+        "生贺曲",
+        "鬼面P",
+        "ACE Studio",
+        "2026虚拟歌手创作赛"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-11T12:00:00+08:00",
+      "published_at_raw": "2026-09-11 12:00:00",
+      "school_ids": [
+        "school-sysu"
+      ],
+      "club_ids": [
+        "club-sysu-zhongshu"
+      ],
+      "club_names_raw": [
+        "中术大学"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-xiaqiming"
+      ],
+      "vocal_names_raw": [
+        "夏祁铭"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "策划：中术大学/洛天依P\n作曲/编曲：溯星P\n作词：陌玖XG\n调教：言和P、洛天依P（倒反天罡）\n演唱：夏祁铭vivid\n混音：欧洲风明、linkfqy\n曲绘：陌玖XG\nPV：穗月黎花\nHB to 鬼面P\n1.姑妈（划掉）鬼面老师生日快乐！其实是鬼面老师伉俪生日快乐！祝两位幸福美满~\n2.这首歌一开始不是专门的生贺曲，所以可惜歌词内容没有做到去年BV1YuH8z5Esd这首专门生贺一样，其实歌词内容有点刀子，主要是歌名比较适合由姑妈做CV的夏祁铭，故称“夏祁铭原创印象曲”。本来还有一首抽抽又象象的生贺曲，可惜被咕咕咕了[大哭]\n3.这首歌是《夏、再见》的男声本家，在此之前有天依演唱的女声本家BV1H1gz63E1K，曾荣获虚拟歌手创作赛的推荐。\n4.感恩诸位staff老师，溯星老师写作的旋律非常动听，可惜不一定调出了想要的哭腔效果，或许还有其他版本，请姑妈来（？）陌玖老师的词非常般配，也绘制了夏祁铭的立绘，混音风明老师也辛苦了，妙手回春啊大夫~",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1RvY56nEsF",
+          "url": "https://www.bilibili.com/video/BV1RvY56nEsF"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1RvY56nEsF",
+        "url": "https://www.bilibili.com/video/BV1RvY56nEsF",
+        "uploader": "老天爷P",
+        "uid": "592947813",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "V1",
+        "number": 1,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1RvY56nEsF",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "根据UP主老天爷P所说，本作品在此之前有天依演唱的女声本家 BV1H1gz63E1K，曾荣获虚拟歌手创作赛的推荐。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1RvY56nEsF",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1xw8y6yeus",
+      "title": "【花隈千冬原创曲】親愛なるキミに捧ぐ | 为亲爱的你献上 - 夏日歌会原创曲",
+      "title_short": "【花隈千冬原创曲】親愛なるキミに捧ぐ | 为亲爱的你献上 - 夏日歌会原创曲",
+      "title_alt": [],
+      "description_raw": "音乐 ： 西行寺沙弥香\n视频 ： 西行寺沙弥香\nvocal：花隈千冬（SV2）\n\n欢迎加入南风动漫社，欢迎参与轻音部原创曲教学企划。\n\n在南风动漫社夏日歌会初披露的歌曲，将歌曲献给接纳了我的社团，也献给我所挚爱的人。",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "原创",
+        "原创音乐",
+        "作曲",
+        "花隈千冬",
+        "新世代音乐人计划手搓赛道",
+        "编曲",
+        "手搓",
+        "南风动漫社",
+        "术力口"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-23T14:29:24+08:00",
+      "published_at_raw": "2026-08-23 14:29:24",
+      "school_ids": [
+        "school-nankai"
+      ],
+      "club_ids": [
+        "club-nankai-nanfeng"
+      ],
+      "club_names_raw": [
+        "南风动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-hanakuma"
+      ],
+      "vocal_names_raw": [
+        "花隈千冬"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "staff_raw": "音乐 ： 西行寺沙弥香\n视频 ： 西行寺沙弥香\nvocal：花隈千冬（SV2）\n\n欢迎加入南风动漫社，欢迎参与轻音部原创曲教学企划。\n\n在南风动漫社夏日歌会初披露的歌曲，将歌曲献给接纳了我的社团，也献给我所挚爱的人。",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1xw8y6yEUs",
+          "url": "https://www.bilibili.com/video/BV1xw8y6yEUs"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1xw8y6yEUs",
+        "url": "https://www.bilibili.com/video/BV1xw8y6yEUs",
+        "uploader": "西行寺沙弥香",
+        "uid": "332592684",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "V2",
+        "number": 2,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1xw8y6yEUs",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "与之前的多校联动有所不同，这个作品偏向于个人创作与个人表达。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1xw8y6yEUs",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1aati6kezy",
+      "title": "【星尘原创曲】雨季与你【现充爆炸乐队】",
+      "title_short": "【星尘原创曲】雨季与你【现充爆炸乐队】",
+      "title_alt": [],
+      "description_raw": "作词：空连\n作曲：MUTE\n编曲：MUTE 空集\nPV：NOGI\n演唱：星尘infinity\n\nPV制作特别鸣谢：【【AE教程】波纹气泡-哔哩哔哩】 https://b23.tv/Ipl6VLj",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "原创音乐",
+        "星尘",
+        "原创曲",
+        "Synthesizer V",
+        "中文VOCALOID",
+        "星尘infinity",
+        "原创音乐挑战赛"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-02T12:00:00+08:00",
+      "published_at_raw": "2026-07-02 12:00:00",
+      "school_ids": [
+        "school-xidian"
+      ],
+      "club_ids": [
+        "club-xidian-shining"
+      ],
+      "club_names_raw": [
+        "西电Shining动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-xingchen"
+      ],
+      "vocal_names_raw": [
+        "星尘"
+      ],
+      "engine_ids": [
+        "engine-sv"
+      ],
+      "engine_names_raw": [
+        "Synthesizer V"
+      ],
+      "staff_raw": "作词：空连\n作曲：MUTE\n编曲：MUTE 空集\nPV：NOGI\n演唱：星尘infinity\n\nPV制作特别鸣谢：【【AE教程】波纹气泡-哔哩哔哩】 https://b23.tv/Ipl6VLj",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1aaTi6kEzY",
+          "url": "https://www.bilibili.com/video/BV1aaTi6kEzY"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1aaTi6kEzY",
+        "url": "https://www.bilibili.com/video/BV1aaTi6kEzY",
+        "uploader": "现充爆炸乐队",
+        "uid": "440694851",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "V3",
+        "number": 3,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1aaTi6kEzY",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "现充爆炸乐队最新力作。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1aaTi6kEzY",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1huae6nep1",
+      "title": "从V3到ACE的「光与影的对白」【第九卦限乐队&USTC歌声合成技术协会-2026中科大勿负韶华迎新晚会】",
+      "title_short": "从V3到ACE的「光与影的对白」【第九卦限乐队&USTC歌声合成技术协会-2026中科大勿负韶华迎新晚会】",
+      "title_alt": [],
+      "description_raw": "“为了你唱下去，为你将希冀传递，歌声将你我紧系”\n我们是来自中国科学技术大学的第九卦限乐队！欢迎关注我们。\n ----------------------------------------------- \n主唱：@洛天依  \n吉他：@临枫LinFeng  @City_1919  \n贝斯：@4yanami  \n键盘：@星成十七  @将中指竖起吧  \n鼓：@Olefin-オレフィン  \n工程：@未名p   @临枫LinFeng  @无所谓p_  \n混音：@临枫LinFeng  @无所谓p_  @七月十八日敬启  \n调校：V3-@某COPY的ncf  ，v4-@未名p  @无所谓p_  ，v5-@桜舞Phymusics  ，ACE-@洛叶p  ，语调-@桜舞Phymusics，@无所谓p_﻿（使用GPT-Sovits模型生成）\n策划：@USTC歌声合成技术协会   \n特别鸣谢：@夕落林中",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "中国科学技术大学",
+        "COVER",
+        "VOCALOID",
+        "洛天依",
+        "现场",
+        "光与影的对白",
+        "新世代音乐人计划手搓赛道",
+        "中文VOCALOID",
+        "乐队",
+        "迎新晚会"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-28T11:55:00+08:00",
+      "published_at_raw": "2026-09-28 11:55:00",
+      "school_ids": [
+        "school-ustc"
+      ],
+      "club_ids": [
+        "club-ustc-vocalo"
+      ],
+      "club_names_raw": [
+        "USTC歌声合成技术协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-luotianyi"
+      ],
+      "vocal_names_raw": [
+        "洛天依"
+      ],
+      "engine_ids": [
+        "engine-vocaloid",
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "VOCALOID",
+        "ACE Studio"
+      ],
+      "staff_raw": "“为了你唱下去，为你将希冀传递，歌声将你我紧系”\n我们是来自中国科学技术大学的第九卦限乐队！欢迎关注我们。\n ----------------------------------------------- \n主唱：@洛天依  \n吉他：@临枫LinFeng  @City_1919  \n贝斯：@4yanami  \n键盘：@星成十七  @将中指竖起吧  \n鼓：@Olefin-オレフィン  \n工程：@未名p   @临枫LinFeng  @无所谓p_  \n混音：@临枫LinFeng  @无所谓p_  @七月十八日敬启  \n调校：V3-@某COPY的ncf  ，v4-@未名p  @无所谓p_  ，v5-@桜舞Phymusics  ，ACE-@洛叶p  ，语调-@桜舞Phymusics，@无所谓p_﻿（使用GPT-Sovits模型生成）\n策划：@USTC歌声合成技术协会   \n特别鸣谢：@夕落林中",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1HUae6nEp1",
+          "url": "https://www.bilibili.com/video/BV1HUae6nEp1"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1HUae6nEp1",
+        "url": "https://www.bilibili.com/video/BV1HUae6nEp1",
+        "uploader": "第九卦限乐队",
+        "uid": "3546814395451720",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "V4",
+        "number": 4,
+        "family": "V",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1HUae6nEp1",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "乐队为虚拟歌手洛天依伴奏，非常新奇的形式。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1HUae6nEp1",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv19sgg6xeef",
+      "title": "⌈Sech0乐队⌋サマータイムレコード（新録）（夏令时记录）——这个夏天的故事不会结束☀️",
+      "title_short": "⌈Sech0乐队⌋サマータイムレコード（新録）（夏令时记录）——这个夏天的故事不会结束☀️",
+      "title_alt": [],
+      "description_raw": "大家好，我们是Sech0乐队。\n我们在长春•次元星夜——S×S毕业场 演奏了じん的《サマータイムレコード》，希望大家喜欢。\n\n\n「また、何処かで。」\n\n主唱：金眠\n鼓手：拾柒\n吉他：5-n\n贝斯：苦苦不苦\n吉他：REDHOOD\n键盘：醒\n\n如果您对ACGlive感兴趣，可以加入次元星夜官方群，群号为222092905，会实时更新最新演出情报。",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "VOCALOID",
+        "夏令时记录",
+        "初音ミク",
+        "COVER",
+        "阳炎PROJECT",
+        "サマータイムレコード",
+        "目隐都市的演绎者",
+        "じん（自然之敌P）",
+        "乐队",
+        "2026虚拟歌手创作赛"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-15T08:15:00+08:00",
+      "published_at_raw": "2026-08-15 08:15:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "大家好，我们是Sech0乐队。\n我们在长春•次元星夜——S×S毕业场 演奏了じん的《サマータイムレコード》，希望大家喜欢。\n\n\n「また、何処かで。」\n\n主唱：金眠\n鼓手：拾柒\n吉他：5-n\n贝斯：苦苦不苦\n吉他：REDHOOD\n键盘：醒\n\n如果您对ACGlive感兴趣，可以加入次元星夜官方群，群号为222092905，会实时更新最新演出情报。",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV19SgG6XEEf",
+          "url": "https://www.bilibili.com/video/BV19SgG6XEEf"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV19SgG6XEEf",
+        "url": "https://www.bilibili.com/video/BV19SgG6XEEf",
+        "uploader": "Sech0_Official",
+        "uid": "3546685798091120",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H1",
+        "number": 1,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV19SgG6XEEf",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "Sech0乐队最近的投稿很活跃，这只是其中一个相关作品。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV19SgG6XEEf",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1ktgo6feck",
+      "title": "【武大漫协春日庆典】拼凑的断音",
+      "title_short": "【武大漫协春日庆典】拼凑的断音",
+      "title_alt": [],
+      "description_raw": "",
+      "type": "IC",
+      "type_raw": "乐器翻奏",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "初音未来",
+        "拼凑的断音",
+        "现场",
+        "动漫社",
+        "社团"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-27T09:11:04+08:00",
+      "published_at_raw": "2026-07-27 09:11:04",
+      "school_ids": [
+        "school-csv-118"
+      ],
+      "club_ids": [
+        "club-csv-118"
+      ],
+      "club_names_raw": [
+        "武汉大学动漫协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1KTgo6FEck",
+          "url": "https://www.bilibili.com/video/BV1KTgo6FEck"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1KTgo6FEck",
+        "url": "https://www.bilibili.com/video/BV1KTgo6FEck",
+        "uploader": "武汉大学动漫协会",
+        "uid": "20942465",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H2",
+        "number": 2,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "absent"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1KTgo6FEck",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "哦吼，用笛子吹的"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1KTgo6FEck",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1wrh26sepg",
+      "title": "【天也cv部】《千里邀月》中秋快乐~",
+      "title_short": "【天也cv部】《千里邀月》中秋快乐~",
+      "title_alt": [],
+      "description_raw": "天也CV部出品 ：《千里邀月》\n\n祝大家——中秋快乐，共饮此杯，赏此月，夜好眠。🌕✨\n-------------------------\n本家：泠鸢yousa、茶理理、hanser、三无 【 av37404066】\n-------------------------\n翻唱：楼楼/阿琅/霰谙/球九\n音频后期：网易云音乐 妹様",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "古风",
+        "古风翻唱",
+        "中秋快乐",
+        "翻唱总动员"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-25T19:27:12+08:00",
+      "published_at_raw": "2026-09-25 19:27:12",
+      "school_ids": [
+        "school-csv-282"
+      ],
+      "club_ids": [
+        "club-csv-282"
+      ],
+      "club_names_raw": [
+        "天也动漫社_official"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "天也CV部出品 ：《千里邀月》\n\n祝大家——中秋快乐，共饮此杯，赏此月，夜好眠。🌕✨\n-------------------------\n本家：泠鸢yousa、茶理理、hanser、三无 【 av37404066】\n-------------------------\n翻唱：楼楼/阿琅/霰谙/球九\n音频后期：网易云音乐 妹様",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1wrh26SEPg",
+          "url": "https://www.bilibili.com/video/BV1wrh26SEPg"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1wrh26SEPg",
+        "url": "https://www.bilibili.com/video/BV1wrh26SEPg",
+        "uploader": "楼楼池中喵",
+        "uid": "3546639184693330",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H3",
+        "number": 3,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1wrh26SEPg",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "虽然这首歌曲参考的是泠鸢yousa、茶理理、hanser、三无Marblue的人声本家为蓝本，考虑到原曲存在虚拟歌手本家，故收录。",
+        "blueprint": {
+          "result": "vocalo",
+          "basis": "curator_note",
+          "decided_by": "user",
+          "decided_at": "2026-10-01"
+        }
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1wrh26SEPg",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1uvua6eepx",
+      "title": "【漫临天下16th】单品：《告死鸟》《pink flavor》",
+      "title_short": "【漫临天下16th】单品：《告死鸟》《pink flavor》",
+      "title_alt": [],
+      "description_raw": "歌手-瓶酒",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "音乐分享官",
+        "音乐现场",
+        "实况",
+        "现场"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-04T21:35:21+08:00",
+      "published_at_raw": "2026-08-04 21:35:21",
+      "school_ids": [
+        "school-whpu"
+      ],
+      "club_ids": [
+        "club-whpu-manlin"
+      ],
+      "club_names_raw": [
+        "漫临天下动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "歌手-瓶酒",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1UvuA6EEpX",
+          "url": "https://www.bilibili.com/video/BV1UvuA6EEpX"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1UvuA6EEpX",
+        "url": "https://www.bilibili.com/video/BV1UvuA6EEpX",
+        "uploader": "漫临天下动漫社",
+        "uid": "284043439",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H4",
+        "number": 4,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1UvuA6EEpX",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "理论上而言，应该只有《告死鸟》那一半符合收录条件。因其术力口歌曲占比不少于半数等原因，故收录。特此说明。",
+        "note_medley": "作品含多首曲目；依《收录判据》§五按主次判定，术力口曲目占主体，故收录。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1UvuA6EEpX",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1qnky6be5e",
+      "title": "【直播回放】あの夏が饱和する【CG动漫协会暮岁纪】",
+      "title_short": "【直播回放】あの夏が饱和する【CG动漫协会暮岁纪】",
+      "title_alt": [],
+      "description_raw": "表演：柏柏  SAYUKA@SAYUKA-SAA",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "夏天",
+        "二次元",
+        "あの夏が饱和する",
+        "动漫社"
+      ],
+      "tier": "featured",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-22T00:30:09+08:00",
+      "published_at_raw": "2026-07-22 00:30:09",
+      "school_ids": [
+        "school-csv-125"
+      ],
+      "club_ids": [
+        "club-csv-125"
+      ],
+      "club_names_raw": [
+        "CG动漫协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "表演：柏柏  SAYUKA@SAYUKA-SAA",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1QnKY6bE5E",
+          "url": "https://www.bilibili.com/video/BV1QnKY6bE5E"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1QnKY6bE5E",
+        "url": "https://www.bilibili.com/video/BV1QnKY6bE5E",
+        "uploader": "CG动漫协会",
+        "uid": "20966774",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H5",
+        "number": 5,
+        "family": "H",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1QnKY6bE5E",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "上一期也有一个翻唱这首歌的：2026Vol.2 H5，BV1WFXCBoEC8。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1QnKY6bE5E",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv187bx6kerc",
+      "title": "再相逢【洛天依言和墨清弦原创/ilem十二周年投稿庆典单品】",
+      "title_short": "再相逢【洛天依言和墨清弦原创/ilem十二周年投稿庆典单品】",
+      "title_alt": [],
+      "description_raw": "无论线上的朋友，还是线下的朋友，恭祝各位新年快乐。\n一首算是写给线下时代的歌曲，赠ilem，也赠我们。\n\ni12本体：BV18FbQ6KECT",
+      "type": "OC",
+      "type_raw": "原创作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "墨清弦",
+        "言和",
+        "洛天依",
+        "ACE中文曲",
+        "ilem十二周年庆"
+      ],
+      "tier": "sp",
+      "is_sp": true,
+      "sp_note": "西安高校vocaloid创作社，自栏目改版开始，第二次参与ilem投稿庆典。第一次是2025 Vol.2 V2，《行路歌》。",
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-18T12:00:00+08:00",
+      "published_at_raw": "2026-08-18 12:00:00",
+      "school_ids": [
+        "school-xidian"
+      ],
+      "club_ids": [
+        "club-xidian-vocalo"
+      ],
+      "club_names_raw": [
+        "西安高校vocaloid创作社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [
+        "vocal-luotianyi",
+        "vocal-yanhe",
+        "vocal-moqingxian"
+      ],
+      "vocal_names_raw": [
+        "洛天依",
+        "言和",
+        "墨清弦"
+      ],
+      "engine_ids": [
+        "engine-ace"
+      ],
+      "engine_names_raw": [
+        "ACE Studio"
+      ],
+      "staff_raw": "无论线上的朋友，还是线下的朋友，恭祝各位新年快乐。\n一首算是写给线下时代的歌曲，赠ilem，也赠我们。\n\ni12本体：BV18FbQ6KECT",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV187bX6kERC",
+          "url": "https://www.bilibili.com/video/BV187bX6kERC"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV187bX6kERC",
+        "url": "https://www.bilibili.com/video/BV187bX6kERC",
+        "uploader": "西安高校vocaloid创作社",
+        "uid": "1671034042",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "SP",
+        "number": null,
+        "family": "SP",
+        "visible": true
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "ok",
+        "engine_ids": "ok",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV187bX6kERC",
+        "confidence": 1
+      },
+      "ext": {
+        "curator_note": "西安高校vocaloid创作社，自栏目改版开始，第二次参与ilem投稿庆典。第一次是2025 Vol.2 V2，《行路歌》。"
+      },
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV187bX6kERC",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1el8b6senb",
+      "title": "【南时薰cover】白鸟过河滩",
+      "title_short": "【南时薰cover】白鸟过河滩",
+      "title_alt": [],
+      "description_raw": "本家：BV1wT4y1k7Pw\n词曲：ilem\n原唱：洛天依\n-----------------------------\n翻调/曲绘/视频：绿绿\n混音：呵呵呵ppqq\n-----------------------------\n南时薰你崛起吧...我会为你拉很多很多磨的，你崛起吧...！！\n好希望睡一觉起来发现南时薰official多了一万粉丝，社内社外的大手子都来给时薰拉磨，翻调与插画齐飞，手书共长文一色，评论区全是用心长评论，还有无数MMD和音MAD；声库一直版本更新性能越来越强，每年生贺都能大办，有很多服设大神给时薰画衣服又来了很多被衣服吸引的消化食所以画了很多贺图，还有自己的生贺曲原创曲一大堆，更是有人大手一挥组织大家办时薰24h甚至48h，拜年祭和舞台有稳定的曲目产出不用亲妈扯嗓子喊也有很多热度...",
+      "type": "RT",
+      "type_raw": "翻调作品",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "COVER",
+        "南时薰",
+        "翻调",
+        "中文VOCALOID",
+        "Vsinger创作激励计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-23T19:47:48+08:00",
+      "published_at_raw": "2026-08-23 19:47:48",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "本家：BV1wT4y1k7Pw\n词曲：ilem\n原唱：洛天依\n-----------------------------\n翻调/曲绘/视频：绿绿\n混音：呵呵呵ppqq\n-----------------------------\n南时薰你崛起吧...我会为你拉很多很多磨的，你崛起吧...！！\n好希望睡一觉起来发现南时薰official多了一万粉丝，社内社外的大手子都来给时薰拉磨，翻调与插画齐飞，手书共长文一色，评论区全是用心长评论，还有无数MMD和音MAD；声库一直版本更新性能越来越强，每年生贺都能大办，有很多服设大神给时薰画衣服又来了很多被衣服吸引的消化食所以画了很多贺图，还有自己的生贺曲原创曲一大堆，更是有人大手一挥组织大家办时薰24h甚至48h，拜年祭和舞台有稳定的曲目产出不用亲妈扯嗓子喊也有很多热度...",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1eL8b6SEnB",
+          "url": "https://www.bilibili.com/video/BV1eL8b6SEnB"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1eL8b6SEnB",
+        "url": "https://www.bilibili.com/video/BV1eL8b6SEnB",
+        "uploader": "绿_Midori",
+        "uid": "356473626",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "V5",
+        "number": 5,
+        "family": "V",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1eL8b6SEnB",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1eL8b6SEnB",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1bg3v63eww",
+      "title": "【武大漫协春日庆典】威風堂々 & 虎視眈々",
+      "title_short": "【武大漫协春日庆典】威風堂々 & 虎視眈々",
+      "title_alt": [],
+      "description_raw": "表演者：@Animusuuuu",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "音乐",
+        "现场",
+        "动漫社"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-28T17:04:44+08:00",
+      "published_at_raw": "2026-07-28 17:04:44",
+      "school_ids": [
+        "school-csv-118"
+      ],
+      "club_ids": [
+        "club-csv-118"
+      ],
+      "club_names_raw": [
+        "武汉大学动漫协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "表演者：@Animusuuuu",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1bG3v63Eww",
+          "url": "https://www.bilibili.com/video/BV1bG3v63Eww"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1bG3v63Eww",
+        "url": "https://www.bilibili.com/video/BV1bG3v63Eww",
+        "uploader": "武汉大学动漫协会",
+        "uid": "20942465",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H6",
+        "number": 6,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1bG3v63Eww",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1bG3v63Eww",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1en3u6we4x",
+      "title": "【武大漫协春日庆典】东京泰迪熊 天之弱 —— VOID乐队",
+      "title_short": "【武大漫协春日庆典】东京泰迪熊 天之弱 —— VOID乐队",
+      "title_alt": [],
+      "description_raw": "",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "天之弱",
+        "东京泰迪熊",
+        "镜音",
+        "现场",
+        "cos",
+        "乐队",
+        "gumi",
+        "术力口"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-01T22:55:42+08:00",
+      "published_at_raw": "2026-08-01 22:55:42",
+      "school_ids": [
+        "school-csv-118"
+      ],
+      "club_ids": [
+        "club-csv-118"
+      ],
+      "club_names_raw": [
+        "武汉大学动漫协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1eN3U6WE4X",
+          "url": "https://www.bilibili.com/video/BV1eN3U6WE4X"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1eN3U6WE4X",
+        "url": "https://www.bilibili.com/video/BV1eN3U6WE4X",
+        "uploader": "武汉大学动漫协会",
+        "uid": "20942465",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H7",
+        "number": 7,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "absent"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1eN3U6WE4X",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1eN3U6WE4X",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1hekr6xeu4",
+      "title": "⌈Sech0乐队⌋天ノ弱（天之弱）——写满反话的爱之歌🎭",
+      "title_short": "⌈Sech0乐队⌋天ノ弱（天之弱）——写满反话的爱之歌🎭",
+      "title_alt": [],
+      "description_raw": "大家好，我们是Sech0乐队。\n我们在长春•次元星夜——S×S毕业场 演奏了164的《天ノ弱》，希望大家喜欢。\n\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか（？\n\n主唱：金眠\n鼓手：拾柒\n吉他：5-n\n贝斯：苦苦不苦\n吉他：uki\n\n如果您对ACGlive感兴趣，可以加入次元星夜官方群，群号为222092905，会实时更新最新演出情报。",
+      "type": "VC",
+      "type_raw": "人声翻唱",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "LIVE",
+        "GUMI",
+        "164",
+        "VOCALOID",
+        "天之弱",
+        "摇滚",
+        "乐队",
+        "音乐小剧场"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-02T09:00:00+08:00",
+      "published_at_raw": "2026-08-02 09:00:00",
+      "school_ids": [
+        "school-jlu"
+      ],
+      "club_ids": [
+        "club-jlu-northeast-acg"
+      ],
+      "club_names_raw": [
+        "东北ACG音乐联合企划"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "大家好，我们是Sech0乐队。\n我们在长春•次元星夜——S×S毕业场 演奏了164的《天ノ弱》，希望大家喜欢。\n\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか\n僕がずっと前から思ってる事を話そうか（？\n\n主唱：金眠\n鼓手：拾柒\n吉他：5-n\n贝斯：苦苦不苦\n吉他：uki\n\n如果您对ACGlive感兴趣，可以加入次元星夜官方群，群号为222092905，会实时更新最新演出情报。",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1heKr6XEU4",
+          "url": "https://www.bilibili.com/video/BV1heKr6XEU4"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1heKr6XEU4",
+        "url": "https://www.bilibili.com/video/BV1heKr6XEU4",
+        "uploader": "Sech0_Official",
+        "uid": "3546685798091120",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "H8",
+        "number": 8,
+        "family": "H",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1heKr6XEU4",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1heKr6XEU4",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv13zmp63eoa",
+      "title": "【FLY动漫社】【扁鱼】随心所欲mercy ♡果然对我没兴趣吗(ᗜ ˰ ᗜ)",
+      "title_short": "【FLY动漫社】【扁鱼】随心所欲mercy ♡果然对我没兴趣吗(ᗜ ˰ ᗜ)",
+      "title_alt": [],
+      "description_raw": "文艺复兴中，，\n「全然私に興味ないじゃん」\n「あるあるヾ(^▽^*)))」\n\n参考:BV1Jx4y1P7Na\n本家:BV1Rs411i74e",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "fly动漫社",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-10T12:00:00+08:00",
+      "published_at_raw": "2026-07-10 12:00:00",
+      "school_ids": [
+        "school-zzu"
+      ],
+      "club_ids": [
+        "club-zzu-fly"
+      ],
+      "club_names_raw": [
+        "FLY动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "文艺复兴中，，\n「全然私に興味ないじゃん」\n「あるあるヾ(^▽^*)))」\n\n参考:BV1Jx4y1P7Na\n本家:BV1Rs411i74e",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV13ZMp63Eoa",
+          "url": "https://www.bilibili.com/video/BV13ZMp63Eoa"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV13ZMp63Eoa",
+        "url": "https://www.bilibili.com/video/BV13ZMp63Eoa",
+        "uploader": "FLY动漫社-",
+        "uid": "9500353",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW1",
+        "number": 1,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV13ZMp63Eoa",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV13ZMp63Eoa",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1tyn76gepu",
+      "title": "【好吃×莲芷】世末歌者 | 曲终之时，你是否便会回应她的心音？【2026七草夏日纪】",
+      "title_short": "【好吃×莲芷】世末歌者 | 曲终之时，你是否便会回应她的心音？【2026七草夏日纪】",
+      "title_alt": [],
+      "description_raw": "原振付：BV1NZ7hzdExG @肆酒_49\n音乐 / 背景素材：BV1Qs411k7Qv 音源是COPY老师的南北组版本\n鸣谢：华师七草及七草夏日纪团队\n\n石墨洛：@糖好吃少吃糖   （悼念走失的八字辫）\n石墨绫：@莲芷P  \n——————————————\n转生七草纪大成功",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "洛天依",
+        "宅舞翻跳",
+        "乐正绫",
+        "舞蹈翻跳",
+        "世末歌者",
+        "直击宅舞live现场"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-10T18:00:00+08:00",
+      "published_at_raw": "2026-07-10 18:00:00",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "原振付：BV1NZ7hzdExG @肆酒_49\n音乐 / 背景素材：BV1Qs411k7Qv 音源是COPY老师的南北组版本\n鸣谢：华师七草及七草夏日纪团队\n\n石墨洛：@糖好吃少吃糖   （悼念走失的八字辫）\n石墨绫：@莲芷P  \n——————————————\n转生七草纪大成功",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1TYN76GEPu",
+          "url": "https://www.bilibili.com/video/BV1TYN76GEPu"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1TYN76GEPu",
+        "url": "https://www.bilibili.com/video/BV1TYN76GEPu",
+        "uploader": "糖好吃少吃糖",
+        "uid": "162192498",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW2",
+        "number": 2,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1TYN76GEPu",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1TYN76GEPu",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1zhmx6xekb",
+      "title": "⁺✞ʚ核平糯ɞ✟₊&CandyCookieChocolate",
+      "title_short": "⁺✞ʚ核平糯ɞ✟₊&CandyCookieChocolate",
+      "title_alt": [],
+      "description_raw": "蓝: @平平平糖\n粉:@where_is驴   \n黄:@啦哩姆露 \n又在晒你一起跳舞了⌯ᵔᗜᵔ⌯ಣ\n时隔一年终于再次同台TWT 希望明年还能一起跳\n\n振幅:鸟糖0 BV1V8Pae7EJH\n背投:BV1NBKtzXEP1\n摄影感谢:@西电Shining动漫社  视频组",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞翻跳",
+        "宅舞",
+        "VOCALOID",
+        "CandyCookieChocolate",
+        "糖果曲奇巧克力",
+        "BDF2026一起《同频Melody》"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-11T12:00:00+08:00",
+      "published_at_raw": "2026-07-11 12:00:00",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "蓝: @平平平糖\n粉:@where_is驴   \n黄:@啦哩姆露 \n又在晒你一起跳舞了⌯ᵔᗜᵔ⌯ಣ\n时隔一年终于再次同台TWT 希望明年还能一起跳\n\n振幅:鸟糖0 BV1V8Pae7EJH\n背投:BV1NBKtzXEP1\n摄影感谢:@西电Shining动漫社  视频组",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1ZhMx6xEkb",
+          "url": "https://www.bilibili.com/video/BV1ZhMx6xEkb"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1ZhMx6xEkb",
+        "url": "https://www.bilibili.com/video/BV1ZhMx6xEkb",
+        "uploader": "平平平糖",
+        "uid": "520729775",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW3",
+        "number": 3,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1ZhMx6xEkb",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1ZhMx6xEkb",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1qnkw6ueum",
+      "title": "【宇宙】来看双马尾小偶像跳LOVEIT!!",
+      "title_short": "【宇宙】来看双马尾小偶像跳LOVEIT!!",
+      "title_alt": [],
+      "description_raw": "第一次爬台！跳了LOVEIT ！！！",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "元气",
+        "双马尾",
+        "术曲",
+        "loveit",
+        "小偶像",
+        "舞蹈翻跳",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-18T18:00:00+08:00",
+      "published_at_raw": "2026-07-18 18:00:00",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "第一次爬台！跳了LOVEIT ！！！",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1QNKw6uEuM",
+          "url": "https://www.bilibili.com/video/BV1QNKw6uEuM"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1QNKw6uEuM",
+        "url": "https://www.bilibili.com/video/BV1QNKw6uEuM",
+        "uploader": "直到宇宙毁灭",
+        "uid": "2104060457",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW4",
+        "number": 4,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1QNKw6uEuM",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1QNKw6uEuM",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv19hka6jezl",
+      "title": "【世界计划】vbs·街巷狂想计划",
+      "title_short": "【世界计划】vbs·街巷狂想计划",
+      "title_alt": [],
+      "description_raw": "《vbs·街巷狂想计划》\n负责人：青井岫\n街鱼:镜游\n东云彰人:夏韵\n青柳冬弥:aki\n白石杏:青井岫\n小豆泽心羽:七晴",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "巡音流歌",
+        "翻跳",
+        "cos",
+        "世界计划",
+        "pjsk",
+        "VBS",
+        "ooc致歉",
+        "小豆泽心羽",
+        "东云彰人",
+        "白石杏"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-20T12:00:00+08:00",
+      "published_at_raw": "2026-07-20 12:00:00",
+      "school_ids": [
+        "school-znufe"
+      ],
+      "club_ids": [
+        "club-znufe-dongxi"
+      ],
+      "club_names_raw": [
+        "中南大东西动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "《vbs·街巷狂想计划》\n负责人：青井岫\n街鱼:镜游\n东云彰人:夏韵\n青柳冬弥:aki\n白石杏:青井岫\n小豆泽心羽:七晴",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV19HKA6jEzL",
+          "url": "https://www.bilibili.com/video/BV19HKA6jEzL"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV19HKA6jEzL",
+        "url": "https://www.bilibili.com/video/BV19HKA6jEzL",
+        "uploader": "中南大东西动漫社",
+        "uid": "10284760",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW5",
+        "number": 5,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV19HKA6jEzL",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV19HKA6jEzL",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1xlgx6weey",
+      "title": "【安大红月动漫社】月安纪单品——神在哪里 在苦巧克力后面",
+      "title_short": "【安大红月动漫社】月安纪单品——神在哪里 在苦巧克力后面",
+      "title_alt": [],
+      "description_raw": "Haru/76//小姈/桃北/离雨\n请支持 25 时",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "宅舞",
+        "动漫社",
+        "单品"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-24T17:50:00+08:00",
+      "published_at_raw": "2026-07-24 17:50:00",
+      "school_ids": [
+        "school-csv-102"
+      ],
+      "club_ids": [
+        "club-csv-102"
+      ],
+      "club_names_raw": [
+        "红月动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "Haru/76//小姈/桃北/离雨\n请支持 25 时",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1XLgx6WEeY",
+          "url": "https://www.bilibili.com/video/BV1XLgx6WEeY"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1XLgx6WEeY",
+        "url": "https://www.bilibili.com/video/BV1XLgx6WEeY",
+        "uploader": "红月动漫社",
+        "uid": "20885941",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW6",
+        "number": 6,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1XLgx6WEeY",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1XLgx6WEeY",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1xlgx6web8",
+      "title": "【安大红月动漫社】月安纪单品——黎明前线",
+      "title_short": "【安大红月动漫社】月安纪单品——黎明前线",
+      "title_alt": [],
+      "description_raw": "参演：司机 盏卷 N/A 梦初 ppm hehejue 玉神 椎名  衔千风 锺 白\n\nmoonsic牛逼!!!",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "动漫",
+        "Cosplay"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-24T17:50:00+08:00",
+      "published_at_raw": "2026-07-24 17:50:00",
+      "school_ids": [
+        "school-csv-102"
+      ],
+      "club_ids": [
+        "club-csv-102"
+      ],
+      "club_names_raw": [
+        "红月动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "参演：司机 盏卷 N/A 梦初 ppm hehejue 玉神 椎名  衔千风 锺 白\n\nmoonsic牛逼!!!",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1XLgx6WEB8",
+          "url": "https://www.bilibili.com/video/BV1XLgx6WEB8"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1XLgx6WEB8",
+        "url": "https://www.bilibili.com/video/BV1XLgx6WEB8",
+        "uploader": "红月动漫社",
+        "uid": "20885941",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW7",
+        "number": 7,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1XLgx6WEB8",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1XLgx6WEB8",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1cr3m6oegb",
+      "title": "【2026招生简章】❀♪医学生们的随波逐流♬❀漫联萌社-因为有我们的爱温暖整个宇宙!!!",
+      "title_short": "【2026招生简章】❀♪医学生们的随波逐流♬❀漫联萌社-因为有我们的爱温暖整个宇宙!!!",
+      "title_alt": [],
+      "description_raw": "(≧▽≦)2026年夏天，某动漫社仍在神随!?\n来自医学生们的随波逐流～我们所经历的每个平凡的日常，也许就是连续发生的奇迹。长路泥泞迎着风，一笑便能越挫越勇\n٩‌(ˊ•‌ ꇴ •‌ˋ)و\n又是一年迎新时,“我们依然，安心地等着你”\n参演人员：\n宅舞部：和宸 小也 喵酱喵酱! 点心 花卷 猫毛 阿云 beri 琰箫 北巷南猫 Norka-9 花叉 风宇 三土 熬熬 嗷嗷 木念 Pisces 童童 蓝岚\n漫绘部：果咖 生椒 Norka-9 邬泷 落葵 叶子 39 寿司 三角韩数\n音乐部：Pisces 阿羊 S 奇迹 166 GAsilltue\ncos部：Pisces 木念 喵酱喵酱! Norka-9 花叉 beri 点心 一言 饴糖 火火 琰箫\n桌游部：叶子 Pisces 何忆 小张 琰箫\nwota部：远天 未靈祤 Norka-9 邬泷 小张 木念 笙\n特别鸣谢：\n摄影-雾旅  后期-琰箫\n24级干事萌：小也 喵酱 邬泷 奇领 叶子 beri 沉 琰箫 三角韩数 未靈祤 鳄鱼吃土豆 随风",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "音乐",
+        "绘画",
+        "桌游",
+        "cosplay",
+        "漫联萌社",
+        "动漫社",
+        "wota艺",
+        "招生简章"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-07-25T17:20:00+08:00",
+      "published_at_raw": "2026-07-25 17:20:00",
+      "school_ids": [
+        "school-csv-310"
+      ],
+      "club_ids": [
+        "club-csv-310"
+      ],
+      "club_names_raw": [
+        "漫联萌official"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "(≧▽≦)2026年夏天，某动漫社仍在神随!?\n来自医学生们的随波逐流～我们所经历的每个平凡的日常，也许就是连续发生的奇迹。长路泥泞迎着风，一笑便能越挫越勇\n٩‌(ˊ•‌ ꇴ •‌ˋ)و\n又是一年迎新时,“我们依然，安心地等着你”\n参演人员：\n宅舞部：和宸 小也 喵酱喵酱! 点心 花卷 猫毛 阿云 beri 琰箫 北巷南猫 Norka-9 花叉 风宇 三土 熬熬 嗷嗷 木念 Pisces 童童 蓝岚\n漫绘部：果咖 生椒 Norka-9 邬泷 落葵 叶子 39 寿司 三角韩数\n音乐部：Pisces 阿羊 S 奇迹 166 GAsilltue\ncos部：Pisces 木念 喵酱喵酱! Norka-9 花叉 beri 点心 一言 饴糖 火火 琰箫\n桌游部：叶子 Pisces 何忆 小张 琰箫\nwota部：远天 未靈祤 Norka-9 邬泷 小张 木念 笙\n特别鸣谢：\n摄影-雾旅  后期-琰箫\n24级干事萌：小也 喵酱 邬泷 奇领 叶子 beri 沉 琰箫 三角韩数 未靈祤 鳄鱼吃土豆 随风",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1CR3M6oEGb",
+          "url": "https://www.bilibili.com/video/BV1CR3M6oEGb"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1CR3M6oEGb",
+        "url": "https://www.bilibili.com/video/BV1CR3M6oEGb",
+        "uploader": "漫联萌official",
+        "uid": "419516756",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW8",
+        "number": 8,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1CR3M6oEGb",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1CR3M6oEGb",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1mdg36mebl",
+      "title": "像脱氧核苷酸一样呐",
+      "title_short": "像脱氧核苷酸一样呐",
+      "title_alt": [],
+      "description_raw": "不熟悉舞台且很仓促的一作，五人都没有发挥好，但因为是很有纪念意义的舞台还是放出来了w\n\nrin:@九矜_  \nknd:@垚垚垚垚垚山鹞  \nmfy:@Ruinnie-  \nmzk:@AsahiHasome  \nena:@谷伊Kanamii  \n摄影:@chocolate875  \n后期:@--小禾--",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "镜音铃",
+        "宅舞",
+        "初音未来",
+        "pjsk",
+        "25时",
+        "术力口",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-01T14:13:05+08:00",
+      "published_at_raw": "2026-08-01 14:13:05",
+      "school_ids": [
+        "school-bjtu"
+      ],
+      "club_ids": [
+        "club-bjtu-zuoyou"
+      ],
+      "club_names_raw": [
+        "佐佑动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "不熟悉舞台且很仓促的一作，五人都没有发挥好，但因为是很有纪念意义的舞台还是放出来了w\n\nrin:@九矜_  \nknd:@垚垚垚垚垚山鹞  \nmfy:@Ruinnie-  \nmzk:@AsahiHasome  \nena:@谷伊Kanamii  \n摄影:@chocolate875  \n后期:@--小禾--",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1MdG36mEBL",
+          "url": "https://www.bilibili.com/video/BV1MdG36mEBL"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1MdG36mEBL",
+        "url": "https://www.bilibili.com/video/BV1MdG36mEBL",
+        "uploader": "佐佑动漫社",
+        "uid": "10778739",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW9",
+        "number": 9,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1MdG36mEBL",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1MdG36mEBL",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv13xg36seg7",
+      "title": "【中文vocaloid】中v中不中",
+      "title_short": "【中文vocaloid】中v中不中",
+      "title_alt": [],
+      "description_raw": "《中v中不中 》\n负责人：呀芽\nYy：洛天依\n呀芽：乐正绫\n啥啥：言和\n普鹿士蓝：乐正龙牙\nYonnana：徵羽摩柯\n花音：墨清弦\nLyn：东方栀子",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "墨清弦",
+        "乐正龙牙",
+        "言和",
+        "东方栀子",
+        "洛天依",
+        "乐正绫",
+        "宅舞",
+        "徵羽摩柯",
+        "中文VOCALOID",
+        "Vsinger"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-02T12:00:00+08:00",
+      "published_at_raw": "2026-08-02 12:00:00",
+      "school_ids": [
+        "school-znufe"
+      ],
+      "club_ids": [
+        "club-znufe-dongxi"
+      ],
+      "club_names_raw": [
+        "中南大东西动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "《中v中不中 》\n负责人：呀芽\nYy：洛天依\n呀芽：乐正绫\n啥啥：言和\n普鹿士蓝：乐正龙牙\nYonnana：徵羽摩柯\n花音：墨清弦\nLyn：东方栀子",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV13XG36SEg7",
+          "url": "https://www.bilibili.com/video/BV13XG36SEg7"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV13XG36SEg7",
+        "url": "https://www.bilibili.com/video/BV13XG36SEg7",
+        "uploader": "中南大东西动漫社",
+        "uid": "10284760",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW10",
+        "number": 10,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV13XG36SEg7",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV13XG36SEg7",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1jkmo6jegq",
+      "title": "【漫临天下16th】单品：《beyond the way》《ready steady》",
+      "title_short": "【漫临天下16th】单品：《beyond the way》《ready steady》",
+      "title_alt": [],
+      "description_raw": "小豆泽心羽——以黎\n白石杏——罐罐\n东云彰人——苜蓿\n青柳冬弥——萝卜\n初音未来——谷苻",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "动漫",
+        "宅舞",
+        "现场",
+        "舞蹈翻跳",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-04T00:37:11+08:00",
+      "published_at_raw": "2026-08-04 00:37:11",
+      "school_ids": [
+        "school-whpu"
+      ],
+      "club_ids": [
+        "club-whpu-manlin"
+      ],
+      "club_names_raw": [
+        "漫临天下动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "小豆泽心羽——以黎\n白石杏——罐罐\n东云彰人——苜蓿\n青柳冬弥——萝卜\n初音未来——谷苻",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1JkMo6JEGq",
+          "url": "https://www.bilibili.com/video/BV1JkMo6JEGq"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1JkMo6JEGq",
+        "url": "https://www.bilibili.com/video/BV1JkMo6JEGq",
+        "uploader": "漫临天下动漫社",
+        "uid": "284043439",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW11",
+        "number": 11,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1JkMo6JEGq",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1JkMo6JEGq",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1tbua6jeuh",
+      "title": "【漫临天下16th】单品：《萨姆沙》",
+      "title_short": "【漫临天下16th】单品：《萨姆沙》",
+      "title_alt": [],
+      "description_raw": "出演：\n宵崎奏——七倍\n朝比奈真冬——歌词\n晓山瑞希——初久\n东云绘名——苜蓿\nkaito——八芒星",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "音乐",
+        "现场",
+        "舞蹈翻跳",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-04T21:42:19+08:00",
+      "published_at_raw": "2026-08-04 21:42:19",
+      "school_ids": [
+        "school-whpu"
+      ],
+      "club_ids": [
+        "club-whpu-manlin"
+      ],
+      "club_names_raw": [
+        "漫临天下动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "出演：\n宵崎奏——七倍\n朝比奈真冬——歌词\n晓山瑞希——初久\n东云绘名——苜蓿\nkaito——八芒星",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1tBuA6jEuh",
+          "url": "https://www.bilibili.com/video/BV1tBuA6jEuh"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1tBuA6jEuh",
+        "url": "https://www.bilibili.com/video/BV1tBuA6jEuh",
+        "uploader": "漫临天下动漫社",
+        "uid": "284043439",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW12",
+        "number": 12,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1tBuA6jEuh",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1tBuA6jEuh",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1hrut6kemt",
+      "title": "立秋也要和mmj一起遮阳伞汽水！",
+      "title_short": "立秋也要和mmj一起遮阳伞汽水！",
+      "title_alt": [],
+      "description_raw": "遮阳伞的汽水☂️☂️⛱️两颗心彼此相叠相连💞💞💕靠过来🥺🥺热烈一点🔥🔥再高远一点🥺🥺预感有一股热气涌上来🔥✨✨遮阳伞的汽水🍹🍹🍸我已经无所畏惧面对🉑🉑🉑更多更多🥰🥰心动感觉❤️❤️绽放吧❗热情而又青春的信号🈶🈶🈶激动❗❗❗❗\n和么么酱一起遮阳伞汽水吧！\n\n\n巡音流歌：以黎\n日野森雫：苜蓿\n花里实乃理：七倍\n桐谷遥：歌词\n桃井爱莉：罐罐\n\n\n摄影：脆皮鸡",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "宅舞",
+        "pjsk",
+        "遮阳伞汽水",
+        "舞蹈翻跳",
+        "more more jump",
+        "翻唱的N种打开方式"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-07T17:10:45+08:00",
+      "published_at_raw": "2026-08-07 17:10:45",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "遮阳伞的汽水☂️☂️⛱️两颗心彼此相叠相连💞💞💕靠过来🥺🥺热烈一点🔥🔥再高远一点🥺🥺预感有一股热气涌上来🔥✨✨遮阳伞的汽水🍹🍹🍸我已经无所畏惧面对🉑🉑🉑更多更多🥰🥰心动感觉❤️❤️绽放吧❗热情而又青春的信号🈶🈶🈶激动❗❗❗❗\n和么么酱一起遮阳伞汽水吧！\n\n\n巡音流歌：以黎\n日野森雫：苜蓿\n花里实乃理：七倍\n桐谷遥：歌词\n桃井爱莉：罐罐\n\n\n摄影：脆皮鸡",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1HRut6kEMT",
+          "url": "https://www.bilibili.com/video/BV1HRut6kEMT"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1HRut6kEMT",
+        "url": "https://www.bilibili.com/video/BV1HRut6kEMT",
+        "uploader": "-罐罐罐罐罐-",
+        "uid": "1025099418",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW13",
+        "number": 13,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1HRut6kEMT",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1HRut6kEMT",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1oluz6se6u",
+      "title": "室内打伞长不高没关系我们垫了8cm ｜【东京泰迪熊🧸舞台记录】",
+      "title_short": "室内打伞长不高没关系我们垫了8cm ｜【东京泰迪熊🧸舞台记录】",
+      "title_alt": [],
+      "description_raw": "振付出处：BV1qs411a7s6\nZCZ郑州动漫游戏嘉年华舞台现场，异地也阻挡不了一起排练爬台吗你们二次元！\n后勤摄影鸣谢山雨大人@青山与白昼",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "东京泰迪熊",
+        "舞蹈翻跳",
+        "舞台",
+        "東京テディベア",
+        "转伞",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-11T18:00:00+08:00",
+      "published_at_raw": "2026-08-11 18:00:00",
+      "school_ids": [
+        "school-csv-332"
+      ],
+      "club_ids": [
+        "club-csv-332"
+      ],
+      "club_names_raw": [
+        "翎光动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "振付出处：BV1qs411a7s6\nZCZ郑州动漫游戏嘉年华舞台现场，异地也阻挡不了一起排练爬台吗你们二次元！\n后勤摄影鸣谢山雨大人@青山与白昼",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1oLuZ6SE6u",
+          "url": "https://www.bilibili.com/video/BV1oLuZ6SE6u"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1oLuZ6SE6u",
+        "url": "https://www.bilibili.com/video/BV1oLuZ6SE6u",
+        "uploader": "翎光动漫社",
+        "uid": "483780717",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW14",
+        "number": 14,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1oLuZ6SE6u",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1oLuZ6SE6u",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1pxuz6kewq",
+      "title": "【MMD】SUKI娘的反乌托邦 Pt.2",
+      "title_short": "【MMD】SUKI娘的反乌托邦 Pt.2",
+      "title_alt": [],
+      "description_raw": "-",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "舞蹈",
+        "3D",
+        "MMD"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-12T03:26:20+08:00",
+      "published_at_raw": "2026-08-12 03:26:20",
+      "school_ids": [
+        "school-cup-bj"
+      ],
+      "club_ids": [
+        "club-cup-bj-suki"
+      ],
+      "club_names_raw": [
+        "中石大SUKI动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "-",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1pXuz6kEWq",
+          "url": "https://www.bilibili.com/video/BV1pXuz6kEWq"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1pXuz6kEWq",
+        "url": "https://www.bilibili.com/video/BV1pXuz6kEWq",
+        "uploader": "中石大SUKI动漫社",
+        "uid": "20254715",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW15",
+        "number": 15,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1pXuz6kEWq",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1pXuz6kEWq",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1pnby6zevz",
+      "title": "【脑蚀】舞蹈翻跳 | 2026翼年纪【五角星】",
+      "title_short": "【脑蚀】舞蹈翻跳 | 2026翼年纪【五角星】",
+      "title_alt": [],
+      "description_raw": "原创振付：BV14jwizNE8H\n原视频指路：BV1cfS9BjENV\n——————————\n翻跳：五角星",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "后室",
+        "brain rot",
+        "脑蚀",
+        "舞蹈翻跳"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-15T21:42:14+08:00",
+      "published_at_raw": "2026-08-15 21:42:14",
+      "school_ids": [
+        "school-csv-135"
+      ],
+      "club_ids": [
+        "club-csv-411"
+      ],
+      "club_names_raw": [
+        "翼年动漫"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "原创振付：BV14jwizNE8H\n原视频指路：BV1cfS9BjENV\n——————————\n翻跳：五角星",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1Pnby6zEVZ",
+          "url": "https://www.bilibili.com/video/BV1Pnby6zEVZ"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1Pnby6zEVZ",
+        "url": "https://www.bilibili.com/video/BV1Pnby6zEVZ",
+        "uploader": "翼年动漫",
+        "uid": "3546813990701150",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW16",
+        "number": 16,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1Pnby6zEVZ",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1Pnby6zEVZ",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1ge8v6yefe",
+      "title": "【2026夏日晚会单品 | 舞蹈小品】请和我结婚吧！💗",
+      "title_short": "【2026夏日晚会单品 | 舞蹈小品】请和我结婚吧！💗",
+      "title_alt": [],
+      "description_raw": "舞蹈：目击！teto31世\n\n参演：呜糖 / 九城 / 锦戎\n\n💟七夕特供哈哈哈哈哈哈哈💟",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "大学",
+        "舞蹈",
+        "学校",
+        "现场",
+        "单品",
+        "晚会"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-19T12:00:00+08:00",
+      "published_at_raw": "2026-08-19 12:00:00",
+      "school_ids": [
+        "school-csv-343"
+      ],
+      "club_ids": [
+        "club-csv-343"
+      ],
+      "club_names_raw": [
+        "电子科技大学动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "舞蹈：目击！teto31世\n\n参演：呜糖 / 九城 / 锦戎\n\n💟七夕特供哈哈哈哈哈哈哈💟",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1gE8V6YEfE",
+          "url": "https://www.bilibili.com/video/BV1gE8V6YEfE"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1gE8V6YEfE",
+        "url": "https://www.bilibili.com/video/BV1gE8V6YEfE",
+        "uploader": "电子科技大学动漫社",
+        "uid": "627276675",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW17",
+        "number": 17,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1gE8V6YEfE",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1gE8V6YEfE",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1e78b6gehj",
+      "title": "【mep|反乌托邦】2026技术部迎新合作企划",
+      "title_short": "【mep|反乌托邦】2026技术部迎新合作企划",
+      "title_alt": [],
+      "description_raw": "bgm：反乌托邦 -亚细亚旷世奇才\n郑轻技术部2026mep合作——反乌托邦mep\n凝聚了技术部大家的心血与付出，最终拿出了非常棒的作品！希望各位能够喜欢，最后关注輕葉原谢谢喵，关注漫协技术部谢谢喵。\n策划：轻絮 陌离\n分段：轻絮\n合成：轻絮\n主催：沉末\np1：沉末\np2: 呆猫喵～\np3：轻絮\np4：语\np5：轻絮\np6：苏玖浔\np7：陌离",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "MEP",
+        "反乌托邦",
+        "MAD",
+        "人生",
+        "社团招新",
+        "成品",
+        "动漫社",
+        "企划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-22T12:00:00+08:00",
+      "published_at_raw": "2026-08-22 12:00:00",
+      "school_ids": [
+        "school-csv-240"
+      ],
+      "club_ids": [
+        "club-csv-413"
+      ],
+      "club_names_raw": [
+        "輕葉原动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "bgm：反乌托邦 -亚细亚旷世奇才\n郑轻技术部2026mep合作——反乌托邦mep\n凝聚了技术部大家的心血与付出，最终拿出了非常棒的作品！希望各位能够喜欢，最后关注輕葉原谢谢喵，关注漫协技术部谢谢喵。\n策划：轻絮 陌离\n分段：轻絮\n合成：轻絮\n主催：沉末\np1：沉末\np2: 呆猫喵～\np3：轻絮\np4：语\np5：轻絮\np6：苏玖浔\np7：陌离",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1e78B6gEhJ",
+          "url": "https://www.bilibili.com/video/BV1e78B6gEhJ"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1e78B6gEhJ",
+        "url": "https://www.bilibili.com/video/BV1e78B6gEhJ",
+        "uploader": "輕葉原动漫社",
+        "uid": "3546903228712990",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW18",
+        "number": 18,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1e78B6gEhJ",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1e78B6gEhJ",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1e5hj6deum",
+      "title": "【积木之森 · 2026天印纪】目击！Teto31份糖曲巧",
+      "title_short": "【积木之森 · 2026天印纪】目击！Teto31份糖曲巧",
+      "title_alt": [],
+      "description_raw": "-",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "舞蹈翻跳",
+        "积木之森"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-26T02:12:50+08:00",
+      "published_at_raw": "2026-08-26 02:12:50",
+      "school_ids": [
+        "school-njit"
+      ],
+      "club_ids": [
+        "club-njit-jimuzhisen"
+      ],
+      "club_names_raw": [
+        "积木之森动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "-",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1E5hj6dEum",
+          "url": "https://www.bilibili.com/video/BV1E5hj6dEum"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1E5hj6dEum",
+        "url": "https://www.bilibili.com/video/BV1E5hj6dEum",
+        "uploader": "积木之森动漫社",
+        "uid": "6932519",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW19",
+        "number": 19,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1E5hj6dEum",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1E5hj6dEum",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv19k416se11",
+      "title": "【破立漫画社·26年春日游园会】King",
+      "title_short": "【破立漫画社·26年春日游园会】King",
+      "title_alt": [],
+      "description_raw": "原振幅：BV1Yt4y1k7aJ\n\n\n咕咕餮：@咕咕餮  \n狐烨：@LG_狐烨  \n小九：@小九是究极混子",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "剪辑",
+        "宅舞",
+        "舞蹈翻跳"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-29T21:42:04+08:00",
+      "published_at_raw": "2026-08-29 21:42:04",
+      "school_ids": [
+        "school-csv-188"
+      ],
+      "club_ids": [
+        "club-csv-188"
+      ],
+      "club_names_raw": [
+        "破立漫画社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "原振幅：BV1Yt4y1k7aJ\n\n\n咕咕餮：@咕咕餮  \n狐烨：@LG_狐烨  \n小九：@小九是究极混子",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV19k416sE11",
+          "url": "https://www.bilibili.com/video/BV19k416sE11"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV19k416sE11",
+        "url": "https://www.bilibili.com/video/BV19k416sE11",
+        "uploader": "破立漫画社",
+        "uid": "83507546",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW20",
+        "number": 20,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV19k416sE11",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV19k416sE11",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1u54m6pejh",
+      "title": "【破立漫画社·26年春日游园会】絶対敵対メチャキライヤー/绝对敌对超级讨厌",
+      "title_short": "【破立漫画社·26年春日游园会】絶対敵対メチャキライヤー/绝对敌对超级讨厌",
+      "title_alt": [],
+      "description_raw": "絶対敵対メチャキライヤー\n原振幅：BV1r24y1a7yB\n\n参演人员\n咕咕餮：@咕咕餮  \n狐烨：@LG_狐烨",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "翻跳",
+        "绝对敌对超级讨厌",
+        "动漫社"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-30T02:33:04+08:00",
+      "published_at_raw": "2026-08-30 02:33:04",
+      "school_ids": [
+        "school-csv-188"
+      ],
+      "club_ids": [
+        "club-csv-188"
+      ],
+      "club_names_raw": [
+        "破立漫画社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "絶対敵対メチャキライヤー\n原振幅：BV1r24y1a7yB\n\n参演人员\n咕咕餮：@咕咕餮  \n狐烨：@LG_狐烨",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1u54m6pEjH",
+          "url": "https://www.bilibili.com/video/BV1u54m6pEjH"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1u54m6pEjH",
+        "url": "https://www.bilibili.com/video/BV1u54m6pEjH",
+        "uploader": "破立漫画社",
+        "uid": "83507546",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW21",
+        "number": 21,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1u54m6pEjH",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1u54m6pEjH",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1yk4m6zefy",
+      "title": "【破立漫画社·26年春日游园会】にっこり^^調査隊のテーマ/微笑调查队",
+      "title_short": "【破立漫画社·26年春日游园会】にっこり^^調査隊のテーマ/微笑调查队",
+      "title_alt": [],
+      "description_raw": "にっこり^^調査隊のテーマ/微笑调查队\n\n参演人员\n凤笑梦：米团@黑星星呀白星星  \n草薙宁宁：路白@路白shiro-  \n神代类：竹下阑間@竹下蘭間  \n天马司：粉毛@潤羽るしあ_OfficiaI  \n初音未来：禾木@禾尤山木",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "宅舞",
+        "翻跳",
+        "微笑调查队",
+        "动漫社"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-30T04:19:10+08:00",
+      "published_at_raw": "2026-08-30 04:19:10",
+      "school_ids": [
+        "school-csv-188"
+      ],
+      "club_ids": [
+        "club-csv-188"
+      ],
+      "club_names_raw": [
+        "破立漫画社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "にっこり^^調査隊のテーマ/微笑调查队\n\n参演人员\n凤笑梦：米团@黑星星呀白星星  \n草薙宁宁：路白@路白shiro-  \n神代类：竹下阑間@竹下蘭間  \n天马司：粉毛@潤羽るしあ_OfficiaI  \n初音未来：禾木@禾尤山木",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1YK4m6ZEfY",
+          "url": "https://www.bilibili.com/video/BV1YK4m6ZEfY"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1YK4m6ZEfY",
+        "url": "https://www.bilibili.com/video/BV1YK4m6ZEfY",
+        "uploader": "破立漫画社",
+        "uid": "83507546",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW22",
+        "number": 22,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1YK4m6ZEfY",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1YK4m6ZEfY",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv15n4m6be39",
+      "title": "【破立漫画社·26年春日游园会】ちっちゃな私/小小的我",
+      "title_short": "【破立漫画社·26年春日游园会】ちっちゃな私/小小的我",
+      "title_alt": [],
+      "description_raw": "ちっちゃな私/小小的我\n原振幅：BV1pbVgznEw7\n\n参演人员\n林里：@林里lililiy  \n米团：@黑星星呀白星星",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "翻跳",
+        "动漫社",
+        "小小的我"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-08-30T04:23:42+08:00",
+      "published_at_raw": "2026-08-30 04:23:42",
+      "school_ids": [
+        "school-csv-188"
+      ],
+      "club_ids": [
+        "club-csv-188"
+      ],
+      "club_names_raw": [
+        "破立漫画社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "ちっちゃな私/小小的我\n原振幅：BV1pbVgznEw7\n\n参演人员\n林里：@林里lililiy  \n米团：@黑星星呀白星星",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV15N4m6bE39",
+          "url": "https://www.bilibili.com/video/BV15N4m6bE39"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV15N4m6bE39",
+        "url": "https://www.bilibili.com/video/BV15N4m6bE39",
+        "uploader": "破立漫画社",
+        "uid": "83507546",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW23",
+        "number": 23,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV15N4m6bE39",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV15N4m6bE39",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1j8tv6mey7",
+      "title": "【武大漫协春日庆典】beyond the way",
+      "title_short": "【武大漫协春日庆典】beyond the way",
+      "title_alt": [],
+      "description_raw": "参演者：小白/藤酱/深池",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "二次元",
+        "学校",
+        "现场",
+        "舞蹈翻跳",
+        "庆典",
+        "动漫社"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-01T21:58:01+08:00",
+      "published_at_raw": "2026-09-01 21:58:01",
+      "school_ids": [
+        "school-csv-118"
+      ],
+      "club_ids": [
+        "club-csv-118"
+      ],
+      "club_names_raw": [
+        "武汉大学动漫协会"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "参演者：小白/藤酱/深池",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1j8tV6MEY7",
+          "url": "https://www.bilibili.com/video/BV1j8tV6MEY7"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1j8tV6MEY7",
+        "url": "https://www.bilibili.com/video/BV1j8tV6MEY7",
+        "uploader": "武汉大学动漫协会",
+        "uid": "20942465",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW24",
+        "number": 24,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1j8tV6MEY7",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1j8tV6MEY7",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1qet169ezf",
+      "title": "文艺复兴！8年后居然还有社团翻跳与你同行～b with you～",
+      "title_short": "文艺复兴！8年后居然还有社团翻跳与你同行～b with you～",
+      "title_alt": [],
+      "description_raw": "舞者：泽诺，liya，椿岄熠熠，靈\n摄影Choco @chocolate875  \n后期小禾 @--小禾--",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "剧情",
+        "初音未来",
+        "宅舞",
+        "洛天依",
+        "音乐",
+        "VOCALOID",
+        "初音ミク",
+        "宅舞新星养成计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-05T12:26:41+08:00",
+      "published_at_raw": "2026-09-05 12:26:41",
+      "school_ids": [
+        "school-bjtu"
+      ],
+      "club_ids": [
+        "club-bjtu-zuoyou"
+      ],
+      "club_names_raw": [
+        "佐佑动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "舞者：泽诺，liya，椿岄熠熠，靈\n摄影Choco @chocolate875  \n后期小禾 @--小禾--",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1Qet169EzF",
+          "url": "https://www.bilibili.com/video/BV1Qet169EzF"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1Qet169EzF",
+        "url": "https://www.bilibili.com/video/BV1Qet169EzF",
+        "uploader": "佐佑动漫社",
+        "uid": "10778739",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW25",
+        "number": 25,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1Qet169EzF",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1Qet169EzF",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1rfbw6rejd",
+      "title": "青菀I Can’t Wait～",
+      "title_short": "青菀I Can’t Wait～",
+      "title_alt": [],
+      "description_raw": "哇呀！因为不可抗力因素，只好这样联合投稿啦！\n\n感谢画手老师们的辛苦付出！",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "手书",
+        "社团",
+        "动漫二创激励计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-07T10:01:51+08:00",
+      "published_at_raw": "2026-09-07 10:01:51",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "哇呀！因为不可抗力因素，只好这样联合投稿啦！\n\n感谢画手老师们的辛苦付出！",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1Rfbw6rEjd",
+          "url": "https://www.bilibili.com/video/BV1Rfbw6rEjd"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1Rfbw6rEjd",
+        "url": "https://www.bilibili.com/video/BV1Rfbw6rEjd",
+        "uploader": "布落_",
+        "uid": "108143036",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW26",
+        "number": 26,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1Rfbw6rEjd",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1Rfbw6rEjd",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1lwyx6tesx",
+      "title": "【九霄龙影动漫社】爱言叶但是2026迎新版",
+      "title_short": "【九霄龙影动漫社】爱言叶但是2026迎新版",
+      "title_alt": [],
+      "description_raw": "-",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "动漫社",
+        "社团"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-12T12:06:23+08:00",
+      "published_at_raw": "2026-09-12 12:06:23",
+      "school_ids": [
+        "school-csv-400"
+      ],
+      "club_ids": [
+        "club-csv-400"
+      ],
+      "club_names_raw": [
+        "太师九霄龙影动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "-",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1LwYX6tEsX",
+          "url": "https://www.bilibili.com/video/BV1LwYX6tEsX"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1LwYX6tEsX",
+        "url": "https://www.bilibili.com/video/BV1LwYX6tEsX",
+        "uploader": "太师九霄龙影动漫社",
+        "uid": "3546643490147020",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW27",
+        "number": 27,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1LwYX6tEsX",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1LwYX6tEsX",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1yge86lejz",
+      "title": "遵义医科大学动漫社招新表演《拼凑乌托邦》【wota艺】",
+      "title_short": "遵义医科大学动漫社招新表演《拼凑乌托邦》【wota艺】",
+      "title_alt": [],
+      "description_raw": "策划：anle，宫子\n剪辑：宫子\n参演：宫子，anle，闲鱼，樱落，肘子，可以，仙仙，阿伟，金币，临鸢",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "洛天依",
+        "生活记录",
+        "演出",
+        "舞蹈",
+        "WOTA",
+        "招新",
+        "动漫社",
+        "社团",
+        "wota艺",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-20T00:13:38+08:00",
+      "published_at_raw": "2026-09-20 00:13:38",
+      "school_ids": [],
+      "club_ids": [],
+      "club_names_raw": [],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "策划：anle，宫子\n剪辑：宫子\n参演：宫子，anle，闲鱼，樱落，肘子，可以，仙仙，阿伟，金币，临鸢",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1yGe86LEJz",
+          "url": "https://www.bilibili.com/video/BV1yGe86LEJz"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1yGe86LEJz",
+        "url": "https://www.bilibili.com/video/BV1yGe86LEJz",
+        "uploader": "菌子-王真白",
+        "uid": "475623431",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW28",
+        "number": 28,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "absent",
+        "club_id": "absent",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1yGe86LEJz",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1yGe86LEJz",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1cxhe6beuu",
+      "title": "佐佑定番！点进来收获快乐吧～快乐合成器大合跳",
+      "title_short": "佐佑定番！点进来收获快乐吧～快乐合成器大合跳",
+      "title_alt": [],
+      "description_raw": "佐佑定番！点进来收获快乐吧～",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞翻跳",
+        "快乐合成器",
+        "宅舞",
+        "可爱",
+        "舞蹈",
+        "舞蹈翻跳",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-22T19:19:18+08:00",
+      "published_at_raw": "2026-09-22 19:19:18",
+      "school_ids": [
+        "school-bjtu"
+      ],
+      "club_ids": [
+        "club-bjtu-zuoyou"
+      ],
+      "club_names_raw": [
+        "佐佑动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "佐佑定番！点进来收获快乐吧～",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1cXhE6BEUu",
+          "url": "https://www.bilibili.com/video/BV1cXhE6BEUu"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1cXhE6BEUu",
+        "url": "https://www.bilibili.com/video/BV1cXhE6BEUu",
+        "uploader": "佐佑动漫社",
+        "uid": "10778739",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW29",
+        "number": 29,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1cXhE6BEUu",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1cXhE6BEUu",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1mthd6jecf",
+      "title": "羽枫动漫社——2026西北大学团聚之夜迎新节目《亲爱的》宅舞",
+      "title_short": "羽枫动漫社——2026西北大学团聚之夜迎新节目《亲爱的》宅舞",
+      "title_alt": [],
+      "description_raw": "舞见：葭萌 飞茶 鸽汤 小小乖 yoiya（开场从左到右）\n摄影：doviet18",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-27T00:40:35+08:00",
+      "published_at_raw": "2026-09-27 00:40:35",
+      "school_ids": [
+        "school-csv-272"
+      ],
+      "club_ids": [
+        "club-csv-272"
+      ],
+      "club_names_raw": [
+        "青枫_official"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "舞见：葭萌 飞茶 鸽汤 小小乖 yoiya（开场从左到右）\n摄影：doviet18",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1mthd6JEcf",
+          "url": "https://www.bilibili.com/video/BV1mthd6JEcf"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1mthd6JEcf",
+        "url": "https://www.bilibili.com/video/BV1mthd6JEcf",
+        "uploader": "青枫_official",
+        "uid": "349420501",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW30",
+        "number": 30,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1mthd6JEcf",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1mthd6JEcf",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1bqah6de5q",
+      "title": "【2026夏日晚会单品 | 舞蹈】プレイ",
+      "title_short": "【2026夏日晚会单品 | 舞蹈】プレイ",
+      "title_alt": [],
+      "description_raw": "绝对的强者由此而生的孤独教会你耍起的是\n---\n舞蹈：プレイ\n参演：晓叶 三泠",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "大学",
+        "舞蹈",
+        "现场",
+        "晚会"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-28T12:00:00+08:00",
+      "published_at_raw": "2026-09-28 12:00:00",
+      "school_ids": [
+        "school-csv-343"
+      ],
+      "club_ids": [
+        "club-csv-343"
+      ],
+      "club_names_raw": [
+        "电子科技大学动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "绝对的强者由此而生的孤独教会你耍起的是\n---\n舞蹈：プレイ\n参演：晓叶 三泠",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1bQah6DE5Q",
+          "url": "https://www.bilibili.com/video/BV1bQah6DE5Q"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1bQah6DE5Q",
+        "url": "https://www.bilibili.com/video/BV1bQah6DE5Q",
+        "uploader": "电子科技大学动漫社",
+        "uid": "627276675",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW31",
+        "number": 31,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1bQah6DE5Q",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1bQah6DE5Q",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1qbah6belo",
+      "title": "【香菜哒咩】就这个beyond the way 爽！",
+      "title_short": "【香菜哒咩】就这个beyond the way 爽！",
+      "title_alt": [],
+      "description_raw": "振幅：BV1vu4y1G7cH\n出镜：白石杏@伞骨不打伞  小豆泽心羽@万事屋阿纯  miku@唐果star    东云彰人@2333佐龙    青柳冬弥@某夏哈哈哈哈   \n摄影/后期：@黑皮摄影师    \n\n去年的作品，再次感谢不冷的十一月\n\n伞骨：快乐跳舞！跳舞快乐！跳快乐舞！\n纯子：喜欢跳舞 更喜欢一边跳舞一边看麦克风飞来飞去\n蓂：    很喜欢穿大皮草跳舞\n佐龙：我运动，我健康，我骄傲\n某夏： 双拼小伙三句高音让冬推蹦迪一整晚",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": "PJSK",
+      "tags": [
+        "舞蹈",
+        "宅舞",
+        "cos",
+        "pjsk",
+        "vivid bad squad",
+        "啤酒烧烤",
+        "长视频舞蹈匠心计划"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-30T18:05:00+08:00",
+      "published_at_raw": "2026-09-30 18:05:00",
+      "school_ids": [
+        "school-csv-337"
+      ],
+      "club_ids": [
+        "club-csv-337"
+      ],
+      "club_names_raw": [
+        "星骑动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "振幅：BV1vu4y1G7cH\n出镜：白石杏@伞骨不打伞  小豆泽心羽@万事屋阿纯  miku@唐果star    东云彰人@2333佐龙    青柳冬弥@某夏哈哈哈哈   \n摄影/后期：@黑皮摄影师    \n\n去年的作品，再次感谢不冷的十一月\n\n伞骨：快乐跳舞！跳舞快乐！跳快乐舞！\n纯子：喜欢跳舞 更喜欢一边跳舞一边看麦克风飞来飞去\n蓂：    很喜欢穿大皮草跳舞\n佐龙：我运动，我健康，我骄傲\n某夏： 双拼小伙三句高音让冬推蹦迪一整晚",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1qBaH6BELo",
+          "url": "https://www.bilibili.com/video/BV1qBaH6BELo"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1qBaH6BELo",
+        "url": "https://www.bilibili.com/video/BV1qBaH6BELo",
+        "uploader": "星骑动漫社",
+        "uid": "527141952",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW32",
+        "number": 32,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1qBaH6BELo",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1qBaH6BELo",
+        "retrieved_at": "2026-10-01"
+      }
+    },
+    {
+      "id": "work-2026-vol3-bv1crao6yehe",
+      "title": "【2026夏日晚会单品 | 舞蹈】晴天好心情＋快乐合成器",
+      "title_short": "【2026夏日晚会单品 | 舞蹈】晴天好心情＋快乐合成器",
+      "title_alt": [],
+      "description_raw": "舞蹈：晴天好心情＋快乐合成器\n\n参演：九五 月白 rein 馒头 九城 呜糖 舟舟 曜尘 松鼠 苏婥良 央亜",
+      "type": "DW",
+      "type_raw": "衍生创作",
+      "type_secondary": [],
+      "type_source": "constants_2026-3.ts",
+      "project": null,
+      "tags": [
+        "宅舞",
+        "大学",
+        "晚会",
+        "动漫社"
+      ],
+      "tier": "flash",
+      "is_sp": false,
+      "sp_note": null,
+      "edition_id": "2026-vol3",
+      "year": 2026,
+      "published_at": "2026-09-30T19:00:00+08:00",
+      "published_at_raw": "2026-09-30 19:00:00",
+      "school_ids": [
+        "school-csv-343"
+      ],
+      "club_ids": [
+        "club-csv-343"
+      ],
+      "club_names_raw": [
+        "电子科技大学动漫社"
+      ],
+      "collaboration_id": null,
+      "vocal_ids": [],
+      "vocal_names_raw": [],
+      "engine_ids": [],
+      "engine_names_raw": [],
+      "staff_raw": "舞蹈：晴天好心情＋快乐合成器\n\n参演：九五 月白 rein 馒头 九城 呜糖 舟舟 曜尘 松鼠 苏婥良 央亜",
+      "staff": [],
+      "people_ids": [],
+      "chart_peak": null,
+      "chart_peak_raw": null,
+      "chart_grade": null,
+      "links": [
+        {
+          "kind": "bilibili",
+          "id": "BV1cRao6yEHE",
+          "url": "https://www.bilibili.com/video/BV1cRao6yEHE"
+        }
+      ],
+      "bilibili": {
+        "bvid": "BV1cRao6yEHE",
+        "url": "https://www.bilibili.com/video/BV1cRao6yEHE",
+        "uploader": "电子科技大学动漫社",
+        "uid": "627276675",
+        "page": null
+      },
+      "media": {
+        "cover": null,
+        "audio": null,
+        "cover_legacy": null
+      },
+      "seq": {
+        "label": "DW33",
+        "number": 33,
+        "family": "DW",
+        "visible": false
+      },
+      "status": {
+        "type": "ok",
+        "school_id": "ok",
+        "club_id": "ok",
+        "vocal_ids": "not_applicable",
+        "engine_ids": "not_applicable",
+        "staff": "raw_only"
+      },
+      "_src": {
+        "file": "constants_2026-3.ts",
+        "bvid": "BV1cRao6yEHE",
+        "confidence": 1
+      },
+      "ext": {},
+      "source": {
+        "source": "Bilibili",
+        "source_url": "https://www.bilibili.com/video/BV1cRao6yEHE",
+        "retrieved_at": "2026-10-01"
+      }
+    }
+  ]
+}
