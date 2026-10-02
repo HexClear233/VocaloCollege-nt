@@ -1101,7 +1101,30 @@
         "ACE Studio"
       ],
       "staff_raw": "无论线上的朋友，还是线下的朋友，恭祝各位新年快乐。\n一首算是写给线下时代的歌曲，赠ilem，也赠我们。\n\ni12本体：BV18FbQ6KECT",
-      "staff": [],
+      "staff": [
+        {
+          "role": "music",
+          "people": [
+            "银斑",
+            "白琳",
+            "麦卡蒂",
+            "Lil_wwhite"
+          ]
+        },
+        {
+          "role": "visual",
+          "people": [
+            "MeRC4urY0",
+            "lyf"
+          ]
+        },
+        {
+          "role": "策划",
+          "people": [
+            "ilem十二周年投稿庆典"
+          ]
+        }
+      ],
       "people_ids": [],
       "chart_peak": null,
       "chart_peak_raw": null,
